@@ -1,0 +1,15 @@
+
+ ___   ___   ______   ________   __       ______   ______
+/__/\ /__/\ /_____/\ /_______/\ /_/\     /_____/\ /_____/\
+\::\ \\  \ \\::::_\/_\::: _  \ \\:\ \    \::::_\/_\:::_ \ \
+ \::\/_\ .\ \\:\/___/\\::(_)  \ \\:\ \    \:\/___/\\:(_) ) )_
+  \:: ___::\ \\::___\/_\:: __  \ \\:\ \____\::___\/_\: __ `\ \
+   \: \ \\::\ \\:\____/\\:.\ \  \ \\:\/___/\\:\____/\\ \ `\ \ \
+    \__\/ \::\/ \_____\/ \__\/\__\/ \_____\/ \_____\/ \_\/ \_\/
+
+[2025-10-21T01:45:14Z INFO ] loading target linux/amd64...
+Length of explicit depndencies: 147394
+Failed to load JSON relations from syscallPair_6.1.json: missing field `Addr` at line 1 column 862
+[2025-10-21T01:45:25Z INFO ] Codeblock2config and config_tree loaded.
+[2025-10-21T01:45:25Z INFO ] Config2code is loaded.
+[2025-10-21T01:45:25Z INFO ] pre-booting one vm...

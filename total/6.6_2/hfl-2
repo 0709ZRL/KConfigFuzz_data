@@ -1,0 +1,1772 @@
+rm: 无法删除 'vm*.smt2.log': 没有那个文件或目录
+2025/10/24 09:28:08 loading corpus...
+2025/10/24 09:28:08 loaded 0 programs (0 total, 0 deleted)
+2025/10/24 09:28:08 serving http on http://0.0.0.0:33343
+2025/10/24 09:28:08 serving rpc on tcp://[::]:34919
+2025/10/24 09:28:47 [FAIL] Readfile ""
+2025/10/24 09:28:47 booting test machines...
+2025/10/24 09:28:47 wait for the connection from test machine...
+2025/10/24 09:30:50 /syz-fuzzer -executor=/syz-executor -id=0 -name=vm-0 -arch=amd64 -manager=10.0.2.10:34919 -procs=4 -leak=false -cover=true -sandbox=setuid -debug=false -v=0
+2025/10/24 09:30:52 received first connection from test machine vm-0
+2025/10/24 09:30:58 VMs 1, executed 0, cover 0, crashes 0, repro 0
+2025/10/24 09:31:08 VMs 1, executed 0, cover 0, crashes 0, repro 0
+2025/10/24 09:31:18 VMs 1, executed 0, cover 0, crashes 0, repro 0
+2025/10/24 09:31:28 VMs 1, executed 0, cover 0, crashes 0, repro 0
+2025/10/24 09:31:38 VMs 1, executed 0, cover 0, crashes 0, repro 0
+2025/10/24 09:31:48 VMs 1, executed 0, cover 0, crashes 0, repro 0
+2025/10/24 09:31:58 VMs 1, executed 0, cover 0, crashes 0, repro 0
+2025/10/24 09:32:08 VMs 1, executed 0, cover 0, crashes 0, repro 0
+2025/10/24 09:32:18 VMs 1, executed 0, cover 0, crashes 0, repro 0
+2025/10/24 09:32:28 VMs 1, executed 0, cover 0, crashes 0, repro 0
+2025/10/24 09:32:38 VMs 1, executed 0, cover 0, crashes 0, repro 0
+2025/10/24 09:32:48 VMs 1, executed 0, cover 0, crashes 0, repro 0
+2025/10/24 09:32:58 VMs 1, executed 0, cover 0, crashes 0, repro 0
+2025/10/24 09:33:08 VMs 1, executed 0, cover 0, crashes 0, repro 0
+2025/10/24 09:33:13 machine check: 1304 calls enabled, kcov=true, kleakcheck=true, faultinjection=true, comps=true
+2025/10/24 09:33:18 VMs 1, executed 3, cover 0, crashes 0, repro 0
+2025/10/24 09:33:21 fuzzer vm-0: 2025/10/24 01:33:21 S2ePollLoop request
+2025/10/24 09:33:21 fuzzer vm-0: 2025/10/24 01:33:21 S2ePollLoop: reply #inputs=0
+2025/10/24 09:33:24 fuzzer vm-0: 2025/10/24 01:33:24 S2ePollLoop request
+2025/10/24 09:33:24 fuzzer vm-0: 2025/10/24 01:33:24 S2ePollLoop: reply #inputs=0
+2025/10/24 09:33:27 fuzzer vm-0: 2025/10/24 01:33:27 S2ePollLoop request
+2025/10/24 09:33:27 fuzzer vm-0: 2025/10/24 01:33:27 S2ePollLoop: reply #inputs=0
+2025/10/24 09:33:28 VMs 1, executed 3, cover 3005, crashes 0, repro 0
+2025/10/24 09:33:30 fuzzer vm-0: 2025/10/24 01:33:30 S2ePollLoop request
+2025/10/24 09:33:30 fuzzer vm-0: 2025/10/24 01:33:30 S2ePollLoop: reply #inputs=0
+2025/10/24 09:33:33 fuzzer vm-0: 2025/10/24 01:33:33 S2ePollLoop request
+2025/10/24 09:33:33 fuzzer vm-0: 2025/10/24 01:33:33 S2ePollLoop: reply #inputs=0
+2025/10/24 09:33:36 fuzzer vm-0: 2025/10/24 01:33:36 S2ePollLoop request
+2025/10/24 09:33:36 fuzzer vm-0: 2025/10/24 01:33:36 S2ePollLoop: reply #inputs=0
+2025/10/24 09:33:38 VMs 1, executed 630, cover 4567, crashes 0, repro 0
+2025/10/24 09:33:39 fuzzer vm-0: 2025/10/24 01:33:39 S2ePollLoop request
+2025/10/24 09:33:39 fuzzer vm-0: 2025/10/24 01:33:39 S2ePollLoop: reply #inputs=0
+2025/10/24 09:33:42 fuzzer vm-0: 2025/10/24 01:33:42 S2ePollLoop request
+2025/10/24 09:33:42 fuzzer vm-0: 2025/10/24 01:33:42 S2ePollLoop: reply #inputs=0
+2025/10/24 09:33:45 fuzzer vm-0: 2025/10/24 01:33:45 S2ePollLoop request
+2025/10/24 09:33:45 fuzzer vm-0: 2025/10/24 01:33:45 S2ePollLoop: reply #inputs=0
+2025/10/24 09:33:48 fuzzer vm-0: 2025/10/24 01:33:48 S2ePollLoop request
+2025/10/24 09:33:48 fuzzer vm-0: 2025/10/24 01:33:48 S2ePollLoop: reply #inputs=0
+2025/10/24 09:33:48 VMs 1, executed 1376, cover 4862, crashes 0, repro 0
+2025/10/24 09:33:51 fuzzer vm-0: 2025/10/24 01:33:51 S2ePollLoop request
+2025/10/24 09:33:51 fuzzer vm-0: 2025/10/24 01:33:51 S2ePollLoop: reply #inputs=0
+2025/10/24 09:33:54 fuzzer vm-0: 2025/10/24 01:33:54 S2ePollLoop request
+2025/10/24 09:33:54 fuzzer vm-0: 2025/10/24 01:33:54 S2ePollLoop: reply #inputs=0
+2025/10/24 09:33:57 fuzzer vm-0: 2025/10/24 01:33:57 S2ePollLoop request
+2025/10/24 09:33:57 fuzzer vm-0: 2025/10/24 01:33:57 S2ePollLoop: reply #inputs=0
+2025/10/24 09:33:58 VMs 1, executed 2054, cover 6700, crashes 0, repro 0
+2025/10/24 09:34:00 fuzzer vm-0: 2025/10/24 01:34:00 S2ePollLoop request
+2025/10/24 09:34:00 fuzzer vm-0: 2025/10/24 01:34:00 S2ePollLoop: reply #inputs=0
+2025/10/24 09:34:03 fuzzer vm-0: 2025/10/24 01:34:03 S2ePollLoop request
+2025/10/24 09:34:03 fuzzer vm-0: 2025/10/24 01:34:03 S2ePollLoop: reply #inputs=0
+2025/10/24 09:34:06 fuzzer vm-0: 2025/10/24 01:34:06 S2ePollLoop request
+2025/10/24 09:34:06 fuzzer vm-0: 2025/10/24 01:34:06 S2ePollLoop: reply #inputs=0
+2025/10/24 09:34:08 VMs 1, executed 2684, cover 6754, crashes 0, repro 0
+2025/10/24 09:34:09 fuzzer vm-0: 2025/10/24 01:34:09 S2ePollLoop request
+2025/10/24 09:34:09 fuzzer vm-0: 2025/10/24 01:34:09 S2ePollLoop: reply #inputs=0
+2025/10/24 09:34:12 fuzzer vm-0: 2025/10/24 01:34:12 S2ePollLoop request
+2025/10/24 09:34:12 fuzzer vm-0: 2025/10/24 01:34:12 S2ePollLoop: reply #inputs=0
+2025/10/24 09:34:15 fuzzer vm-0: 2025/10/24 01:34:15 S2ePollLoop request
+2025/10/24 09:34:15 fuzzer vm-0: 2025/10/24 01:34:15 S2ePollLoop: reply #inputs=0
+2025/10/24 09:34:18 VMs 1, executed 3454, cover 6947, crashes 0, repro 0
+2025/10/24 09:34:18 fuzzer vm-0: 2025/10/24 01:34:18 S2ePollLoop request
+2025/10/24 09:34:18 fuzzer vm-0: 2025/10/24 01:34:18 S2ePollLoop: reply #inputs=0
+2025/10/24 09:34:21 fuzzer vm-0: 2025/10/24 01:34:21 S2ePollLoop request
+2025/10/24 09:34:21 fuzzer vm-0: 2025/10/24 01:34:21 S2ePollLoop: reply #inputs=0
+2025/10/24 09:34:24 fuzzer vm-0: 2025/10/24 01:34:24 S2ePollLoop request
+2025/10/24 09:34:24 fuzzer vm-0: 2025/10/24 01:34:24 S2ePollLoop: reply #inputs=0
+2025/10/24 09:34:27 fuzzer vm-0: 2025/10/24 01:34:27 S2ePollLoop request
+2025/10/24 09:34:27 fuzzer vm-0: 2025/10/24 01:34:27 S2ePollLoop: reply #inputs=0
+2025/10/24 09:34:28 VMs 1, executed 3454, cover 8240, crashes 0, repro 0
+2025/10/24 09:34:30 fuzzer vm-0: 2025/10/24 01:34:30 S2ePollLoop request
+2025/10/24 09:34:30 fuzzer vm-0: 2025/10/24 01:34:30 S2ePollLoop: reply #inputs=0
+2025/10/24 09:34:33 fuzzer vm-0: 2025/10/24 01:34:33 S2ePollLoop request
+2025/10/24 09:34:33 fuzzer vm-0: 2025/10/24 01:34:33 S2ePollLoop: reply #inputs=0
+2025/10/24 09:34:36 fuzzer vm-0: 2025/10/24 01:34:36 S2ePollLoop request
+2025/10/24 09:34:36 fuzzer vm-0: 2025/10/24 01:34:36 S2ePollLoop: reply #inputs=0
+2025/10/24 09:34:38 VMs 1, executed 4435, cover 8431, crashes 0, repro 0
+2025/10/24 09:34:39 fuzzer vm-0: 2025/10/24 01:34:39 S2ePollLoop request
+2025/10/24 09:34:39 fuzzer vm-0: 2025/10/24 01:34:39 S2ePollLoop: reply #inputs=0
+2025/10/24 09:34:42 fuzzer vm-0: 2025/10/24 01:34:42 S2ePollLoop request
+2025/10/24 09:34:42 fuzzer vm-0: 2025/10/24 01:34:42 S2ePollLoop: reply #inputs=0
+2025/10/24 09:34:45 fuzzer vm-0: 2025/10/24 01:34:45 S2ePollLoop request
+2025/10/24 09:34:45 fuzzer vm-0: 2025/10/24 01:34:45 S2ePollLoop: reply #inputs=0
+2025/10/24 09:34:48 VMs 1, executed 5115, cover 8545, crashes 0, repro 0
+2025/10/24 09:34:48 fuzzer vm-0: 2025/10/24 01:34:48 S2ePollLoop request
+2025/10/24 09:34:48 fuzzer vm-0: 2025/10/24 01:34:48 S2ePollLoop: reply #inputs=0
+2025/10/24 09:34:51 fuzzer vm-0: 2025/10/24 01:34:51 S2ePollLoop request
+2025/10/24 09:34:51 fuzzer vm-0: 2025/10/24 01:34:51 S2ePollLoop: reply #inputs=0
+2025/10/24 09:34:54 fuzzer vm-0: 2025/10/24 01:34:54 S2ePollLoop request
+2025/10/24 09:34:54 fuzzer vm-0: 2025/10/24 01:34:54 S2ePollLoop: reply #inputs=0
+2025/10/24 09:34:57 fuzzer vm-0: 2025/10/24 01:34:57 S2ePollLoop request
+2025/10/24 09:34:57 fuzzer vm-0: 2025/10/24 01:34:57 S2ePollLoop: reply #inputs=0
+2025/10/24 09:34:58 VMs 1, executed 5672, cover 10017, crashes 0, repro 0
+2025/10/24 09:35:00 fuzzer vm-0: 2025/10/24 01:35:00 S2ePollLoop request
+2025/10/24 09:35:00 fuzzer vm-0: 2025/10/24 01:35:00 S2ePollLoop: reply #inputs=0
+2025/10/24 09:35:03 fuzzer vm-0: 2025/10/24 01:35:03 S2ePollLoop request
+2025/10/24 09:35:03 fuzzer vm-0: 2025/10/24 01:35:03 S2ePollLoop: reply #inputs=0
+2025/10/24 09:35:06 fuzzer vm-0: 2025/10/24 01:35:06 S2ePollLoop request
+2025/10/24 09:35:06 fuzzer vm-0: 2025/10/24 01:35:06 S2ePollLoop: reply #inputs=0
+2025/10/24 09:35:08 VMs 1, executed 6557, cover 10986, crashes 0, repro 0
+2025/10/24 09:35:09 fuzzer vm-0: 2025/10/24 01:35:09 S2ePollLoop request
+2025/10/24 09:35:09 fuzzer vm-0: 2025/10/24 01:35:09 S2ePollLoop: reply #inputs=0
+2025/10/24 09:35:12 fuzzer vm-0: 2025/10/24 01:35:12 S2ePollLoop request
+2025/10/24 09:35:12 fuzzer vm-0: 2025/10/24 01:35:12 S2ePollLoop: reply #inputs=0
+2025/10/24 09:35:15 fuzzer vm-0: 2025/10/24 01:35:15 S2ePollLoop request
+2025/10/24 09:35:15 fuzzer vm-0: 2025/10/24 01:35:15 S2ePollLoop: reply #inputs=0
+2025/10/24 09:35:18 VMs 1, executed 7089, cover 11069, crashes 0, repro 0
+2025/10/24 09:35:18 fuzzer vm-0: 2025/10/24 01:35:18 S2ePollLoop request
+2025/10/24 09:35:18 fuzzer vm-0: 2025/10/24 01:35:18 S2ePollLoop: reply #inputs=0
+2025/10/24 09:35:22 fuzzer vm-0: 2025/10/24 01:35:21 S2ePollLoop request
+2025/10/24 09:35:22 fuzzer vm-0: 2025/10/24 01:35:21 S2ePollLoop: reply #inputs=0
+2025/10/24 09:35:25 fuzzer vm-0: 2025/10/24 01:35:24 S2ePollLoop request
+2025/10/24 09:35:25 fuzzer vm-0: 2025/10/24 01:35:24 S2ePollLoop: reply #inputs=0
+2025/10/24 09:35:28 fuzzer vm-0: 2025/10/24 01:35:27 S2ePollLoop request
+2025/10/24 09:35:28 fuzzer vm-0: 2025/10/24 01:35:27 S2ePollLoop: reply #inputs=0
+2025/10/24 09:35:28 VMs 1, executed 7089, cover 11116, crashes 0, repro 0
+2025/10/24 09:35:31 fuzzer vm-0: 2025/10/24 01:35:30 S2ePollLoop request
+2025/10/24 09:35:31 fuzzer vm-0: 2025/10/24 01:35:30 S2ePollLoop: reply #inputs=0
+2025/10/24 09:35:34 fuzzer vm-0: 2025/10/24 01:35:33 S2ePollLoop request
+2025/10/24 09:35:34 fuzzer vm-0: 2025/10/24 01:35:33 S2ePollLoop: reply #inputs=0
+2025/10/24 09:35:37 fuzzer vm-0: 2025/10/24 01:35:36 S2ePollLoop request
+2025/10/24 09:35:37 fuzzer vm-0: 2025/10/24 01:35:36 S2ePollLoop: reply #inputs=0
+2025/10/24 09:35:38 VMs 1, executed 7611, cover 11156, crashes 0, repro 0
+2025/10/24 09:35:40 fuzzer vm-0: 2025/10/24 01:35:39 S2ePollLoop request
+2025/10/24 09:35:40 fuzzer vm-0: 2025/10/24 01:35:40 S2ePollLoop: reply #inputs=0
+2025/10/24 09:35:43 fuzzer vm-0: 2025/10/24 01:35:43 S2ePollLoop request
+2025/10/24 09:35:43 fuzzer vm-0: 2025/10/24 01:35:43 S2ePollLoop: reply #inputs=0
+2025/10/24 09:35:46 fuzzer vm-0: 2025/10/24 01:35:46 S2ePollLoop request
+2025/10/24 09:35:46 fuzzer vm-0: 2025/10/24 01:35:46 S2ePollLoop: reply #inputs=0
+2025/10/24 09:35:48 VMs 1, executed 8344, cover 11206, crashes 0, repro 0
+2025/10/24 09:35:49 fuzzer vm-0: 2025/10/24 01:35:49 S2ePollLoop request
+2025/10/24 09:35:49 fuzzer vm-0: 2025/10/24 01:35:49 S2ePollLoop: reply #inputs=0
+2025/10/24 09:35:52 fuzzer vm-0: 2025/10/24 01:35:52 S2ePollLoop request
+2025/10/24 09:35:52 fuzzer vm-0: 2025/10/24 01:35:52 S2ePollLoop: reply #inputs=0
+2025/10/24 09:35:55 fuzzer vm-0: 2025/10/24 01:35:55 S2ePollLoop request
+2025/10/24 09:35:55 fuzzer vm-0: 2025/10/24 01:35:55 S2ePollLoop: reply #inputs=0
+2025/10/24 09:35:58 VMs 1, executed 8965, cover 11698, crashes 0, repro 0
+2025/10/24 09:36:07 vm-0: crash: lost connection to test machine
+2025/10/24 09:36:08 VMs 0, executed 8965, cover 11698, crashes 0, repro 0
+2025/10/24 09:36:18 VMs 0, executed 8965, cover 11698, crashes 1, repro 0
+2025/10/24 09:36:28 VMs 0, executed 8965, cover 11698, crashes 1, repro 0
+2025/10/24 09:36:38 VMs 0, executed 8965, cover 11698, crashes 1, repro 0
+2025/10/24 09:36:48 VMs 0, executed 8965, cover 11698, crashes 1, repro 0
+2025/10/24 09:36:58 VMs 0, executed 8965, cover 11698, crashes 1, repro 0
+2025/10/24 09:37:08 VMs 0, executed 8965, cover 11698, crashes 1, repro 0
+2025/10/24 09:37:18 VMs 0, executed 8965, cover 11698, crashes 1, repro 0
+2025/10/24 09:37:28 VMs 0, executed 8965, cover 11698, crashes 1, repro 0
+2025/10/24 09:37:38 VMs 0, executed 8965, cover 11698, crashes 1, repro 0
+2025/10/24 09:37:48 VMs 0, executed 8965, cover 11698, crashes 1, repro 0
+2025/10/24 09:37:58 VMs 0, executed 8965, cover 11698, crashes 1, repro 0
+2025/10/24 09:38:08 VMs 0, executed 8965, cover 11698, crashes 1, repro 0
+2025/10/24 09:38:09 Uptime2:10m1s corpus#:189 corpusCover#:9540
+2025/10/24 09:38:09 /syz-fuzzer -executor=/syz-executor -id=0 -name=vm-0 -arch=amd64 -manager=10.0.2.10:34919 -procs=4 -leak=false -cover=true -sandbox=setuid -debug=false -v=0
+2025/10/24 09:38:18 VMs 1, executed 8965, cover 11698, crashes 1, repro 0
+2025/10/24 09:38:28 VMs 1, executed 8965, cover 11698, crashes 1, repro 0
+2025/10/24 09:38:38 VMs 1, executed 8965, cover 11698, crashes 1, repro 0
+2025/10/24 09:38:48 VMs 1, executed 8965, cover 11698, crashes 1, repro 0
+2025/10/24 09:38:58 VMs 1, executed 8965, cover 11698, crashes 1, repro 0
+2025/10/24 09:39:08 VMs 1, executed 8965, cover 11698, crashes 1, repro 0
+2025/10/24 09:39:18 VMs 1, executed 8965, cover 11698, crashes 1, repro 0
+2025/10/24 09:39:28 VMs 1, executed 8965, cover 11698, crashes 1, repro 0
+2025/10/24 09:39:38 VMs 1, executed 8965, cover 11698, crashes 1, repro 0
+2025/10/24 09:39:48 VMs 1, executed 8965, cover 11698, crashes 1, repro 0
+2025/10/24 09:39:58 VMs 1, executed 8965, cover 11698, crashes 1, repro 0
+2025/10/24 09:40:08 VMs 1, executed 8965, cover 11698, crashes 1, repro 0
+2025/10/24 09:40:18 VMs 1, executed 8965, cover 11698, crashes 1, repro 0
+2025/10/24 09:40:28 VMs 1, executed 8965, cover 11698, crashes 1, repro 0
+2025/10/24 09:40:38 VMs 1, executed 8968, cover 11698, crashes 1, repro 0
+2025/10/24 09:40:40 fuzzer vm-0: 2025/10/24 01:40:40 S2ePollLoop request
+2025/10/24 09:40:40 fuzzer vm-0: 2025/10/24 01:40:40 S2ePollLoop: reply #inputs=0
+2025/10/24 09:40:43 fuzzer vm-0: 2025/10/24 01:40:43 S2ePollLoop request
+2025/10/24 09:40:43 fuzzer vm-0: 2025/10/24 01:40:43 S2ePollLoop: reply #inputs=0
+2025/10/24 09:40:46 fuzzer vm-0: 2025/10/24 01:40:46 S2ePollLoop request
+2025/10/24 09:40:46 fuzzer vm-0: 2025/10/24 01:40:46 S2ePollLoop: reply #inputs=0
+2025/10/24 09:40:48 VMs 1, executed 8968, cover 12942, crashes 1, repro 0
+2025/10/24 09:40:49 fuzzer vm-0: 2025/10/24 01:40:49 S2ePollLoop request
+2025/10/24 09:40:49 fuzzer vm-0: 2025/10/24 01:40:49 S2ePollLoop: reply #inputs=0
+2025/10/24 09:40:52 fuzzer vm-0: 2025/10/24 01:40:52 S2ePollLoop request
+2025/10/24 09:40:52 fuzzer vm-0: 2025/10/24 01:40:52 S2ePollLoop: reply #inputs=0
+2025/10/24 09:40:55 fuzzer vm-0: 2025/10/24 01:40:55 S2ePollLoop request
+2025/10/24 09:40:55 fuzzer vm-0: 2025/10/24 01:40:55 S2ePollLoop: reply #inputs=0
+2025/10/24 09:40:58 fuzzer vm-0: 2025/10/24 01:40:58 S2ePollLoop request
+2025/10/24 09:40:58 fuzzer vm-0: 2025/10/24 01:40:58 S2ePollLoop: reply #inputs=0
+2025/10/24 09:40:58 VMs 1, executed 9757, cover 13438, crashes 1, repro 0
+2025/10/24 09:41:01 fuzzer vm-0: 2025/10/24 01:41:01 S2ePollLoop request
+2025/10/24 09:41:01 fuzzer vm-0: 2025/10/24 01:41:01 S2ePollLoop: reply #inputs=0
+2025/10/24 09:41:04 fuzzer vm-0: 2025/10/24 01:41:04 S2ePollLoop request
+2025/10/24 09:41:04 fuzzer vm-0: 2025/10/24 01:41:04 S2ePollLoop: reply #inputs=0
+2025/10/24 09:41:07 fuzzer vm-0: 2025/10/24 01:41:07 S2ePollLoop request
+2025/10/24 09:41:07 fuzzer vm-0: 2025/10/24 01:41:07 S2ePollLoop: reply #inputs=0
+2025/10/24 09:41:08 VMs 1, executed 10697, cover 14512, crashes 1, repro 0
+2025/10/24 09:41:10 fuzzer vm-0: 2025/10/24 01:41:10 S2ePollLoop request
+2025/10/24 09:41:10 fuzzer vm-0: 2025/10/24 01:41:10 S2ePollLoop: reply #inputs=0
+2025/10/24 09:41:13 fuzzer vm-0: 2025/10/24 01:41:13 S2ePollLoop request
+2025/10/24 09:41:13 fuzzer vm-0: 2025/10/24 01:41:13 S2ePollLoop: reply #inputs=0
+2025/10/24 09:41:16 fuzzer vm-0: 2025/10/24 01:41:16 S2ePollLoop request
+2025/10/24 09:41:16 fuzzer vm-0: 2025/10/24 01:41:16 S2ePollLoop: reply #inputs=0
+2025/10/24 09:41:18 VMs 1, executed 11892, cover 15877, crashes 1, repro 0
+2025/10/24 09:41:19 fuzzer vm-0: 2025/10/24 01:41:19 S2ePollLoop request
+2025/10/24 09:41:19 fuzzer vm-0: 2025/10/24 01:41:19 S2ePollLoop: reply #inputs=0
+2025/10/24 09:41:22 fuzzer vm-0: 2025/10/24 01:41:22 S2ePollLoop request
+2025/10/24 09:41:22 fuzzer vm-0: 2025/10/24 01:41:22 S2ePollLoop: reply #inputs=0
+2025/10/24 09:41:25 fuzzer vm-0: 2025/10/24 01:41:25 S2ePollLoop request
+2025/10/24 09:41:25 fuzzer vm-0: 2025/10/24 01:41:25 S2ePollLoop: reply #inputs=0
+2025/10/24 09:41:28 fuzzer vm-0: 2025/10/24 01:41:28 S2ePollLoop request
+2025/10/24 09:41:28 fuzzer vm-0: 2025/10/24 01:41:28 S2ePollLoop: reply #inputs=0
+2025/10/24 09:41:28 VMs 1, executed 12903, cover 16305, crashes 1, repro 0
+2025/10/24 09:41:31 fuzzer vm-0: 2025/10/24 01:41:31 S2ePollLoop request
+2025/10/24 09:41:31 fuzzer vm-0: 2025/10/24 01:41:31 S2ePollLoop: reply #inputs=0
+2025/10/24 09:41:34 fuzzer vm-0: 2025/10/24 01:41:34 S2ePollLoop request
+2025/10/24 09:41:34 fuzzer vm-0: 2025/10/24 01:41:34 S2ePollLoop: reply #inputs=0
+2025/10/24 09:41:37 fuzzer vm-0: 2025/10/24 01:41:37 S2ePollLoop request
+2025/10/24 09:41:37 fuzzer vm-0: 2025/10/24 01:41:37 S2ePollLoop: reply #inputs=0
+2025/10/24 09:41:38 VMs 1, executed 13941, cover 17929, crashes 1, repro 0
+2025/10/24 09:41:40 fuzzer vm-0: 2025/10/24 01:41:40 S2ePollLoop request
+2025/10/24 09:41:40 fuzzer vm-0: 2025/10/24 01:41:40 S2ePollLoop: reply #inputs=0
+2025/10/24 09:41:43 fuzzer vm-0: 2025/10/24 01:41:43 S2ePollLoop request
+2025/10/24 09:41:43 fuzzer vm-0: 2025/10/24 01:41:43 S2ePollLoop: reply #inputs=0
+2025/10/24 09:41:46 fuzzer vm-0: 2025/10/24 01:41:46 S2ePollLoop request
+2025/10/24 09:41:46 fuzzer vm-0: 2025/10/24 01:41:46 S2ePollLoop: reply #inputs=0
+2025/10/24 09:41:48 VMs 1, executed 13941, cover 18354, crashes 1, repro 0
+2025/10/24 09:41:49 fuzzer vm-0: 2025/10/24 01:41:49 S2ePollLoop request
+2025/10/24 09:41:49 fuzzer vm-0: 2025/10/24 01:41:49 S2ePollLoop: reply #inputs=0
+2025/10/24 09:41:52 fuzzer vm-0: 2025/10/24 01:41:52 S2ePollLoop request
+2025/10/24 09:41:52 fuzzer vm-0: 2025/10/24 01:41:52 S2ePollLoop: reply #inputs=0
+2025/10/24 09:41:55 fuzzer vm-0: 2025/10/24 01:41:55 S2ePollLoop request
+2025/10/24 09:41:55 fuzzer vm-0: 2025/10/24 01:41:55 S2ePollLoop: reply #inputs=0
+2025/10/24 09:41:58 fuzzer vm-0: 2025/10/24 01:41:58 S2ePollLoop request
+2025/10/24 09:41:58 fuzzer vm-0: 2025/10/24 01:41:58 S2ePollLoop: reply #inputs=0
+2025/10/24 09:41:58 VMs 1, executed 14573, cover 18356, crashes 1, repro 0
+2025/10/24 09:42:01 fuzzer vm-0: 2025/10/24 01:42:01 S2ePollLoop request
+2025/10/24 09:42:01 fuzzer vm-0: 2025/10/24 01:42:01 S2ePollLoop: reply #inputs=0
+2025/10/24 09:42:04 fuzzer vm-0: 2025/10/24 01:42:04 S2ePollLoop request
+2025/10/24 09:42:04 fuzzer vm-0: 2025/10/24 01:42:04 S2ePollLoop: reply #inputs=0
+2025/10/24 09:42:07 fuzzer vm-0: 2025/10/24 01:42:07 S2ePollLoop request
+2025/10/24 09:42:07 fuzzer vm-0: 2025/10/24 01:42:07 S2ePollLoop: reply #inputs=0
+2025/10/24 09:42:08 VMs 1, executed 14597, cover 19383, crashes 1, repro 0
+2025/10/24 09:42:10 fuzzer vm-0: 2025/10/24 01:42:10 S2ePollLoop request
+2025/10/24 09:42:10 fuzzer vm-0: 2025/10/24 01:42:10 S2ePollLoop: reply #inputs=0
+2025/10/24 09:42:13 fuzzer vm-0: 2025/10/24 01:42:13 S2ePollLoop request
+2025/10/24 09:42:13 fuzzer vm-0: 2025/10/24 01:42:13 S2ePollLoop: reply #inputs=0
+2025/10/24 09:42:16 fuzzer vm-0: 2025/10/24 01:42:16 S2ePollLoop request
+2025/10/24 09:42:16 fuzzer vm-0: 2025/10/24 01:42:16 S2ePollLoop: reply #inputs=0
+2025/10/24 09:42:18 VMs 1, executed 14613, cover 19427, crashes 1, repro 0
+2025/10/24 09:42:19 fuzzer vm-0: 2025/10/24 01:42:19 S2ePollLoop request
+2025/10/24 09:42:19 fuzzer vm-0: 2025/10/24 01:42:19 S2ePollLoop: reply #inputs=0
+2025/10/24 09:42:22 fuzzer vm-0: 2025/10/24 01:42:22 S2ePollLoop request
+2025/10/24 09:42:22 fuzzer vm-0: 2025/10/24 01:42:22 S2ePollLoop: reply #inputs=0
+2025/10/24 09:42:25 fuzzer vm-0: 2025/10/24 01:42:25 S2ePollLoop request
+2025/10/24 09:42:25 fuzzer vm-0: 2025/10/24 01:42:25 S2ePollLoop: reply #inputs=0
+2025/10/24 09:42:28 fuzzer vm-0: 2025/10/24 01:42:28 S2ePollLoop request
+2025/10/24 09:42:28 fuzzer vm-0: 2025/10/24 01:42:28 S2ePollLoop: reply #inputs=0
+2025/10/24 09:42:28 VMs 1, executed 14760, cover 19725, crashes 1, repro 0
+2025/10/24 09:42:31 fuzzer vm-0: 2025/10/24 01:42:31 S2ePollLoop request
+2025/10/24 09:42:31 fuzzer vm-0: 2025/10/24 01:42:31 S2ePollLoop: reply #inputs=0
+2025/10/24 09:42:34 fuzzer vm-0: 2025/10/24 01:42:34 S2ePollLoop request
+2025/10/24 09:42:34 fuzzer vm-0: 2025/10/24 01:42:34 S2ePollLoop: reply #inputs=0
+2025/10/24 09:42:37 fuzzer vm-0: 2025/10/24 01:42:37 S2ePollLoop request
+2025/10/24 09:42:37 fuzzer vm-0: 2025/10/24 01:42:37 S2ePollLoop: reply #inputs=0
+2025/10/24 09:42:38 VMs 1, executed 15763, cover 20523, crashes 1, repro 0
+2025/10/24 09:42:40 fuzzer vm-0: 2025/10/24 01:42:40 S2ePollLoop request
+2025/10/24 09:42:40 fuzzer vm-0: 2025/10/24 01:42:40 S2ePollLoop: reply #inputs=0
+2025/10/24 09:42:43 fuzzer vm-0: 2025/10/24 01:42:43 S2ePollLoop request
+2025/10/24 09:42:43 fuzzer vm-0: 2025/10/24 01:42:43 S2ePollLoop: reply #inputs=0
+2025/10/24 09:42:46 fuzzer vm-0: 2025/10/24 01:42:46 S2ePollLoop request
+2025/10/24 09:42:46 fuzzer vm-0: 2025/10/24 01:42:46 S2ePollLoop: reply #inputs=0
+2025/10/24 09:42:48 VMs 1, executed 15763, cover 21085, crashes 1, repro 0
+2025/10/24 09:42:49 fuzzer vm-0: 2025/10/24 01:42:49 S2ePollLoop request
+2025/10/24 09:42:49 fuzzer vm-0: 2025/10/24 01:42:49 S2ePollLoop: reply #inputs=0
+2025/10/24 09:42:52 fuzzer vm-0: 2025/10/24 01:42:52 S2ePollLoop request
+2025/10/24 09:42:52 fuzzer vm-0: 2025/10/24 01:42:52 S2ePollLoop: reply #inputs=0
+2025/10/24 09:42:55 fuzzer vm-0: 2025/10/24 01:42:55 S2ePollLoop request
+2025/10/24 09:42:55 fuzzer vm-0: 2025/10/24 01:42:55 S2ePollLoop: reply #inputs=0
+2025/10/24 09:42:58 fuzzer vm-0: 2025/10/24 01:42:58 S2ePollLoop request
+2025/10/24 09:42:58 fuzzer vm-0: 2025/10/24 01:42:58 S2ePollLoop: reply #inputs=0
+2025/10/24 09:42:58 VMs 1, executed 16914, cover 21788, crashes 1, repro 0
+2025/10/24 09:43:01 fuzzer vm-0: 2025/10/24 01:43:01 S2ePollLoop request
+2025/10/24 09:43:01 fuzzer vm-0: 2025/10/24 01:43:01 S2ePollLoop: reply #inputs=0
+2025/10/24 09:43:04 fuzzer vm-0: 2025/10/24 01:43:04 S2ePollLoop request
+2025/10/24 09:43:04 fuzzer vm-0: 2025/10/24 01:43:04 S2ePollLoop: reply #inputs=0
+2025/10/24 09:43:07 fuzzer vm-0: 2025/10/24 01:43:07 S2ePollLoop request
+2025/10/24 09:43:07 fuzzer vm-0: 2025/10/24 01:43:07 S2ePollLoop: reply #inputs=0
+2025/10/24 09:43:08 VMs 1, executed 18128, cover 22565, crashes 1, repro 0
+2025/10/24 09:43:10 fuzzer vm-0: 2025/10/24 01:43:10 S2ePollLoop request
+2025/10/24 09:43:10 fuzzer vm-0: 2025/10/24 01:43:10 S2ePollLoop: reply #inputs=0
+2025/10/24 09:43:13 fuzzer vm-0: 2025/10/24 01:43:13 S2ePollLoop request
+2025/10/24 09:43:13 fuzzer vm-0: 2025/10/24 01:43:13 S2ePollLoop: reply #inputs=0
+2025/10/24 09:43:16 fuzzer vm-0: 2025/10/24 01:43:16 S2ePollLoop request
+2025/10/24 09:43:16 fuzzer vm-0: 2025/10/24 01:43:16 S2ePollLoop: reply #inputs=0
+2025/10/24 09:43:18 VMs 1, executed 18646, cover 22565, crashes 1, repro 0
+2025/10/24 09:43:19 fuzzer vm-0: 2025/10/24 01:43:19 S2ePollLoop request
+2025/10/24 09:43:19 fuzzer vm-0: 2025/10/24 01:43:19 S2ePollLoop: reply #inputs=0
+2025/10/24 09:43:22 fuzzer vm-0: 2025/10/24 01:43:22 S2ePollLoop request
+2025/10/24 09:43:22 fuzzer vm-0: 2025/10/24 01:43:22 S2ePollLoop: reply #inputs=0
+2025/10/24 09:43:25 fuzzer vm-0: 2025/10/24 01:43:25 S2ePollLoop request
+2025/10/24 09:43:25 fuzzer vm-0: 2025/10/24 01:43:25 S2ePollLoop: reply #inputs=0
+2025/10/24 09:43:28 VMs 1, executed 18763, cover 22565, crashes 1, repro 0
+2025/10/24 09:43:28 fuzzer vm-0: 2025/10/24 01:43:28 S2ePollLoop request
+2025/10/24 09:43:28 fuzzer vm-0: 2025/10/24 01:43:28 S2ePollLoop: reply #inputs=0
+2025/10/24 09:43:31 fuzzer vm-0: 2025/10/24 01:43:31 S2ePollLoop request
+2025/10/24 09:43:31 fuzzer vm-0: 2025/10/24 01:43:31 S2ePollLoop: reply #inputs=0
+2025/10/24 09:43:34 fuzzer vm-0: 2025/10/24 01:43:34 S2ePollLoop request
+2025/10/24 09:43:34 fuzzer vm-0: 2025/10/24 01:43:34 S2ePollLoop: reply #inputs=0
+2025/10/24 09:43:37 fuzzer vm-0: 2025/10/24 01:43:37 S2ePollLoop request
+2025/10/24 09:43:37 fuzzer vm-0: 2025/10/24 01:43:37 S2ePollLoop: reply #inputs=0
+2025/10/24 09:43:38 VMs 1, executed 18916, cover 22565, crashes 1, repro 0
+2025/10/24 09:43:40 fuzzer vm-0: 2025/10/24 01:43:40 S2ePollLoop request
+2025/10/24 09:43:40 fuzzer vm-0: 2025/10/24 01:43:40 S2ePollLoop: reply #inputs=0
+2025/10/24 09:43:43 fuzzer vm-0: 2025/10/24 01:43:43 S2ePollLoop request
+2025/10/24 09:43:43 fuzzer vm-0: 2025/10/24 01:43:43 S2ePollLoop: reply #inputs=0
+2025/10/24 09:43:46 fuzzer vm-0: 2025/10/24 01:43:46 S2ePollLoop request
+2025/10/24 09:43:46 fuzzer vm-0: 2025/10/24 01:43:46 S2ePollLoop: reply #inputs=0
+2025/10/24 09:43:48 VMs 1, executed 18916, cover 22571, crashes 1, repro 0
+2025/10/24 09:43:49 fuzzer vm-0: 2025/10/24 01:43:49 S2ePollLoop request
+2025/10/24 09:43:49 fuzzer vm-0: 2025/10/24 01:43:49 S2ePollLoop: reply #inputs=0
+2025/10/24 09:43:52 fuzzer vm-0: 2025/10/24 01:43:52 S2ePollLoop request
+2025/10/24 09:43:52 fuzzer vm-0: 2025/10/24 01:43:52 S2ePollLoop: reply #inputs=0
+2025/10/24 09:43:55 fuzzer vm-0: 2025/10/24 01:43:55 S2ePollLoop request
+2025/10/24 09:43:55 fuzzer vm-0: 2025/10/24 01:43:55 S2ePollLoop: reply #inputs=0
+2025/10/24 09:43:58 VMs 1, executed 19114, cover 22579, crashes 1, repro 0
+2025/10/24 09:43:58 fuzzer vm-0: 2025/10/24 01:43:58 S2ePollLoop request
+2025/10/24 09:43:58 fuzzer vm-0: 2025/10/24 01:43:58 S2ePollLoop: reply #inputs=0
+2025/10/24 09:44:01 fuzzer vm-0: 2025/10/24 01:44:01 S2ePollLoop request
+2025/10/24 09:44:01 fuzzer vm-0: 2025/10/24 01:44:01 S2ePollLoop: reply #inputs=0
+2025/10/24 09:44:04 fuzzer vm-0: 2025/10/24 01:44:04 S2ePollLoop request
+2025/10/24 09:44:04 fuzzer vm-0: 2025/10/24 01:44:04 S2ePollLoop: reply #inputs=0
+2025/10/24 09:44:07 fuzzer vm-0: 2025/10/24 01:44:07 S2ePollLoop request
+2025/10/24 09:44:07 fuzzer vm-0: 2025/10/24 01:44:07 S2ePollLoop: reply #inputs=0
+2025/10/24 09:44:08 VMs 1, executed 19328, cover 22597, crashes 1, repro 0
+2025/10/24 09:44:10 fuzzer vm-0: 2025/10/24 01:44:10 S2ePollLoop request
+2025/10/24 09:44:10 fuzzer vm-0: 2025/10/24 01:44:10 S2ePollLoop: reply #inputs=0
+2025/10/24 09:44:13 fuzzer vm-0: 2025/10/24 01:44:13 S2ePollLoop request
+2025/10/24 09:44:13 fuzzer vm-0: 2025/10/24 01:44:13 S2ePollLoop: reply #inputs=0
+2025/10/24 09:44:16 fuzzer vm-0: 2025/10/24 01:44:16 S2ePollLoop request
+2025/10/24 09:44:16 fuzzer vm-0: 2025/10/24 01:44:16 S2ePollLoop: reply #inputs=0
+2025/10/24 09:44:18 VMs 1, executed 19557, cover 22597, crashes 1, repro 0
+2025/10/24 09:44:19 fuzzer vm-0: 2025/10/24 01:44:19 S2ePollLoop request
+2025/10/24 09:44:19 fuzzer vm-0: 2025/10/24 01:44:19 S2ePollLoop: reply #inputs=0
+2025/10/24 09:44:22 fuzzer vm-0: 2025/10/24 01:44:22 S2ePollLoop request
+2025/10/24 09:44:22 fuzzer vm-0: 2025/10/24 01:44:22 S2ePollLoop: reply #inputs=0
+2025/10/24 09:44:25 fuzzer vm-0: 2025/10/24 01:44:25 S2ePollLoop request
+2025/10/24 09:44:25 fuzzer vm-0: 2025/10/24 01:44:25 S2ePollLoop: reply #inputs=0
+2025/10/24 09:44:28 VMs 1, executed 19764, cover 22601, crashes 1, repro 0
+2025/10/24 09:44:28 fuzzer vm-0: 2025/10/24 01:44:28 S2ePollLoop request
+2025/10/24 09:44:28 fuzzer vm-0: 2025/10/24 01:44:28 S2ePollLoop: reply #inputs=0
+2025/10/24 09:44:31 fuzzer vm-0: 2025/10/24 01:44:31 S2ePollLoop request
+2025/10/24 09:44:31 fuzzer vm-0: 2025/10/24 01:44:31 S2ePollLoop: reply #inputs=0
+2025/10/24 09:44:35 fuzzer vm-0: 2025/10/24 01:44:34 S2ePollLoop request
+2025/10/24 09:44:35 fuzzer vm-0: 2025/10/24 01:44:35 S2ePollLoop: reply #inputs=0
+2025/10/24 09:44:38 fuzzer vm-0: 2025/10/24 01:44:38 S2ePollLoop request
+2025/10/24 09:44:38 fuzzer vm-0: 2025/10/24 01:44:38 S2ePollLoop: reply #inputs=0
+2025/10/24 09:44:38 VMs 1, executed 19949, cover 22603, crashes 1, repro 0
+2025/10/24 09:44:41 fuzzer vm-0: 2025/10/24 01:44:41 S2ePollLoop request
+2025/10/24 09:44:41 fuzzer vm-0: 2025/10/24 01:44:41 S2ePollLoop: reply #inputs=0
+2025/10/24 09:44:44 fuzzer vm-0: 2025/10/24 01:44:44 S2ePollLoop request
+2025/10/24 09:44:44 fuzzer vm-0: 2025/10/24 01:44:44 S2ePollLoop: reply #inputs=0
+2025/10/24 09:44:47 fuzzer vm-0: 2025/10/24 01:44:47 S2ePollLoop request
+2025/10/24 09:44:47 fuzzer vm-0: 2025/10/24 01:44:47 S2ePollLoop: reply #inputs=0
+2025/10/24 09:44:48 VMs 1, executed 19949, cover 22607, crashes 1, repro 0
+2025/10/24 09:44:50 fuzzer vm-0: 2025/10/24 01:44:50 S2ePollLoop request
+2025/10/24 09:44:50 fuzzer vm-0: 2025/10/24 01:44:50 S2ePollLoop: reply #inputs=0
+2025/10/24 09:44:53 fuzzer vm-0: 2025/10/24 01:44:53 S2ePollLoop request
+2025/10/24 09:44:53 fuzzer vm-0: 2025/10/24 01:44:53 S2ePollLoop: reply #inputs=0
+2025/10/24 09:44:56 fuzzer vm-0: 2025/10/24 01:44:56 S2ePollLoop request
+2025/10/24 09:44:56 fuzzer vm-0: 2025/10/24 01:44:56 S2ePollLoop: reply #inputs=0
+2025/10/24 09:44:58 VMs 1, executed 20186, cover 22619, crashes 1, repro 0
+2025/10/24 09:44:59 fuzzer vm-0: 2025/10/24 01:44:59 S2ePollLoop request
+2025/10/24 09:44:59 fuzzer vm-0: 2025/10/24 01:44:59 S2ePollLoop: reply #inputs=0
+2025/10/24 09:45:02 fuzzer vm-0: 2025/10/24 01:45:02 S2ePollLoop request
+2025/10/24 09:45:02 fuzzer vm-0: 2025/10/24 01:45:02 S2ePollLoop: reply #inputs=0
+2025/10/24 09:45:05 fuzzer vm-0: 2025/10/24 01:45:05 S2ePollLoop request
+2025/10/24 09:45:05 fuzzer vm-0: 2025/10/24 01:45:05 S2ePollLoop: reply #inputs=0
+2025/10/24 09:45:08 fuzzer vm-0: 2025/10/24 01:45:08 S2ePollLoop request
+2025/10/24 09:45:08 fuzzer vm-0: 2025/10/24 01:45:08 S2ePollLoop: reply #inputs=0
+2025/10/24 09:45:08 VMs 1, executed 20361, cover 22661, crashes 1, repro 0
+2025/10/24 09:45:11 fuzzer vm-0: 2025/10/24 01:45:11 S2ePollLoop request
+2025/10/24 09:45:11 fuzzer vm-0: 2025/10/24 01:45:11 S2ePollLoop: reply #inputs=0
+2025/10/24 09:45:14 fuzzer vm-0: 2025/10/24 01:45:14 S2ePollLoop request
+2025/10/24 09:45:14 fuzzer vm-0: 2025/10/24 01:45:14 S2ePollLoop: reply #inputs=0
+2025/10/24 09:45:17 fuzzer vm-0: 2025/10/24 01:45:17 S2ePollLoop request
+2025/10/24 09:45:17 fuzzer vm-0: 2025/10/24 01:45:17 S2ePollLoop: reply #inputs=0
+2025/10/24 09:45:18 VMs 1, executed 20724, cover 22821, crashes 1, repro 0
+2025/10/24 09:45:20 fuzzer vm-0: 2025/10/24 01:45:20 S2ePollLoop request
+2025/10/24 09:45:20 fuzzer vm-0: 2025/10/24 01:45:20 S2ePollLoop: reply #inputs=0
+2025/10/24 09:45:23 fuzzer vm-0: 2025/10/24 01:45:23 S2ePollLoop request
+2025/10/24 09:45:23 fuzzer vm-0: 2025/10/24 01:45:23 S2ePollLoop: reply #inputs=0
+2025/10/24 09:45:26 fuzzer vm-0: 2025/10/24 01:45:26 S2ePollLoop request
+2025/10/24 09:45:26 fuzzer vm-0: 2025/10/24 01:45:26 S2ePollLoop: reply #inputs=0
+2025/10/24 09:45:28 VMs 1, executed 21259, cover 22869, crashes 1, repro 0
+2025/10/24 09:45:29 fuzzer vm-0: 2025/10/24 01:45:29 S2ePollLoop request
+2025/10/24 09:45:29 fuzzer vm-0: 2025/10/24 01:45:29 S2ePollLoop: reply #inputs=0
+2025/10/24 09:45:32 fuzzer vm-0: 2025/10/24 01:45:32 S2ePollLoop request
+2025/10/24 09:45:32 fuzzer vm-0: 2025/10/24 01:45:32 S2ePollLoop: reply #inputs=0
+2025/10/24 09:45:35 fuzzer vm-0: 2025/10/24 01:45:35 S2ePollLoop request
+2025/10/24 09:45:35 fuzzer vm-0: 2025/10/24 01:45:35 S2ePollLoop: reply #inputs=0
+2025/10/24 09:45:38 fuzzer vm-0: 2025/10/24 01:45:38 S2ePollLoop request
+2025/10/24 09:45:38 fuzzer vm-0: 2025/10/24 01:45:38 S2ePollLoop: reply #inputs=0
+2025/10/24 09:45:38 VMs 1, executed 22296, cover 22949, crashes 1, repro 0
+2025/10/24 09:45:41 fuzzer vm-0: 2025/10/24 01:45:41 S2ePollLoop request
+2025/10/24 09:45:41 fuzzer vm-0: 2025/10/24 01:45:41 S2ePollLoop: reply #inputs=0
+2025/10/24 09:45:44 fuzzer vm-0: 2025/10/24 01:45:44 S2ePollLoop request
+2025/10/24 09:45:44 fuzzer vm-0: 2025/10/24 01:45:44 S2ePollLoop: reply #inputs=0
+2025/10/24 09:45:47 fuzzer vm-0: 2025/10/24 01:45:47 S2ePollLoop request
+2025/10/24 09:45:47 fuzzer vm-0: 2025/10/24 01:45:47 S2ePollLoop: reply #inputs=0
+2025/10/24 09:45:48 VMs 1, executed 22296, cover 23931, crashes 1, repro 0
+2025/10/24 09:45:50 fuzzer vm-0: 2025/10/24 01:45:50 S2ePollLoop request
+2025/10/24 09:45:50 fuzzer vm-0: 2025/10/24 01:45:50 S2ePollLoop: reply #inputs=0
+2025/10/24 09:45:53 fuzzer vm-0: 2025/10/24 01:45:53 S2ePollLoop request
+2025/10/24 09:45:53 fuzzer vm-0: 2025/10/24 01:45:53 S2ePollLoop: reply #inputs=0
+2025/10/24 09:45:56 fuzzer vm-0: 2025/10/24 01:45:56 S2ePollLoop request
+2025/10/24 09:45:56 fuzzer vm-0: 2025/10/24 01:45:56 S2ePollLoop: reply #inputs=0
+2025/10/24 09:45:58 VMs 1, executed 23416, cover 24950, crashes 1, repro 0
+2025/10/24 09:45:59 fuzzer vm-0: 2025/10/24 01:45:59 S2ePollLoop request
+2025/10/24 09:45:59 fuzzer vm-0: 2025/10/24 01:45:59 S2ePollLoop: reply #inputs=0
+2025/10/24 09:46:02 fuzzer vm-0: 2025/10/24 01:46:02 S2ePollLoop request
+2025/10/24 09:46:02 fuzzer vm-0: 2025/10/24 01:46:02 S2ePollLoop: reply #inputs=0
+2025/10/24 09:46:05 fuzzer vm-0: 2025/10/24 01:46:05 S2ePollLoop request
+2025/10/24 09:46:05 fuzzer vm-0: 2025/10/24 01:46:05 S2ePollLoop: reply #inputs=0
+2025/10/24 09:46:08 fuzzer vm-0: 2025/10/24 01:46:08 S2ePollLoop request
+2025/10/24 09:46:08 fuzzer vm-0: 2025/10/24 01:46:08 S2ePollLoop: reply #inputs=0
+2025/10/24 09:46:08 VMs 1, executed 24620, cover 25203, crashes 1, repro 0
+2025/10/24 09:46:11 fuzzer vm-0: 2025/10/24 01:46:11 S2ePollLoop request
+2025/10/24 09:46:11 fuzzer vm-0: 2025/10/24 01:46:11 S2ePollLoop: reply #inputs=0
+2025/10/24 09:46:14 fuzzer vm-0: 2025/10/24 01:46:14 S2ePollLoop request
+2025/10/24 09:46:14 fuzzer vm-0: 2025/10/24 01:46:14 S2ePollLoop: reply #inputs=0
+2025/10/24 09:46:18 VMs 1, executed 25628, cover 25801, crashes 1, repro 0
+2025/10/24 09:46:27 vm-0: crash: lost connection to test machine
+2025/10/24 09:46:28 VMs 0, executed 25628, cover 25801, crashes 1, repro 0
+2025/10/24 09:46:38 VMs 0, executed 25628, cover 25801, crashes 2, repro 0
+2025/10/24 09:46:48 VMs 0, executed 25628, cover 25801, crashes 2, repro 0
+2025/10/24 09:46:58 VMs 0, executed 25628, cover 25801, crashes 2, repro 0
+2025/10/24 09:47:08 VMs 0, executed 25628, cover 25801, crashes 2, repro 0
+2025/10/24 09:47:18 VMs 0, executed 25628, cover 25801, crashes 2, repro 0
+2025/10/24 09:47:28 VMs 0, executed 25628, cover 25801, crashes 2, repro 0
+2025/10/24 09:47:38 VMs 0, executed 25628, cover 25801, crashes 2, repro 0
+2025/10/24 09:47:48 VMs 0, executed 25628, cover 25801, crashes 2, repro 0
+2025/10/24 09:47:58 VMs 0, executed 25628, cover 25801, crashes 2, repro 0
+2025/10/24 09:48:08 VMs 0, executed 25628, cover 25801, crashes 2, repro 0
+2025/10/24 09:48:09 Uptime2:20m1s corpus#:864 corpusCover#:20085
+2025/10/24 09:48:18 VMs 0, executed 25628, cover 25801, crashes 2, repro 0
+2025/10/24 09:48:28 VMs 0, executed 25628, cover 25801, crashes 2, repro 0
+2025/10/24 09:48:30 /syz-fuzzer -executor=/syz-executor -id=0 -name=vm-0 -arch=amd64 -manager=10.0.2.10:34919 -procs=4 -leak=false -cover=true -sandbox=setuid -debug=false -v=0
+2025/10/24 09:48:38 VMs 1, executed 25628, cover 25801, crashes 2, repro 0
+2025/10/24 09:48:48 VMs 1, executed 25628, cover 25801, crashes 2, repro 0
+2025/10/24 09:48:58 VMs 1, executed 25628, cover 25801, crashes 2, repro 0
+2025/10/24 09:49:08 VMs 1, executed 25628, cover 25801, crashes 2, repro 0
+2025/10/24 09:49:18 VMs 1, executed 25628, cover 25801, crashes 2, repro 0
+2025/10/24 09:49:28 VMs 1, executed 25628, cover 25801, crashes 2, repro 0
+2025/10/24 09:49:38 VMs 1, executed 25628, cover 25801, crashes 2, repro 0
+2025/10/24 09:49:48 VMs 1, executed 25628, cover 25801, crashes 2, repro 0
+2025/10/24 09:49:58 VMs 1, executed 25628, cover 25801, crashes 2, repro 0
+2025/10/24 09:50:08 VMs 1, executed 25628, cover 25801, crashes 2, repro 0
+2025/10/24 09:50:18 VMs 1, executed 25628, cover 25801, crashes 2, repro 0
+2025/10/24 09:50:28 VMs 1, executed 25628, cover 25801, crashes 2, repro 0
+2025/10/24 09:50:38 VMs 1, executed 25628, cover 25801, crashes 2, repro 0
+2025/10/24 09:50:48 VMs 1, executed 25628, cover 25801, crashes 2, repro 0
+2025/10/24 09:50:58 VMs 1, executed 25631, cover 25801, crashes 2, repro 0
+2025/10/24 09:51:00 fuzzer vm-0: 2025/10/24 01:51:00 S2ePollLoop request
+2025/10/24 09:51:00 fuzzer vm-0: 2025/10/24 01:51:00 S2ePollLoop: reply #inputs=0
+2025/10/24 09:51:03 fuzzer vm-0: 2025/10/24 01:51:03 S2ePollLoop request
+2025/10/24 09:51:03 fuzzer vm-0: 2025/10/24 01:51:03 S2ePollLoop: reply #inputs=0
+2025/10/24 09:51:06 fuzzer vm-0: 2025/10/24 01:51:06 S2ePollLoop request
+2025/10/24 09:51:06 fuzzer vm-0: 2025/10/24 01:51:06 S2ePollLoop: reply #inputs=0
+2025/10/24 09:51:08 VMs 1, executed 25631, cover 25959, crashes 2, repro 0
+2025/10/24 09:51:09 fuzzer vm-0: 2025/10/24 01:51:09 S2ePollLoop request
+2025/10/24 09:51:09 fuzzer vm-0: 2025/10/24 01:51:09 S2ePollLoop: reply #inputs=0
+2025/10/24 09:51:12 fuzzer vm-0: 2025/10/24 01:51:12 S2ePollLoop request
+2025/10/24 09:51:12 fuzzer vm-0: 2025/10/24 01:51:12 S2ePollLoop: reply #inputs=0
+2025/10/24 09:51:15 fuzzer vm-0: 2025/10/24 01:51:15 S2ePollLoop request
+2025/10/24 09:51:15 fuzzer vm-0: 2025/10/24 01:51:15 S2ePollLoop: reply #inputs=0
+2025/10/24 09:51:18 VMs 1, executed 26522, cover 26229, crashes 2, repro 0
+2025/10/24 09:51:18 fuzzer vm-0: 2025/10/24 01:51:18 S2ePollLoop request
+2025/10/24 09:51:18 fuzzer vm-0: 2025/10/24 01:51:18 S2ePollLoop: reply #inputs=0
+2025/10/24 09:51:21 fuzzer vm-0: 2025/10/24 01:51:21 S2ePollLoop request
+2025/10/24 09:51:21 fuzzer vm-0: 2025/10/24 01:51:21 S2ePollLoop: reply #inputs=0
+2025/10/24 09:51:24 fuzzer vm-0: 2025/10/24 01:51:24 S2ePollLoop request
+2025/10/24 09:51:24 fuzzer vm-0: 2025/10/24 01:51:24 S2ePollLoop: reply #inputs=0
+2025/10/24 09:51:27 fuzzer vm-0: 2025/10/24 01:51:27 S2ePollLoop request
+2025/10/24 09:51:27 fuzzer vm-0: 2025/10/24 01:51:27 S2ePollLoop: reply #inputs=0
+2025/10/24 09:51:28 VMs 1, executed 27486, cover 28161, crashes 2, repro 0
+2025/10/24 09:51:30 fuzzer vm-0: 2025/10/24 01:51:30 S2ePollLoop request
+2025/10/24 09:51:30 fuzzer vm-0: 2025/10/24 01:51:30 S2ePollLoop: reply #inputs=0
+2025/10/24 09:51:33 fuzzer vm-0: 2025/10/24 01:51:33 S2ePollLoop request
+2025/10/24 09:51:33 fuzzer vm-0: 2025/10/24 01:51:33 S2ePollLoop: reply #inputs=0
+2025/10/24 09:51:36 fuzzer vm-0: 2025/10/24 01:51:36 S2ePollLoop request
+2025/10/24 09:51:36 fuzzer vm-0: 2025/10/24 01:51:36 S2ePollLoop: reply #inputs=0
+2025/10/24 09:51:38 VMs 1, executed 27695, cover 28178, crashes 2, repro 0
+2025/10/24 09:51:39 fuzzer vm-0: 2025/10/24 01:51:39 S2ePollLoop request
+2025/10/24 09:51:39 fuzzer vm-0: 2025/10/24 01:51:39 S2ePollLoop: reply #inputs=0
+2025/10/24 09:51:42 fuzzer vm-0: 2025/10/24 01:51:42 S2ePollLoop request
+2025/10/24 09:51:42 fuzzer vm-0: 2025/10/24 01:51:42 S2ePollLoop: reply #inputs=0
+2025/10/24 09:51:45 fuzzer vm-0: 2025/10/24 01:51:45 S2ePollLoop request
+2025/10/24 09:51:45 fuzzer vm-0: 2025/10/24 01:51:45 S2ePollLoop: reply #inputs=0
+2025/10/24 09:51:48 VMs 1, executed 27757, cover 28280, crashes 2, repro 0
+2025/10/24 09:51:48 fuzzer vm-0: 2025/10/24 01:51:48 S2ePollLoop request
+2025/10/24 09:51:48 fuzzer vm-0: 2025/10/24 01:51:48 S2ePollLoop: reply #inputs=0
+2025/10/24 09:51:51 fuzzer vm-0: 2025/10/24 01:51:51 S2ePollLoop request
+2025/10/24 09:51:51 fuzzer vm-0: 2025/10/24 01:51:51 S2ePollLoop: reply #inputs=0
+2025/10/24 09:51:54 fuzzer vm-0: 2025/10/24 01:51:54 S2ePollLoop request
+2025/10/24 09:51:54 fuzzer vm-0: 2025/10/24 01:51:54 S2ePollLoop: reply #inputs=0
+2025/10/24 09:51:57 fuzzer vm-0: 2025/10/24 01:51:57 S2ePollLoop request
+2025/10/24 09:51:57 fuzzer vm-0: 2025/10/24 01:51:57 S2ePollLoop: reply #inputs=0
+2025/10/24 09:51:58 VMs 1, executed 28192, cover 28636, crashes 2, repro 0
+2025/10/24 09:52:00 fuzzer vm-0: 2025/10/24 01:52:00 S2ePollLoop request
+2025/10/24 09:52:00 fuzzer vm-0: 2025/10/24 01:52:00 S2ePollLoop: reply #inputs=0
+2025/10/24 09:52:03 fuzzer vm-0: 2025/10/24 01:52:03 S2ePollLoop request
+2025/10/24 09:52:04 fuzzer vm-0: 2025/10/24 01:52:03 S2ePollLoop: reply #inputs=0
+2025/10/24 09:52:07 fuzzer vm-0: 2025/10/24 01:52:06 S2ePollLoop request
+2025/10/24 09:52:07 fuzzer vm-0: 2025/10/24 01:52:06 S2ePollLoop: reply #inputs=0
+2025/10/24 09:52:08 VMs 1, executed 28192, cover 29478, crashes 2, repro 0
+2025/10/24 09:52:10 fuzzer vm-0: 2025/10/24 01:52:09 S2ePollLoop request
+2025/10/24 09:52:10 fuzzer vm-0: 2025/10/24 01:52:09 S2ePollLoop: reply #inputs=0
+2025/10/24 09:52:13 fuzzer vm-0: 2025/10/24 01:52:12 S2ePollLoop request
+2025/10/24 09:52:13 fuzzer vm-0: 2025/10/24 01:52:12 S2ePollLoop: reply #inputs=0
+2025/10/24 09:52:16 fuzzer vm-0: 2025/10/24 01:52:15 S2ePollLoop request
+2025/10/24 09:52:16 fuzzer vm-0: 2025/10/24 01:52:15 S2ePollLoop: reply #inputs=0
+2025/10/24 09:52:18 VMs 1, executed 28998, cover 30002, crashes 2, repro 0
+2025/10/24 09:52:19 fuzzer vm-0: 2025/10/24 01:52:18 S2ePollLoop request
+2025/10/24 09:52:19 fuzzer vm-0: 2025/10/24 01:52:18 S2ePollLoop: reply #inputs=0
+2025/10/24 09:52:22 fuzzer vm-0: 2025/10/24 01:52:21 S2ePollLoop request
+2025/10/24 09:52:22 fuzzer vm-0: 2025/10/24 01:52:21 S2ePollLoop: reply #inputs=0
+2025/10/24 09:52:25 fuzzer vm-0: 2025/10/24 01:52:25 S2ePollLoop request
+2025/10/24 09:52:25 fuzzer vm-0: 2025/10/24 01:52:25 S2ePollLoop: reply #inputs=0
+2025/10/24 09:52:28 fuzzer vm-0: 2025/10/24 01:52:28 S2ePollLoop request
+2025/10/24 09:52:28 fuzzer vm-0: 2025/10/24 01:52:28 S2ePollLoop: reply #inputs=0
+2025/10/24 09:52:28 VMs 1, executed 30021, cover 30252, crashes 2, repro 0
+2025/10/24 09:52:38 VMs 1, executed 30021, cover 30252, crashes 2, repro 0
+2025/10/24 09:52:38 vm-0: crash: lost connection to test machine
+2025/10/24 09:52:48 VMs 0, executed 30021, cover 30252, crashes 3, repro 0
+2025/10/24 09:52:58 VMs 0, executed 30021, cover 30252, crashes 3, repro 0
+2025/10/24 09:53:08 VMs 0, executed 30021, cover 30252, crashes 3, repro 0
+2025/10/24 09:53:18 VMs 0, executed 30021, cover 30252, crashes 3, repro 0
+2025/10/24 09:53:28 VMs 0, executed 30021, cover 30252, crashes 3, repro 0
+2025/10/24 09:53:38 VMs 0, executed 30021, cover 30252, crashes 3, repro 0
+2025/10/24 09:53:48 VMs 0, executed 30021, cover 30252, crashes 3, repro 0
+2025/10/24 09:53:58 VMs 0, executed 30021, cover 30252, crashes 3, repro 0
+2025/10/24 09:54:08 VMs 0, executed 30021, cover 30252, crashes 3, repro 0
+2025/10/24 09:54:18 VMs 0, executed 30021, cover 30252, crashes 3, repro 0
+2025/10/24 09:54:28 VMs 0, executed 30021, cover 30252, crashes 3, repro 0
+2025/10/24 09:54:38 VMs 0, executed 30021, cover 30252, crashes 3, repro 0
+2025/10/24 09:54:41 /syz-fuzzer -executor=/syz-executor -id=0 -name=vm-0 -arch=amd64 -manager=10.0.2.10:34919 -procs=4 -leak=false -cover=true -sandbox=setuid -debug=false -v=0
+2025/10/24 09:54:48 VMs 1, executed 30021, cover 30252, crashes 3, repro 0
+2025/10/24 09:54:58 VMs 1, executed 30021, cover 30252, crashes 3, repro 0
+2025/10/24 09:55:08 VMs 1, executed 30021, cover 30252, crashes 3, repro 0
+2025/10/24 09:55:18 VMs 1, executed 30021, cover 30252, crashes 3, repro 0
+2025/10/24 09:55:28 VMs 1, executed 30021, cover 30252, crashes 3, repro 0
+2025/10/24 09:55:38 VMs 1, executed 30021, cover 30252, crashes 3, repro 0
+2025/10/24 09:55:48 VMs 1, executed 30021, cover 30252, crashes 3, repro 0
+2025/10/24 09:55:58 VMs 1, executed 30021, cover 30252, crashes 3, repro 0
+2025/10/24 09:56:08 VMs 1, executed 30021, cover 30252, crashes 3, repro 0
+2025/10/24 09:56:18 VMs 1, executed 30021, cover 30252, crashes 3, repro 0
+2025/10/24 09:56:28 VMs 1, executed 30021, cover 30252, crashes 3, repro 0
+2025/10/24 09:56:38 VMs 1, executed 30021, cover 30252, crashes 3, repro 0
+2025/10/24 09:56:48 VMs 1, executed 30021, cover 30252, crashes 3, repro 0
+2025/10/24 09:56:58 VMs 1, executed 30021, cover 30252, crashes 3, repro 0
+2025/10/24 09:57:08 VMs 1, executed 30021, cover 30252, crashes 3, repro 0
+2025/10/24 09:57:11 fuzzer vm-0: 2025/10/24 01:57:11 S2ePollLoop request
+2025/10/24 09:57:11 fuzzer vm-0: 2025/10/24 01:57:11 S2ePollLoop: reply #inputs=0
+2025/10/24 09:57:14 fuzzer vm-0: 2025/10/24 01:57:14 S2ePollLoop request
+2025/10/24 09:57:14 fuzzer vm-0: 2025/10/24 01:57:14 S2ePollLoop: reply #inputs=0
+2025/10/24 09:57:17 fuzzer vm-0: 2025/10/24 01:57:17 S2ePollLoop request
+2025/10/24 09:57:17 fuzzer vm-0: 2025/10/24 01:57:17 S2ePollLoop: reply #inputs=0
+2025/10/24 09:57:18 VMs 1, executed 30027, cover 30290, crashes 3, repro 0
+2025/10/24 09:57:20 fuzzer vm-0: 2025/10/24 01:57:20 S2ePollLoop request
+2025/10/24 09:57:20 fuzzer vm-0: 2025/10/24 01:57:20 S2ePollLoop: reply #inputs=0
+2025/10/24 09:57:23 fuzzer vm-0: 2025/10/24 01:57:23 S2ePollLoop request
+2025/10/24 09:57:23 fuzzer vm-0: 2025/10/24 01:57:23 S2ePollLoop: reply #inputs=0
+2025/10/24 09:57:26 fuzzer vm-0: 2025/10/24 01:57:26 S2ePollLoop request
+2025/10/24 09:57:26 fuzzer vm-0: 2025/10/24 01:57:26 S2ePollLoop: reply #inputs=0
+2025/10/24 09:57:28 VMs 1, executed 30453, cover 30413, crashes 3, repro 0
+2025/10/24 09:57:29 fuzzer vm-0: 2025/10/24 01:57:29 S2ePollLoop request
+2025/10/24 09:57:29 fuzzer vm-0: 2025/10/24 01:57:29 S2ePollLoop: reply #inputs=0
+2025/10/24 09:57:32 fuzzer vm-0: 2025/10/24 01:57:32 S2ePollLoop request
+2025/10/24 09:57:32 fuzzer vm-0: 2025/10/24 01:57:32 S2ePollLoop: reply #inputs=0
+2025/10/24 09:57:35 fuzzer vm-0: 2025/10/24 01:57:35 S2ePollLoop request
+2025/10/24 09:57:35 fuzzer vm-0: 2025/10/24 01:57:35 S2ePollLoop: reply #inputs=0
+2025/10/24 09:57:38 VMs 1, executed 31030, cover 30828, crashes 3, repro 0
+2025/10/24 09:57:38 fuzzer vm-0: 2025/10/24 01:57:38 S2ePollLoop request
+2025/10/24 09:57:38 fuzzer vm-0: 2025/10/24 01:57:38 S2ePollLoop: reply #inputs=0
+2025/10/24 09:57:41 fuzzer vm-0: 2025/10/24 01:57:41 S2ePollLoop request
+2025/10/24 09:57:41 fuzzer vm-0: 2025/10/24 01:57:41 S2ePollLoop: reply #inputs=0
+2025/10/24 09:57:44 fuzzer vm-0: 2025/10/24 01:57:44 S2ePollLoop request
+2025/10/24 09:57:44 fuzzer vm-0: 2025/10/24 01:57:44 S2ePollLoop: reply #inputs=0
+2025/10/24 09:57:47 fuzzer vm-0: 2025/10/24 01:57:47 S2ePollLoop request
+2025/10/24 09:57:47 fuzzer vm-0: 2025/10/24 01:57:47 S2ePollLoop: reply #inputs=0
+2025/10/24 09:57:48 VMs 1, executed 31700, cover 31090, crashes 3, repro 0
+2025/10/24 09:57:50 fuzzer vm-0: 2025/10/24 01:57:50 S2ePollLoop request
+2025/10/24 09:57:50 fuzzer vm-0: 2025/10/24 01:57:50 S2ePollLoop: reply #inputs=0
+2025/10/24 09:57:53 fuzzer vm-0: 2025/10/24 01:57:53 S2ePollLoop request
+2025/10/24 09:57:53 fuzzer vm-0: 2025/10/24 01:57:53 S2ePollLoop: reply #inputs=0
+2025/10/24 09:57:56 fuzzer vm-0: 2025/10/24 01:57:56 S2ePollLoop request
+2025/10/24 09:57:56 fuzzer vm-0: 2025/10/24 01:57:56 S2ePollLoop: reply #inputs=0
+2025/10/24 09:57:58 VMs 1, executed 32309, cover 31427, crashes 3, repro 0
+2025/10/24 09:57:59 fuzzer vm-0: 2025/10/24 01:57:59 S2ePollLoop request
+2025/10/24 09:57:59 fuzzer vm-0: 2025/10/24 01:57:59 S2ePollLoop: reply #inputs=0
+2025/10/24 09:58:02 fuzzer vm-0: 2025/10/24 01:58:02 S2ePollLoop request
+2025/10/24 09:58:02 fuzzer vm-0: 2025/10/24 01:58:02 S2ePollLoop: reply #inputs=0
+2025/10/24 09:58:05 fuzzer vm-0: 2025/10/24 01:58:05 S2ePollLoop request
+2025/10/24 09:58:05 fuzzer vm-0: 2025/10/24 01:58:05 S2ePollLoop: reply #inputs=0
+2025/10/24 09:58:08 VMs 1, executed 32309, cover 31663, crashes 3, repro 0
+2025/10/24 09:58:08 fuzzer vm-0: 2025/10/24 01:58:08 S2ePollLoop request
+2025/10/24 09:58:08 fuzzer vm-0: 2025/10/24 01:58:08 S2ePollLoop: reply #inputs=0
+2025/10/24 09:58:09 Uptime2:30m1s corpus#:1162 corpusCover#:24669
+2025/10/24 09:58:11 fuzzer vm-0: 2025/10/24 01:58:11 S2ePollLoop request
+2025/10/24 09:58:11 fuzzer vm-0: 2025/10/24 01:58:11 S2ePollLoop: reply #inputs=0
+2025/10/24 09:58:14 fuzzer vm-0: 2025/10/24 01:58:14 S2ePollLoop request
+2025/10/24 09:58:14 fuzzer vm-0: 2025/10/24 01:58:14 S2ePollLoop: reply #inputs=0
+2025/10/24 09:58:18 VMs 1, executed 33219, cover 32097, crashes 3, repro 0
+2025/10/24 09:58:28 vm-0: crash: lost connection to test machine
+2025/10/24 09:58:28 VMs 0, executed 33219, cover 32097, crashes 3, repro 0
+2025/10/24 09:58:38 VMs 0, executed 33219, cover 32097, crashes 4, repro 0
+2025/10/24 09:58:48 VMs 0, executed 33219, cover 32097, crashes 4, repro 0
+2025/10/24 09:58:58 VMs 0, executed 33219, cover 32097, crashes 4, repro 0
+2025/10/24 09:59:08 VMs 0, executed 33219, cover 32097, crashes 4, repro 0
+2025/10/24 09:59:18 VMs 0, executed 33219, cover 32097, crashes 4, repro 0
+2025/10/24 09:59:28 VMs 0, executed 33219, cover 32097, crashes 4, repro 0
+2025/10/24 09:59:38 VMs 0, executed 33219, cover 32097, crashes 4, repro 0
+2025/10/24 09:59:48 VMs 0, executed 33219, cover 32097, crashes 4, repro 0
+2025/10/24 09:59:58 VMs 0, executed 33219, cover 32097, crashes 4, repro 0
+2025/10/24 10:00:08 VMs 0, executed 33219, cover 32097, crashes 4, repro 0
+2025/10/24 10:00:18 VMs 0, executed 33219, cover 32097, crashes 4, repro 0
+2025/10/24 10:00:28 VMs 0, executed 33219, cover 32097, crashes 4, repro 0
+2025/10/24 10:00:30 /syz-fuzzer -executor=/syz-executor -id=0 -name=vm-0 -arch=amd64 -manager=10.0.2.10:34919 -procs=4 -leak=false -cover=true -sandbox=setuid -debug=false -v=0
+2025/10/24 10:00:38 VMs 1, executed 33219, cover 32097, crashes 4, repro 0
+2025/10/24 10:00:48 VMs 1, executed 33219, cover 32097, crashes 4, repro 0
+2025/10/24 10:00:58 VMs 1, executed 33219, cover 32097, crashes 4, repro 0
+2025/10/24 10:01:08 VMs 1, executed 33219, cover 32097, crashes 4, repro 0
+2025/10/24 10:01:18 VMs 1, executed 33219, cover 32097, crashes 4, repro 0
+2025/10/24 10:01:28 VMs 1, executed 33219, cover 32097, crashes 4, repro 0
+2025/10/24 10:01:38 VMs 1, executed 33219, cover 32097, crashes 4, repro 0
+2025/10/24 10:01:48 VMs 1, executed 33219, cover 32097, crashes 4, repro 0
+2025/10/24 10:01:58 VMs 1, executed 33219, cover 32097, crashes 4, repro 0
+2025/10/24 10:02:08 VMs 1, executed 33219, cover 32097, crashes 4, repro 0
+2025/10/24 10:02:18 VMs 1, executed 33219, cover 32097, crashes 4, repro 0
+2025/10/24 10:02:28 VMs 1, executed 33219, cover 32097, crashes 4, repro 0
+2025/10/24 10:02:38 VMs 1, executed 33219, cover 32097, crashes 4, repro 0
+2025/10/24 10:02:48 VMs 1, executed 33219, cover 32097, crashes 4, repro 0
+2025/10/24 10:02:58 VMs 1, executed 33219, cover 32097, crashes 4, repro 0
+2025/10/24 10:03:01 fuzzer vm-0: 2025/10/24 02:03:01 S2ePollLoop request
+2025/10/24 10:03:01 fuzzer vm-0: 2025/10/24 02:03:01 S2ePollLoop: reply #inputs=0
+2025/10/24 10:03:08 VMs 1, executed 33222, cover 32103, crashes 4, repro 0
+2025/10/24 10:03:12 vm-0: crash: lost connection to test machine
+2025/10/24 10:03:18 VMs 0, executed 33222, cover 32103, crashes 5, repro 0
+2025/10/24 10:03:28 VMs 0, executed 33222, cover 32103, crashes 5, repro 0
+2025/10/24 10:03:38 VMs 0, executed 33222, cover 32103, crashes 5, repro 0
+2025/10/24 10:03:48 VMs 0, executed 33222, cover 32103, crashes 5, repro 0
+2025/10/24 10:03:58 VMs 0, executed 33222, cover 32103, crashes 5, repro 0
+2025/10/24 10:04:08 VMs 0, executed 33222, cover 32103, crashes 5, repro 0
+2025/10/24 10:04:18 VMs 0, executed 33222, cover 32103, crashes 5, repro 0
+2025/10/24 10:04:28 VMs 0, executed 33222, cover 32103, crashes 5, repro 0
+2025/10/24 10:04:38 VMs 0, executed 33222, cover 32103, crashes 5, repro 0
+2025/10/24 10:04:48 VMs 0, executed 33222, cover 32103, crashes 5, repro 0
+2025/10/24 10:04:58 VMs 0, executed 33222, cover 32103, crashes 5, repro 0
+2025/10/24 10:05:08 VMs 0, executed 33222, cover 32103, crashes 5, repro 0
+2025/10/24 10:05:15 /syz-fuzzer -executor=/syz-executor -id=0 -name=vm-0 -arch=amd64 -manager=10.0.2.10:34919 -procs=4 -leak=false -cover=true -sandbox=setuid -debug=false -v=0
+2025/10/24 10:05:18 VMs 1, executed 33222, cover 32103, crashes 5, repro 0
+2025/10/24 10:05:28 VMs 1, executed 33222, cover 32103, crashes 5, repro 0
+2025/10/24 10:05:38 VMs 1, executed 33222, cover 32103, crashes 5, repro 0
+2025/10/24 10:05:48 VMs 1, executed 33222, cover 32103, crashes 5, repro 0
+2025/10/24 10:05:58 VMs 1, executed 33222, cover 32103, crashes 5, repro 0
+2025/10/24 10:06:08 VMs 1, executed 33222, cover 32103, crashes 5, repro 0
+2025/10/24 10:06:18 VMs 1, executed 33222, cover 32103, crashes 5, repro 0
+2025/10/24 10:06:28 VMs 1, executed 33222, cover 32103, crashes 5, repro 0
+2025/10/24 10:06:38 VMs 1, executed 33222, cover 32103, crashes 5, repro 0
+2025/10/24 10:06:48 VMs 1, executed 33222, cover 32103, crashes 5, repro 0
+2025/10/24 10:06:58 VMs 1, executed 33222, cover 32103, crashes 5, repro 0
+2025/10/24 10:07:08 VMs 1, executed 33222, cover 32103, crashes 5, repro 0
+2025/10/24 10:07:18 VMs 1, executed 33222, cover 32103, crashes 5, repro 0
+2025/10/24 10:07:28 VMs 1, executed 33222, cover 32103, crashes 5, repro 0
+2025/10/24 10:07:38 VMs 1, executed 33222, cover 32103, crashes 5, repro 0
+2025/10/24 10:07:47 fuzzer vm-0: 2025/10/24 02:07:47 S2ePollLoop request
+2025/10/24 10:07:47 fuzzer vm-0: 2025/10/24 02:07:47 S2ePollLoop: reply #inputs=0
+2025/10/24 10:07:48 VMs 1, executed 33225, cover 32161, crashes 5, repro 0
+2025/10/24 10:07:50 fuzzer vm-0: 2025/10/24 02:07:50 S2ePollLoop request
+2025/10/24 10:07:50 fuzzer vm-0: 2025/10/24 02:07:50 S2ePollLoop: reply #inputs=0
+2025/10/24 10:07:53 fuzzer vm-0: 2025/10/24 02:07:53 S2ePollLoop request
+2025/10/24 10:07:53 fuzzer vm-0: 2025/10/24 02:07:53 S2ePollLoop: reply #inputs=0
+2025/10/24 10:07:56 fuzzer vm-0: 2025/10/24 02:07:56 S2ePollLoop request
+2025/10/24 10:07:56 fuzzer vm-0: 2025/10/24 02:07:56 S2ePollLoop: reply #inputs=0
+2025/10/24 10:07:58 VMs 1, executed 34098, cover 32399, crashes 5, repro 0
+2025/10/24 10:07:59 fuzzer vm-0: 2025/10/24 02:07:59 S2ePollLoop request
+2025/10/24 10:07:59 fuzzer vm-0: 2025/10/24 02:07:59 S2ePollLoop: reply #inputs=0
+2025/10/24 10:08:02 fuzzer vm-0: 2025/10/24 02:08:02 S2ePollLoop request
+2025/10/24 10:08:02 fuzzer vm-0: 2025/10/24 02:08:02 S2ePollLoop: reply #inputs=0
+2025/10/24 10:08:05 fuzzer vm-0: 2025/10/24 02:08:05 S2ePollLoop request
+2025/10/24 10:08:05 fuzzer vm-0: 2025/10/24 02:08:05 S2ePollLoop: reply #inputs=0
+2025/10/24 10:08:08 VMs 1, executed 34098, cover 32761, crashes 5, repro 0
+2025/10/24 10:08:08 fuzzer vm-0: 2025/10/24 02:08:08 S2ePollLoop request
+2025/10/24 10:08:08 fuzzer vm-0: 2025/10/24 02:08:08 S2ePollLoop: reply #inputs=0
+2025/10/24 10:08:09 Uptime2:40m1s corpus#:1245 corpusCover#:25472
+2025/10/24 10:08:11 fuzzer vm-0: 2025/10/24 02:08:11 S2ePollLoop request
+2025/10/24 10:08:11 fuzzer vm-0: 2025/10/24 02:08:11 S2ePollLoop: reply #inputs=0
+2025/10/24 10:08:14 fuzzer vm-0: 2025/10/24 02:08:14 S2ePollLoop request
+2025/10/24 10:08:14 fuzzer vm-0: 2025/10/24 02:08:14 S2ePollLoop: reply #inputs=0
+2025/10/24 10:08:17 fuzzer vm-0: 2025/10/24 02:08:17 S2ePollLoop request
+2025/10/24 10:08:17 fuzzer vm-0: 2025/10/24 02:08:17 S2ePollLoop: reply #inputs=0
+2025/10/24 10:08:18 VMs 1, executed 35080, cover 32997, crashes 5, repro 0
+2025/10/24 10:08:20 fuzzer vm-0: 2025/10/24 02:08:20 S2ePollLoop request
+2025/10/24 10:08:20 fuzzer vm-0: 2025/10/24 02:08:20 S2ePollLoop: reply #inputs=0
+2025/10/24 10:08:23 fuzzer vm-0: 2025/10/24 02:08:23 S2ePollLoop request
+2025/10/24 10:08:23 fuzzer vm-0: 2025/10/24 02:08:23 S2ePollLoop: reply #inputs=0
+2025/10/24 10:08:26 fuzzer vm-0: 2025/10/24 02:08:26 S2ePollLoop request
+2025/10/24 10:08:26 fuzzer vm-0: 2025/10/24 02:08:26 S2ePollLoop: reply #inputs=0
+2025/10/24 10:08:28 VMs 1, executed 35990, cover 33368, crashes 5, repro 0
+2025/10/24 10:08:29 fuzzer vm-0: 2025/10/24 02:08:29 S2ePollLoop request
+2025/10/24 10:08:29 fuzzer vm-0: 2025/10/24 02:08:29 S2ePollLoop: reply #inputs=0
+2025/10/24 10:08:32 fuzzer vm-0: 2025/10/24 02:08:32 S2ePollLoop request
+2025/10/24 10:08:32 fuzzer vm-0: 2025/10/24 02:08:32 S2ePollLoop: reply #inputs=0
+2025/10/24 10:08:35 fuzzer vm-0: 2025/10/24 02:08:35 S2ePollLoop request
+2025/10/24 10:08:35 fuzzer vm-0: 2025/10/24 02:08:35 S2ePollLoop: reply #inputs=0
+2025/10/24 10:08:38 VMs 1, executed 36872, cover 33539, crashes 5, repro 0
+2025/10/24 10:08:38 fuzzer vm-0: 2025/10/24 02:08:38 S2ePollLoop request
+2025/10/24 10:08:38 fuzzer vm-0: 2025/10/24 02:08:38 S2ePollLoop: reply #inputs=0
+2025/10/24 10:08:41 fuzzer vm-0: 2025/10/24 02:08:41 S2ePollLoop request
+2025/10/24 10:08:41 fuzzer vm-0: 2025/10/24 02:08:41 S2ePollLoop: reply #inputs=0
+2025/10/24 10:08:44 fuzzer vm-0: 2025/10/24 02:08:44 S2ePollLoop request
+2025/10/24 10:08:44 fuzzer vm-0: 2025/10/24 02:08:44 S2ePollLoop: reply #inputs=0
+2025/10/24 10:08:47 fuzzer vm-0: 2025/10/24 02:08:47 S2ePollLoop request
+2025/10/24 10:08:47 fuzzer vm-0: 2025/10/24 02:08:47 S2ePollLoop: reply #inputs=0
+2025/10/24 10:08:48 VMs 1, executed 37000, cover 33658, crashes 5, repro 0
+2025/10/24 10:08:50 fuzzer vm-0: 2025/10/24 02:08:50 S2ePollLoop request
+2025/10/24 10:08:50 fuzzer vm-0: 2025/10/24 02:08:50 S2ePollLoop: reply #inputs=0
+2025/10/24 10:08:53 fuzzer vm-0: 2025/10/24 02:08:53 S2ePollLoop request
+2025/10/24 10:08:53 fuzzer vm-0: 2025/10/24 02:08:53 S2ePollLoop: reply #inputs=0
+2025/10/24 10:08:56 fuzzer vm-0: 2025/10/24 02:08:56 S2ePollLoop request
+2025/10/24 10:08:56 fuzzer vm-0: 2025/10/24 02:08:56 S2ePollLoop: reply #inputs=0
+2025/10/24 10:08:58 VMs 1, executed 38033, cover 34052, crashes 5, repro 0
+2025/10/24 10:08:59 fuzzer vm-0: 2025/10/24 02:08:59 S2ePollLoop request
+2025/10/24 10:08:59 fuzzer vm-0: 2025/10/24 02:08:59 S2ePollLoop: reply #inputs=0
+2025/10/24 10:09:02 fuzzer vm-0: 2025/10/24 02:09:02 S2ePollLoop request
+2025/10/24 10:09:02 fuzzer vm-0: 2025/10/24 02:09:02 S2ePollLoop: reply #inputs=0
+2025/10/24 10:09:05 fuzzer vm-0: 2025/10/24 02:09:05 S2ePollLoop request
+2025/10/24 10:09:05 fuzzer vm-0: 2025/10/24 02:09:05 S2ePollLoop: reply #inputs=0
+2025/10/24 10:09:08 VMs 1, executed 38033, cover 34426, crashes 5, repro 0
+2025/10/24 10:09:08 fuzzer vm-0: 2025/10/24 02:09:08 S2ePollLoop request
+2025/10/24 10:09:08 fuzzer vm-0: 2025/10/24 02:09:08 S2ePollLoop: reply #inputs=0
+2025/10/24 10:09:11 fuzzer vm-0: 2025/10/24 02:09:11 S2ePollLoop request
+2025/10/24 10:09:11 fuzzer vm-0: 2025/10/24 02:09:11 S2ePollLoop: reply #inputs=0
+2025/10/24 10:09:14 fuzzer vm-0: 2025/10/24 02:09:14 S2ePollLoop request
+2025/10/24 10:09:14 fuzzer vm-0: 2025/10/24 02:09:14 S2ePollLoop: reply #inputs=0
+2025/10/24 10:09:17 fuzzer vm-0: 2025/10/24 02:09:17 S2ePollLoop request
+2025/10/24 10:09:17 fuzzer vm-0: 2025/10/24 02:09:17 S2ePollLoop: reply #inputs=0
+2025/10/24 10:09:18 VMs 1, executed 39104, cover 34625, crashes 5, repro 0
+2025/10/24 10:09:20 fuzzer vm-0: 2025/10/24 02:09:20 S2ePollLoop request
+2025/10/24 10:09:20 fuzzer vm-0: 2025/10/24 02:09:20 S2ePollLoop: reply #inputs=0
+2025/10/24 10:09:23 fuzzer vm-0: 2025/10/24 02:09:23 S2ePollLoop request
+2025/10/24 10:09:23 fuzzer vm-0: 2025/10/24 02:09:23 S2ePollLoop: reply #inputs=0
+2025/10/24 10:09:26 fuzzer vm-0: 2025/10/24 02:09:26 S2ePollLoop request
+2025/10/24 10:09:26 fuzzer vm-0: 2025/10/24 02:09:26 S2ePollLoop: reply #inputs=0
+2025/10/24 10:09:28 VMs 1, executed 40034, cover 35648, crashes 5, repro 0
+2025/10/24 10:09:29 fuzzer vm-0: 2025/10/24 02:09:29 S2ePollLoop request
+2025/10/24 10:09:29 fuzzer vm-0: 2025/10/24 02:09:29 S2ePollLoop: reply #inputs=0
+2025/10/24 10:09:32 fuzzer vm-0: 2025/10/24 02:09:32 S2ePollLoop request
+2025/10/24 10:09:32 fuzzer vm-0: 2025/10/24 02:09:32 S2ePollLoop: reply #inputs=0
+2025/10/24 10:09:35 fuzzer vm-0: 2025/10/24 02:09:35 S2ePollLoop request
+2025/10/24 10:09:35 fuzzer vm-0: 2025/10/24 02:09:35 S2ePollLoop: reply #inputs=0
+2025/10/24 10:09:38 VMs 1, executed 40584, cover 35654, crashes 5, repro 0
+2025/10/24 10:09:38 fuzzer vm-0: 2025/10/24 02:09:38 S2ePollLoop request
+2025/10/24 10:09:38 fuzzer vm-0: 2025/10/24 02:09:38 S2ePollLoop: reply #inputs=0
+2025/10/24 10:09:41 fuzzer vm-0: 2025/10/24 02:09:41 S2ePollLoop request
+2025/10/24 10:09:41 fuzzer vm-0: 2025/10/24 02:09:41 S2ePollLoop: reply #inputs=0
+2025/10/24 10:09:44 fuzzer vm-0: 2025/10/24 02:09:44 S2ePollLoop request
+2025/10/24 10:09:44 fuzzer vm-0: 2025/10/24 02:09:44 S2ePollLoop: reply #inputs=0
+2025/10/24 10:09:47 fuzzer vm-0: 2025/10/24 02:09:47 S2ePollLoop request
+2025/10/24 10:09:47 fuzzer vm-0: 2025/10/24 02:09:47 S2ePollLoop: reply #inputs=0
+2025/10/24 10:09:48 VMs 1, executed 40653, cover 35683, crashes 5, repro 0
+2025/10/24 10:09:50 fuzzer vm-0: 2025/10/24 02:09:50 S2ePollLoop request
+2025/10/24 10:09:50 fuzzer vm-0: 2025/10/24 02:09:50 S2ePollLoop: reply #inputs=0
+2025/10/24 10:09:53 fuzzer vm-0: 2025/10/24 02:09:53 S2ePollLoop request
+2025/10/24 10:09:53 fuzzer vm-0: 2025/10/24 02:09:53 S2ePollLoop: reply #inputs=0
+2025/10/24 10:09:56 fuzzer vm-0: 2025/10/24 02:09:56 S2ePollLoop request
+2025/10/24 10:09:56 fuzzer vm-0: 2025/10/24 02:09:56 S2ePollLoop: reply #inputs=0
+2025/10/24 10:09:58 VMs 1, executed 41414, cover 35753, crashes 5, repro 0
+2025/10/24 10:09:59 fuzzer vm-0: 2025/10/24 02:09:59 S2ePollLoop request
+2025/10/24 10:09:59 fuzzer vm-0: 2025/10/24 02:09:59 S2ePollLoop: reply #inputs=0
+2025/10/24 10:10:02 fuzzer vm-0: 2025/10/24 02:10:02 S2ePollLoop request
+2025/10/24 10:10:02 fuzzer vm-0: 2025/10/24 02:10:02 S2ePollLoop: reply #inputs=0
+2025/10/24 10:10:05 fuzzer vm-0: 2025/10/24 02:10:05 S2ePollLoop request
+2025/10/24 10:10:05 fuzzer vm-0: 2025/10/24 02:10:05 S2ePollLoop: reply #inputs=0
+2025/10/24 10:10:08 VMs 1, executed 41414, cover 35859, crashes 5, repro 0
+2025/10/24 10:10:08 fuzzer vm-0: 2025/10/24 02:10:08 S2ePollLoop request
+2025/10/24 10:10:08 fuzzer vm-0: 2025/10/24 02:10:08 S2ePollLoop: reply #inputs=0
+2025/10/24 10:10:11 fuzzer vm-0: 2025/10/24 02:10:11 S2ePollLoop request
+2025/10/24 10:10:11 fuzzer vm-0: 2025/10/24 02:10:11 S2ePollLoop: reply #inputs=0
+2025/10/24 10:10:14 fuzzer vm-0: 2025/10/24 02:10:14 S2ePollLoop request
+2025/10/24 10:10:14 fuzzer vm-0: 2025/10/24 02:10:14 S2ePollLoop: reply #inputs=0
+2025/10/24 10:10:17 fuzzer vm-0: 2025/10/24 02:10:17 S2ePollLoop request
+2025/10/24 10:10:17 fuzzer vm-0: 2025/10/24 02:10:17 S2ePollLoop: reply #inputs=0
+2025/10/24 10:10:18 VMs 1, executed 42273, cover 36169, crashes 5, repro 0
+2025/10/24 10:10:20 fuzzer vm-0: 2025/10/24 02:10:20 S2ePollLoop request
+2025/10/24 10:10:20 fuzzer vm-0: 2025/10/24 02:10:20 S2ePollLoop: reply #inputs=0
+2025/10/24 10:10:23 fuzzer vm-0: 2025/10/24 02:10:23 S2ePollLoop request
+2025/10/24 10:10:23 fuzzer vm-0: 2025/10/24 02:10:23 S2ePollLoop: reply #inputs=0
+2025/10/24 10:10:26 fuzzer vm-0: 2025/10/24 02:10:26 S2ePollLoop request
+2025/10/24 10:10:26 fuzzer vm-0: 2025/10/24 02:10:26 S2ePollLoop: reply #inputs=0
+2025/10/24 10:10:28 VMs 1, executed 43306, cover 36278, crashes 5, repro 0
+2025/10/24 10:10:29 fuzzer vm-0: 2025/10/24 02:10:29 S2ePollLoop request
+2025/10/24 10:10:29 fuzzer vm-0: 2025/10/24 02:10:29 S2ePollLoop: reply #inputs=0
+2025/10/24 10:10:32 fuzzer vm-0: 2025/10/24 02:10:32 S2ePollLoop request
+2025/10/24 10:10:32 fuzzer vm-0: 2025/10/24 02:10:32 S2ePollLoop: reply #inputs=0
+2025/10/24 10:10:35 fuzzer vm-0: 2025/10/24 02:10:35 S2ePollLoop request
+2025/10/24 10:10:35 fuzzer vm-0: 2025/10/24 02:10:35 S2ePollLoop: reply #inputs=0
+2025/10/24 10:10:38 VMs 1, executed 44370, cover 36579, crashes 5, repro 0
+2025/10/24 10:10:38 fuzzer vm-0: 2025/10/24 02:10:38 S2ePollLoop request
+2025/10/24 10:10:38 fuzzer vm-0: 2025/10/24 02:10:38 S2ePollLoop: reply #inputs=0
+2025/10/24 10:10:41 fuzzer vm-0: 2025/10/24 02:10:41 S2ePollLoop request
+2025/10/24 10:10:41 fuzzer vm-0: 2025/10/24 02:10:41 S2ePollLoop: reply #inputs=0
+2025/10/24 10:10:44 fuzzer vm-0: 2025/10/24 02:10:44 S2ePollLoop request
+2025/10/24 10:10:44 fuzzer vm-0: 2025/10/24 02:10:44 S2ePollLoop: reply #inputs=0
+2025/10/24 10:10:47 fuzzer vm-0: 2025/10/24 02:10:47 S2ePollLoop request
+2025/10/24 10:10:47 fuzzer vm-0: 2025/10/24 02:10:47 S2ePollLoop: reply #inputs=0
+2025/10/24 10:10:48 VMs 1, executed 45538, cover 36776, crashes 5, repro 0
+2025/10/24 10:10:51 fuzzer vm-0: 2025/10/24 02:10:50 S2ePollLoop request
+2025/10/24 10:10:51 fuzzer vm-0: 2025/10/24 02:10:50 S2ePollLoop: reply #inputs=0
+2025/10/24 10:10:54 fuzzer vm-0: 2025/10/24 02:10:53 S2ePollLoop request
+2025/10/24 10:10:54 fuzzer vm-0: 2025/10/24 02:10:53 S2ePollLoop: reply #inputs=0
+2025/10/24 10:10:57 fuzzer vm-0: 2025/10/24 02:10:56 S2ePollLoop request
+2025/10/24 10:10:57 fuzzer vm-0: 2025/10/24 02:10:56 S2ePollLoop: reply #inputs=0
+2025/10/24 10:10:58 VMs 1, executed 45858, cover 36782, crashes 5, repro 0
+2025/10/24 10:11:00 fuzzer vm-0: 2025/10/24 02:10:59 S2ePollLoop request
+2025/10/24 10:11:00 fuzzer vm-0: 2025/10/24 02:11:00 S2ePollLoop: reply #inputs=0
+2025/10/24 10:11:03 fuzzer vm-0: 2025/10/24 02:11:03 S2ePollLoop request
+2025/10/24 10:11:03 fuzzer vm-0: 2025/10/24 02:11:03 S2ePollLoop: reply #inputs=0
+2025/10/24 10:11:06 fuzzer vm-0: 2025/10/24 02:11:06 S2ePollLoop request
+2025/10/24 10:11:06 fuzzer vm-0: 2025/10/24 02:11:06 S2ePollLoop: reply #inputs=0
+2025/10/24 10:11:08 VMs 1, executed 45858, cover 36782, crashes 5, repro 0
+2025/10/24 10:11:09 fuzzer vm-0: 2025/10/24 02:11:09 S2ePollLoop request
+2025/10/24 10:11:09 fuzzer vm-0: 2025/10/24 02:11:09 S2ePollLoop: reply #inputs=0
+2025/10/24 10:11:12 fuzzer vm-0: 2025/10/24 02:11:12 S2ePollLoop request
+2025/10/24 10:11:12 fuzzer vm-0: 2025/10/24 02:11:12 S2ePollLoop: reply #inputs=0
+2025/10/24 10:11:15 fuzzer vm-0: 2025/10/24 02:11:15 S2ePollLoop request
+2025/10/24 10:11:15 fuzzer vm-0: 2025/10/24 02:11:15 S2ePollLoop: reply #inputs=0
+2025/10/24 10:11:18 fuzzer vm-0: 2025/10/24 02:11:18 S2ePollLoop request
+2025/10/24 10:11:18 fuzzer vm-0: 2025/10/24 02:11:18 S2ePollLoop: reply #inputs=0
+2025/10/24 10:11:18 VMs 1, executed 46044, cover 36791, crashes 5, repro 0
+2025/10/24 10:11:21 fuzzer vm-0: 2025/10/24 02:11:21 S2ePollLoop request
+2025/10/24 10:11:21 fuzzer vm-0: 2025/10/24 02:11:21 S2ePollLoop: reply #inputs=0
+2025/10/24 10:11:24 fuzzer vm-0: 2025/10/24 02:11:24 S2ePollLoop request
+2025/10/24 10:11:24 fuzzer vm-0: 2025/10/24 02:11:24 S2ePollLoop: reply #inputs=0
+2025/10/24 10:11:27 fuzzer vm-0: 2025/10/24 02:11:27 S2ePollLoop request
+2025/10/24 10:11:27 fuzzer vm-0: 2025/10/24 02:11:27 S2ePollLoop: reply #inputs=0
+2025/10/24 10:11:28 VMs 1, executed 46361, cover 36808, crashes 5, repro 0
+2025/10/24 10:11:30 fuzzer vm-0: 2025/10/24 02:11:30 S2ePollLoop request
+2025/10/24 10:11:30 fuzzer vm-0: 2025/10/24 02:11:30 S2ePollLoop: reply #inputs=0
+2025/10/24 10:11:33 fuzzer vm-0: 2025/10/24 02:11:33 S2ePollLoop request
+2025/10/24 10:11:33 fuzzer vm-0: 2025/10/24 02:11:33 S2ePollLoop: reply #inputs=0
+2025/10/24 10:11:36 fuzzer vm-0: 2025/10/24 02:11:36 S2ePollLoop request
+2025/10/24 10:11:36 fuzzer vm-0: 2025/10/24 02:11:36 S2ePollLoop: reply #inputs=0
+2025/10/24 10:11:38 VMs 1, executed 46683, cover 36876, crashes 5, repro 0
+2025/10/24 10:11:39 fuzzer vm-0: 2025/10/24 02:11:39 S2ePollLoop request
+2025/10/24 10:11:39 fuzzer vm-0: 2025/10/24 02:11:39 S2ePollLoop: reply #inputs=0
+2025/10/24 10:11:42 fuzzer vm-0: 2025/10/24 02:11:42 S2ePollLoop request
+2025/10/24 10:11:42 fuzzer vm-0: 2025/10/24 02:11:42 S2ePollLoop: reply #inputs=0
+2025/10/24 10:11:45 fuzzer vm-0: 2025/10/24 02:11:45 S2ePollLoop request
+2025/10/24 10:11:45 fuzzer vm-0: 2025/10/24 02:11:45 S2ePollLoop: reply #inputs=0
+2025/10/24 10:11:48 fuzzer vm-0: 2025/10/24 02:11:48 S2ePollLoop request
+2025/10/24 10:11:48 fuzzer vm-0: 2025/10/24 02:11:48 S2ePollLoop: reply #inputs=0
+2025/10/24 10:11:48 VMs 1, executed 47316, cover 36945, crashes 5, repro 0
+2025/10/24 10:11:51 fuzzer vm-0: 2025/10/24 02:11:51 S2ePollLoop request
+2025/10/24 10:11:51 fuzzer vm-0: 2025/10/24 02:11:51 S2ePollLoop: reply #inputs=0
+2025/10/24 10:11:54 fuzzer vm-0: 2025/10/24 02:11:54 S2ePollLoop request
+2025/10/24 10:11:54 fuzzer vm-0: 2025/10/24 02:11:54 S2ePollLoop: reply #inputs=0
+2025/10/24 10:11:57 fuzzer vm-0: 2025/10/24 02:11:57 S2ePollLoop request
+2025/10/24 10:11:57 fuzzer vm-0: 2025/10/24 02:11:57 S2ePollLoop: reply #inputs=0
+2025/10/24 10:11:58 VMs 1, executed 48429, cover 37318, crashes 5, repro 0
+2025/10/24 10:12:00 fuzzer vm-0: 2025/10/24 02:12:00 S2ePollLoop request
+2025/10/24 10:12:00 fuzzer vm-0: 2025/10/24 02:12:00 S2ePollLoop: reply #inputs=0
+2025/10/24 10:12:03 fuzzer vm-0: 2025/10/24 02:12:03 S2ePollLoop request
+2025/10/24 10:12:03 fuzzer vm-0: 2025/10/24 02:12:03 S2ePollLoop: reply #inputs=0
+2025/10/24 10:12:06 fuzzer vm-0: 2025/10/24 02:12:06 S2ePollLoop request
+2025/10/24 10:12:06 fuzzer vm-0: 2025/10/24 02:12:06 S2ePollLoop: reply #inputs=0
+2025/10/24 10:12:08 VMs 1, executed 48429, cover 37562, crashes 5, repro 0
+2025/10/24 10:12:09 fuzzer vm-0: 2025/10/24 02:12:09 S2ePollLoop request
+2025/10/24 10:12:09 fuzzer vm-0: 2025/10/24 02:12:09 S2ePollLoop: reply #inputs=0
+2025/10/24 10:12:12 fuzzer vm-0: 2025/10/24 02:12:12 S2ePollLoop request
+2025/10/24 10:12:12 fuzzer vm-0: 2025/10/24 02:12:12 S2ePollLoop: reply #inputs=0
+2025/10/24 10:12:15 fuzzer vm-0: 2025/10/24 02:12:15 S2ePollLoop request
+2025/10/24 10:12:15 fuzzer vm-0: 2025/10/24 02:12:15 S2ePollLoop: reply #inputs=0
+2025/10/24 10:12:18 fuzzer vm-0: 2025/10/24 02:12:18 S2ePollLoop request
+2025/10/24 10:12:18 fuzzer vm-0: 2025/10/24 02:12:18 S2ePollLoop: reply #inputs=0
+2025/10/24 10:12:18 VMs 1, executed 49382, cover 37847, crashes 5, repro 0
+2025/10/24 10:12:21 fuzzer vm-0: 2025/10/24 02:12:21 S2ePollLoop request
+2025/10/24 10:12:21 fuzzer vm-0: 2025/10/24 02:12:21 S2ePollLoop: reply #inputs=0
+2025/10/24 10:12:24 fuzzer vm-0: 2025/10/24 02:12:24 S2ePollLoop request
+2025/10/24 10:12:24 fuzzer vm-0: 2025/10/24 02:12:24 S2ePollLoop: reply #inputs=0
+2025/10/24 10:12:27 fuzzer vm-0: 2025/10/24 02:12:27 S2ePollLoop request
+2025/10/24 10:12:27 fuzzer vm-0: 2025/10/24 02:12:27 S2ePollLoop: reply #inputs=0
+2025/10/24 10:12:28 VMs 1, executed 50284, cover 38162, crashes 5, repro 0
+2025/10/24 10:12:30 fuzzer vm-0: 2025/10/24 02:12:30 S2ePollLoop request
+2025/10/24 10:12:30 fuzzer vm-0: 2025/10/24 02:12:30 S2ePollLoop: reply #inputs=0
+2025/10/24 10:12:33 fuzzer vm-0: 2025/10/24 02:12:33 S2ePollLoop request
+2025/10/24 10:12:33 fuzzer vm-0: 2025/10/24 02:12:33 S2ePollLoop: reply #inputs=0
+2025/10/24 10:12:36 fuzzer vm-0: 2025/10/24 02:12:36 S2ePollLoop request
+2025/10/24 10:12:36 fuzzer vm-0: 2025/10/24 02:12:36 S2ePollLoop: reply #inputs=0
+2025/10/24 10:12:38 VMs 1, executed 51320, cover 38838, crashes 5, repro 0
+2025/10/24 10:12:39 fuzzer vm-0: 2025/10/24 02:12:39 S2ePollLoop request
+2025/10/24 10:12:39 fuzzer vm-0: 2025/10/24 02:12:39 S2ePollLoop: reply #inputs=0
+2025/10/24 10:12:42 fuzzer vm-0: 2025/10/24 02:12:42 S2ePollLoop request
+2025/10/24 10:12:42 fuzzer vm-0: 2025/10/24 02:12:42 S2ePollLoop: reply #inputs=0
+2025/10/24 10:12:45 fuzzer vm-0: 2025/10/24 02:12:45 S2ePollLoop request
+2025/10/24 10:12:45 fuzzer vm-0: 2025/10/24 02:12:45 S2ePollLoop: reply #inputs=0
+2025/10/24 10:12:48 fuzzer vm-0: 2025/10/24 02:12:48 S2ePollLoop request
+2025/10/24 10:12:48 fuzzer vm-0: 2025/10/24 02:12:48 S2ePollLoop: reply #inputs=0
+2025/10/24 10:12:48 VMs 1, executed 52484, cover 38980, crashes 5, repro 0
+2025/10/24 10:12:51 fuzzer vm-0: 2025/10/24 02:12:51 S2ePollLoop request
+2025/10/24 10:12:51 fuzzer vm-0: 2025/10/24 02:12:51 S2ePollLoop: reply #inputs=0
+2025/10/24 10:12:54 fuzzer vm-0: 2025/10/24 02:12:54 S2ePollLoop request
+2025/10/24 10:12:54 fuzzer vm-0: 2025/10/24 02:12:54 S2ePollLoop: reply #inputs=0
+2025/10/24 10:12:57 fuzzer vm-0: 2025/10/24 02:12:57 S2ePollLoop request
+2025/10/24 10:12:57 fuzzer vm-0: 2025/10/24 02:12:57 S2ePollLoop: reply #inputs=0
+2025/10/24 10:12:58 VMs 1, executed 53610, cover 39188, crashes 5, repro 0
+2025/10/24 10:13:00 fuzzer vm-0: 2025/10/24 02:13:00 S2ePollLoop request
+2025/10/24 10:13:00 fuzzer vm-0: 2025/10/24 02:13:00 S2ePollLoop: reply #inputs=0
+2025/10/24 10:13:03 fuzzer vm-0: 2025/10/24 02:13:03 S2ePollLoop request
+2025/10/24 10:13:03 fuzzer vm-0: 2025/10/24 02:13:03 S2ePollLoop: reply #inputs=0
+2025/10/24 10:13:06 fuzzer vm-0: 2025/10/24 02:13:06 S2ePollLoop request
+2025/10/24 10:13:06 fuzzer vm-0: 2025/10/24 02:13:06 S2ePollLoop: reply #inputs=0
+2025/10/24 10:13:08 VMs 1, executed 53610, cover 39309, crashes 5, repro 0
+2025/10/24 10:13:09 fuzzer vm-0: 2025/10/24 02:13:09 S2ePollLoop request
+2025/10/24 10:13:09 fuzzer vm-0: 2025/10/24 02:13:09 S2ePollLoop: reply #inputs=0
+2025/10/24 10:13:12 fuzzer vm-0: 2025/10/24 02:13:12 S2ePollLoop request
+2025/10/24 10:13:12 fuzzer vm-0: 2025/10/24 02:13:12 S2ePollLoop: reply #inputs=0
+2025/10/24 10:13:15 fuzzer vm-0: 2025/10/24 02:13:15 S2ePollLoop request
+2025/10/24 10:13:15 fuzzer vm-0: 2025/10/24 02:13:15 S2ePollLoop: reply #inputs=0
+2025/10/24 10:13:18 fuzzer vm-0: 2025/10/24 02:13:18 S2ePollLoop request
+2025/10/24 10:13:18 fuzzer vm-0: 2025/10/24 02:13:18 S2ePollLoop: reply #inputs=0
+2025/10/24 10:13:18 VMs 1, executed 54611, cover 39428, crashes 5, repro 0
+2025/10/24 10:13:21 fuzzer vm-0: 2025/10/24 02:13:21 S2ePollLoop request
+2025/10/24 10:13:21 fuzzer vm-0: 2025/10/24 02:13:21 S2ePollLoop: reply #inputs=0
+2025/10/24 10:13:24 fuzzer vm-0: 2025/10/24 02:13:24 S2ePollLoop request
+2025/10/24 10:13:24 fuzzer vm-0: 2025/10/24 02:13:24 S2ePollLoop: reply #inputs=0
+2025/10/24 10:13:27 fuzzer vm-0: 2025/10/24 02:13:27 S2ePollLoop request
+2025/10/24 10:13:27 fuzzer vm-0: 2025/10/24 02:13:27 S2ePollLoop: reply #inputs=0
+2025/10/24 10:13:28 VMs 1, executed 55622, cover 40666, crashes 5, repro 0
+2025/10/24 10:13:30 fuzzer vm-0: 2025/10/24 02:13:30 S2ePollLoop request
+2025/10/24 10:13:30 fuzzer vm-0: 2025/10/24 02:13:30 S2ePollLoop: reply #inputs=0
+2025/10/24 10:13:33 fuzzer vm-0: 2025/10/24 02:13:33 S2ePollLoop request
+2025/10/24 10:13:33 fuzzer vm-0: 2025/10/24 02:13:33 S2ePollLoop: reply #inputs=0
+2025/10/24 10:13:36 fuzzer vm-0: 2025/10/24 02:13:36 S2ePollLoop request
+2025/10/24 10:13:36 fuzzer vm-0: 2025/10/24 02:13:36 S2ePollLoop: reply #inputs=0
+2025/10/24 10:13:38 VMs 1, executed 56602, cover 40791, crashes 5, repro 0
+2025/10/24 10:13:39 fuzzer vm-0: 2025/10/24 02:13:39 S2ePollLoop request
+2025/10/24 10:13:39 fuzzer vm-0: 2025/10/24 02:13:39 S2ePollLoop: reply #inputs=0
+2025/10/24 10:13:42 fuzzer vm-0: 2025/10/24 02:13:42 S2ePollLoop request
+2025/10/24 10:13:42 fuzzer vm-0: 2025/10/24 02:13:42 S2ePollLoop: reply #inputs=0
+2025/10/24 10:13:45 fuzzer vm-0: 2025/10/24 02:13:45 S2ePollLoop request
+2025/10/24 10:13:45 fuzzer vm-0: 2025/10/24 02:13:45 S2ePollLoop: reply #inputs=0
+2025/10/24 10:13:48 fuzzer vm-0: 2025/10/24 02:13:48 S2ePollLoop request
+2025/10/24 10:13:48 fuzzer vm-0: 2025/10/24 02:13:48 S2ePollLoop: reply #inputs=0
+2025/10/24 10:13:48 VMs 1, executed 57574, cover 41242, crashes 5, repro 0
+2025/10/24 10:13:51 fuzzer vm-0: 2025/10/24 02:13:51 S2ePollLoop request
+2025/10/24 10:13:51 fuzzer vm-0: 2025/10/24 02:13:51 S2ePollLoop: reply #inputs=0
+2025/10/24 10:13:54 fuzzer vm-0: 2025/10/24 02:13:54 S2ePollLoop request
+2025/10/24 10:13:54 fuzzer vm-0: 2025/10/24 02:13:54 S2ePollLoop: reply #inputs=0
+2025/10/24 10:13:57 fuzzer vm-0: 2025/10/24 02:13:57 S2ePollLoop request
+2025/10/24 10:13:57 fuzzer vm-0: 2025/10/24 02:13:57 S2ePollLoop: reply #inputs=0
+2025/10/24 10:13:58 VMs 1, executed 58626, cover 41516, crashes 5, repro 0
+2025/10/24 10:14:00 fuzzer vm-0: 2025/10/24 02:14:00 S2ePollLoop request
+2025/10/24 10:14:00 fuzzer vm-0: 2025/10/24 02:14:00 S2ePollLoop: reply #inputs=0
+2025/10/24 10:14:03 fuzzer vm-0: 2025/10/24 02:14:03 S2ePollLoop request
+2025/10/24 10:14:03 fuzzer vm-0: 2025/10/24 02:14:03 S2ePollLoop: reply #inputs=0
+2025/10/24 10:14:06 fuzzer vm-0: 2025/10/24 02:14:06 S2ePollLoop request
+2025/10/24 10:14:06 fuzzer vm-0: 2025/10/24 02:14:06 S2ePollLoop: reply #inputs=0
+2025/10/24 10:14:08 VMs 1, executed 58626, cover 41806, crashes 5, repro 0
+2025/10/24 10:14:09 fuzzer vm-0: 2025/10/24 02:14:09 S2ePollLoop request
+2025/10/24 10:14:09 fuzzer vm-0: 2025/10/24 02:14:09 S2ePollLoop: reply #inputs=0
+2025/10/24 10:14:12 fuzzer vm-0: 2025/10/24 02:14:12 S2ePollLoop request
+2025/10/24 10:14:12 fuzzer vm-0: 2025/10/24 02:14:12 S2ePollLoop: reply #inputs=0
+2025/10/24 10:14:15 fuzzer vm-0: 2025/10/24 02:14:15 S2ePollLoop request
+2025/10/24 10:14:15 fuzzer vm-0: 2025/10/24 02:14:15 S2ePollLoop: reply #inputs=0
+2025/10/24 10:14:18 fuzzer vm-0: 2025/10/24 02:14:18 S2ePollLoop request
+2025/10/24 10:14:18 fuzzer vm-0: 2025/10/24 02:14:18 S2ePollLoop: reply #inputs=0
+2025/10/24 10:14:18 VMs 1, executed 59774, cover 42057, crashes 5, repro 0
+2025/10/24 10:14:21 fuzzer vm-0: 2025/10/24 02:14:21 S2ePollLoop request
+2025/10/24 10:14:21 fuzzer vm-0: 2025/10/24 02:14:21 S2ePollLoop: reply #inputs=0
+2025/10/24 10:14:24 fuzzer vm-0: 2025/10/24 02:14:24 S2ePollLoop request
+2025/10/24 10:14:24 fuzzer vm-0: 2025/10/24 02:14:24 S2ePollLoop: reply #inputs=0
+2025/10/24 10:14:27 fuzzer vm-0: 2025/10/24 02:14:27 S2ePollLoop request
+2025/10/24 10:14:27 fuzzer vm-0: 2025/10/24 02:14:27 S2ePollLoop: reply #inputs=0
+2025/10/24 10:14:28 VMs 1, executed 60757, cover 42395, crashes 5, repro 0
+2025/10/24 10:14:30 fuzzer vm-0: 2025/10/24 02:14:30 S2ePollLoop request
+2025/10/24 10:14:30 fuzzer vm-0: 2025/10/24 02:14:30 S2ePollLoop: reply #inputs=0
+2025/10/24 10:14:33 fuzzer vm-0: 2025/10/24 02:14:33 S2ePollLoop request
+2025/10/24 10:14:33 fuzzer vm-0: 2025/10/24 02:14:33 S2ePollLoop: reply #inputs=0
+2025/10/24 10:14:36 fuzzer vm-0: 2025/10/24 02:14:36 S2ePollLoop request
+2025/10/24 10:14:36 fuzzer vm-0: 2025/10/24 02:14:36 S2ePollLoop: reply #inputs=0
+2025/10/24 10:14:38 VMs 1, executed 61663, cover 42460, crashes 5, repro 0
+2025/10/24 10:14:39 fuzzer vm-0: 2025/10/24 02:14:39 S2ePollLoop request
+2025/10/24 10:14:39 fuzzer vm-0: 2025/10/24 02:14:39 S2ePollLoop: reply #inputs=0
+2025/10/24 10:14:42 fuzzer vm-0: 2025/10/24 02:14:42 S2ePollLoop request
+2025/10/24 10:14:42 fuzzer vm-0: 2025/10/24 02:14:42 S2ePollLoop: reply #inputs=0
+2025/10/24 10:14:45 fuzzer vm-0: 2025/10/24 02:14:45 S2ePollLoop request
+2025/10/24 10:14:45 fuzzer vm-0: 2025/10/24 02:14:45 S2ePollLoop: reply #inputs=0
+2025/10/24 10:14:48 fuzzer vm-0: 2025/10/24 02:14:48 S2ePollLoop request
+2025/10/24 10:14:48 fuzzer vm-0: 2025/10/24 02:14:48 S2ePollLoop: reply #inputs=0
+2025/10/24 10:14:48 VMs 1, executed 62624, cover 42483, crashes 5, repro 0
+2025/10/24 10:14:51 fuzzer vm-0: 2025/10/24 02:14:51 S2ePollLoop request
+2025/10/24 10:14:51 fuzzer vm-0: 2025/10/24 02:14:51 S2ePollLoop: reply #inputs=0
+2025/10/24 10:14:54 fuzzer vm-0: 2025/10/24 02:14:54 S2ePollLoop request
+2025/10/24 10:14:54 fuzzer vm-0: 2025/10/24 02:14:54 S2ePollLoop: reply #inputs=0
+2025/10/24 10:14:57 fuzzer vm-0: 2025/10/24 02:14:57 S2ePollLoop request
+2025/10/24 10:14:57 fuzzer vm-0: 2025/10/24 02:14:57 S2ePollLoop: reply #inputs=0
+2025/10/24 10:14:58 VMs 1, executed 63593, cover 42645, crashes 5, repro 0
+2025/10/24 10:15:00 fuzzer vm-0: 2025/10/24 02:15:00 S2ePollLoop request
+2025/10/24 10:15:00 fuzzer vm-0: 2025/10/24 02:15:00 S2ePollLoop: reply #inputs=0
+2025/10/24 10:15:03 fuzzer vm-0: 2025/10/24 02:15:03 S2ePollLoop request
+2025/10/24 10:15:03 fuzzer vm-0: 2025/10/24 02:15:03 S2ePollLoop: reply #inputs=0
+2025/10/24 10:15:06 fuzzer vm-0: 2025/10/24 02:15:06 S2ePollLoop request
+2025/10/24 10:15:06 fuzzer vm-0: 2025/10/24 02:15:06 S2ePollLoop: reply #inputs=0
+2025/10/24 10:15:08 VMs 1, executed 63593, cover 42718, crashes 5, repro 0
+2025/10/24 10:15:09 fuzzer vm-0: 2025/10/24 02:15:09 S2ePollLoop request
+2025/10/24 10:15:09 fuzzer vm-0: 2025/10/24 02:15:09 S2ePollLoop: reply #inputs=0
+2025/10/24 10:15:12 fuzzer vm-0: 2025/10/24 02:15:12 S2ePollLoop request
+2025/10/24 10:15:12 fuzzer vm-0: 2025/10/24 02:15:12 S2ePollLoop: reply #inputs=0
+2025/10/24 10:15:18 VMs 1, executed 64619, cover 42788, crashes 5, repro 0
+2025/10/24 10:15:25 vm-0: crash: lost connection to test machine
+2025/10/24 10:15:28 VMs 0, executed 64619, cover 42788, crashes 6, repro 0
+2025/10/24 10:15:38 VMs 0, executed 64619, cover 42788, crashes 6, repro 0
+2025/10/24 10:15:48 VMs 0, executed 64619, cover 42788, crashes 6, repro 0
+2025/10/24 10:15:58 VMs 0, executed 64619, cover 42788, crashes 6, repro 0
+2025/10/24 10:16:08 VMs 0, executed 64619, cover 42788, crashes 6, repro 0
+2025/10/24 10:16:18 VMs 0, executed 64619, cover 42788, crashes 6, repro 0
+2025/10/24 10:16:28 VMs 0, executed 64619, cover 42788, crashes 6, repro 0
+2025/10/24 10:16:38 VMs 0, executed 64619, cover 42788, crashes 6, repro 0
+2025/10/24 10:16:48 VMs 0, executed 64619, cover 42788, crashes 6, repro 0
+2025/10/24 10:16:58 VMs 0, executed 64619, cover 42788, crashes 6, repro 0
+2025/10/24 10:17:08 VMs 0, executed 64619, cover 42788, crashes 6, repro 0
+2025/10/24 10:17:18 VMs 0, executed 64619, cover 42788, crashes 6, repro 0
+2025/10/24 10:17:28 /syz-fuzzer -executor=/syz-executor -id=0 -name=vm-0 -arch=amd64 -manager=10.0.2.10:34919 -procs=4 -leak=false -cover=true -sandbox=setuid -debug=false -v=0
+2025/10/24 10:17:28 VMs 1, executed 64619, cover 42788, crashes 6, repro 0
+2025/10/24 10:17:38 VMs 1, executed 64619, cover 42788, crashes 6, repro 0
+2025/10/24 10:17:48 VMs 1, executed 64619, cover 42788, crashes 6, repro 0
+2025/10/24 10:17:58 VMs 1, executed 64619, cover 42788, crashes 6, repro 0
+2025/10/24 10:18:08 VMs 1, executed 64619, cover 42788, crashes 6, repro 0
+2025/10/24 10:18:09 Uptime2:50m1s corpus#:2130 corpusCover#:32318
+2025/10/24 10:18:18 VMs 1, executed 64619, cover 42788, crashes 6, repro 0
+2025/10/24 10:18:28 VMs 1, executed 64619, cover 42788, crashes 6, repro 0
+2025/10/24 10:18:38 VMs 1, executed 64619, cover 42788, crashes 6, repro 0
+2025/10/24 10:18:48 VMs 1, executed 64619, cover 42788, crashes 6, repro 0
+2025/10/24 10:18:58 VMs 1, executed 64619, cover 42788, crashes 6, repro 0
+2025/10/24 10:19:08 VMs 1, executed 64619, cover 42788, crashes 6, repro 0
+2025/10/24 10:19:18 VMs 1, executed 64619, cover 42788, crashes 6, repro 0
+2025/10/24 10:19:28 VMs 1, executed 64619, cover 42788, crashes 6, repro 0
+2025/10/24 10:19:38 VMs 1, executed 64619, cover 42788, crashes 6, repro 0
+2025/10/24 10:19:48 VMs 1, executed 64619, cover 42788, crashes 6, repro 0
+2025/10/24 10:19:58 VMs 1, executed 64622, cover 42788, crashes 6, repro 0
+2025/10/24 10:20:00 fuzzer vm-0: 2025/10/24 02:20:00 S2ePollLoop request
+2025/10/24 10:20:00 fuzzer vm-0: 2025/10/24 02:20:00 S2ePollLoop: reply #inputs=0
+2025/10/24 10:20:03 fuzzer vm-0: 2025/10/24 02:20:03 S2ePollLoop request
+2025/10/24 10:20:03 fuzzer vm-0: 2025/10/24 02:20:03 S2ePollLoop: reply #inputs=0
+2025/10/24 10:20:06 fuzzer vm-0: 2025/10/24 02:20:06 S2ePollLoop request
+2025/10/24 10:20:06 fuzzer vm-0: 2025/10/24 02:20:06 S2ePollLoop: reply #inputs=0
+2025/10/24 10:20:08 VMs 1, executed 64622, cover 42828, crashes 6, repro 0
+2025/10/24 10:20:09 fuzzer vm-0: 2025/10/24 02:20:09 S2ePollLoop request
+2025/10/24 10:20:09 fuzzer vm-0: 2025/10/24 02:20:09 S2ePollLoop: reply #inputs=0
+2025/10/24 10:20:12 fuzzer vm-0: 2025/10/24 02:20:12 S2ePollLoop request
+2025/10/24 10:20:12 fuzzer vm-0: 2025/10/24 02:20:12 S2ePollLoop: reply #inputs=0
+2025/10/24 10:20:15 fuzzer vm-0: 2025/10/24 02:20:15 S2ePollLoop request
+2025/10/24 10:20:15 fuzzer vm-0: 2025/10/24 02:20:15 S2ePollLoop: reply #inputs=0
+2025/10/24 10:20:18 fuzzer vm-0: 2025/10/24 02:20:18 S2ePollLoop request
+2025/10/24 10:20:18 fuzzer vm-0: 2025/10/24 02:20:18 S2ePollLoop: reply #inputs=0
+2025/10/24 10:20:18 VMs 1, executed 65421, cover 43046, crashes 6, repro 0
+2025/10/24 10:20:21 fuzzer vm-0: 2025/10/24 02:20:21 S2ePollLoop request
+2025/10/24 10:20:21 fuzzer vm-0: 2025/10/24 02:20:21 S2ePollLoop: reply #inputs=0
+2025/10/24 10:20:24 fuzzer vm-0: 2025/10/24 02:20:24 S2ePollLoop request
+2025/10/24 10:20:24 fuzzer vm-0: 2025/10/24 02:20:24 S2ePollLoop: reply #inputs=0
+2025/10/24 10:20:27 fuzzer vm-0: 2025/10/24 02:20:27 S2ePollLoop request
+2025/10/24 10:20:27 fuzzer vm-0: 2025/10/24 02:20:27 S2ePollLoop: reply #inputs=0
+2025/10/24 10:20:28 VMs 1, executed 66340, cover 43299, crashes 6, repro 0
+2025/10/24 10:20:30 fuzzer vm-0: 2025/10/24 02:20:30 S2ePollLoop request
+2025/10/24 10:20:30 fuzzer vm-0: 2025/10/24 02:20:30 S2ePollLoop: reply #inputs=0
+2025/10/24 10:20:33 fuzzer vm-0: 2025/10/24 02:20:33 S2ePollLoop request
+2025/10/24 10:20:33 fuzzer vm-0: 2025/10/24 02:20:33 S2ePollLoop: reply #inputs=0
+2025/10/24 10:20:36 fuzzer vm-0: 2025/10/24 02:20:36 S2ePollLoop request
+2025/10/24 10:20:36 fuzzer vm-0: 2025/10/24 02:20:36 S2ePollLoop: reply #inputs=0
+2025/10/24 10:20:38 VMs 1, executed 67247, cover 43491, crashes 6, repro 0
+2025/10/24 10:20:39 fuzzer vm-0: 2025/10/24 02:20:39 S2ePollLoop request
+2025/10/24 10:20:39 fuzzer vm-0: 2025/10/24 02:20:39 S2ePollLoop: reply #inputs=0
+2025/10/24 10:20:42 fuzzer vm-0: 2025/10/24 02:20:42 S2ePollLoop request
+2025/10/24 10:20:42 fuzzer vm-0: 2025/10/24 02:20:42 S2ePollLoop: reply #inputs=0
+2025/10/24 10:20:45 fuzzer vm-0: 2025/10/24 02:20:45 S2ePollLoop request
+2025/10/24 10:20:45 fuzzer vm-0: 2025/10/24 02:20:45 S2ePollLoop: reply #inputs=0
+2025/10/24 10:20:48 fuzzer vm-0: 2025/10/24 02:20:48 S2ePollLoop request
+2025/10/24 10:20:48 fuzzer vm-0: 2025/10/24 02:20:48 S2ePollLoop: reply #inputs=0
+2025/10/24 10:20:48 VMs 1, executed 68314, cover 44205, crashes 6, repro 0
+2025/10/24 10:20:51 fuzzer vm-0: 2025/10/24 02:20:51 S2ePollLoop request
+2025/10/24 10:20:51 fuzzer vm-0: 2025/10/24 02:20:51 S2ePollLoop: reply #inputs=0
+2025/10/24 10:20:54 fuzzer vm-0: 2025/10/24 02:20:54 S2ePollLoop request
+2025/10/24 10:20:54 fuzzer vm-0: 2025/10/24 02:20:54 S2ePollLoop: reply #inputs=0
+2025/10/24 10:20:57 fuzzer vm-0: 2025/10/24 02:20:57 S2ePollLoop request
+2025/10/24 10:20:57 fuzzer vm-0: 2025/10/24 02:20:57 S2ePollLoop: reply #inputs=0
+2025/10/24 10:20:58 VMs 1, executed 69304, cover 44340, crashes 6, repro 0
+2025/10/24 10:21:00 fuzzer vm-0: 2025/10/24 02:21:00 S2ePollLoop request
+2025/10/24 10:21:00 fuzzer vm-0: 2025/10/24 02:21:00 S2ePollLoop: reply #inputs=0
+2025/10/24 10:21:03 fuzzer vm-0: 2025/10/24 02:21:03 S2ePollLoop request
+2025/10/24 10:21:03 fuzzer vm-0: 2025/10/24 02:21:03 S2ePollLoop: reply #inputs=0
+2025/10/24 10:21:06 fuzzer vm-0: 2025/10/24 02:21:06 S2ePollLoop request
+2025/10/24 10:21:06 fuzzer vm-0: 2025/10/24 02:21:06 S2ePollLoop: reply #inputs=0
+2025/10/24 10:21:08 VMs 1, executed 69304, cover 44739, crashes 6, repro 0
+2025/10/24 10:21:09 fuzzer vm-0: 2025/10/24 02:21:09 S2ePollLoop request
+2025/10/24 10:21:09 fuzzer vm-0: 2025/10/24 02:21:09 S2ePollLoop: reply #inputs=0
+2025/10/24 10:21:12 fuzzer vm-0: 2025/10/24 02:21:12 S2ePollLoop request
+2025/10/24 10:21:12 fuzzer vm-0: 2025/10/24 02:21:12 S2ePollLoop: reply #inputs=0
+2025/10/24 10:21:15 fuzzer vm-0: 2025/10/24 02:21:15 S2ePollLoop request
+2025/10/24 10:21:15 fuzzer vm-0: 2025/10/24 02:21:15 S2ePollLoop: reply #inputs=0
+2025/10/24 10:21:18 fuzzer vm-0: 2025/10/24 02:21:18 S2ePollLoop request
+2025/10/24 10:21:18 fuzzer vm-0: 2025/10/24 02:21:18 S2ePollLoop: reply #inputs=0
+2025/10/24 10:21:18 VMs 1, executed 70247, cover 44783, crashes 6, repro 0
+2025/10/24 10:21:21 fuzzer vm-0: 2025/10/24 02:21:21 S2ePollLoop request
+2025/10/24 10:21:21 fuzzer vm-0: 2025/10/24 02:21:21 S2ePollLoop: reply #inputs=0
+2025/10/24 10:21:24 fuzzer vm-0: 2025/10/24 02:21:24 S2ePollLoop request
+2025/10/24 10:21:24 fuzzer vm-0: 2025/10/24 02:21:24 S2ePollLoop: reply #inputs=0
+2025/10/24 10:21:27 fuzzer vm-0: 2025/10/24 02:21:27 S2ePollLoop request
+2025/10/24 10:21:27 fuzzer vm-0: 2025/10/24 02:21:27 S2ePollLoop: reply #inputs=0
+2025/10/24 10:21:28 VMs 1, executed 71158, cover 44817, crashes 6, repro 0
+2025/10/24 10:21:30 fuzzer vm-0: 2025/10/24 02:21:30 S2ePollLoop request
+2025/10/24 10:21:30 fuzzer vm-0: 2025/10/24 02:21:30 S2ePollLoop: reply #inputs=0
+2025/10/24 10:21:33 fuzzer vm-0: 2025/10/24 02:21:33 S2ePollLoop request
+2025/10/24 10:21:33 fuzzer vm-0: 2025/10/24 02:21:33 S2ePollLoop: reply #inputs=0
+2025/10/24 10:21:36 fuzzer vm-0: 2025/10/24 02:21:36 S2ePollLoop request
+2025/10/24 10:21:36 fuzzer vm-0: 2025/10/24 02:21:36 S2ePollLoop: reply #inputs=0
+2025/10/24 10:21:38 VMs 1, executed 72016, cover 46825, crashes 6, repro 0
+2025/10/24 10:21:39 fuzzer vm-0: 2025/10/24 02:21:39 S2ePollLoop request
+2025/10/24 10:21:39 fuzzer vm-0: 2025/10/24 02:21:39 S2ePollLoop: reply #inputs=0
+2025/10/24 10:21:42 fuzzer vm-0: 2025/10/24 02:21:42 S2ePollLoop request
+2025/10/24 10:21:42 fuzzer vm-0: 2025/10/24 02:21:42 S2ePollLoop: reply #inputs=0
+2025/10/24 10:21:45 fuzzer vm-0: 2025/10/24 02:21:45 S2ePollLoop request
+2025/10/24 10:21:45 fuzzer vm-0: 2025/10/24 02:21:45 S2ePollLoop: reply #inputs=0
+2025/10/24 10:21:48 fuzzer vm-0: 2025/10/24 02:21:48 S2ePollLoop request
+2025/10/24 10:21:48 fuzzer vm-0: 2025/10/24 02:21:48 S2ePollLoop: reply #inputs=0
+2025/10/24 10:21:48 VMs 1, executed 72808, cover 46906, crashes 6, repro 0
+2025/10/24 10:21:51 fuzzer vm-0: 2025/10/24 02:21:51 S2ePollLoop request
+2025/10/24 10:21:51 fuzzer vm-0: 2025/10/24 02:21:51 S2ePollLoop: reply #inputs=0
+2025/10/24 10:21:54 fuzzer vm-0: 2025/10/24 02:21:54 S2ePollLoop request
+2025/10/24 10:21:54 fuzzer vm-0: 2025/10/24 02:21:54 S2ePollLoop: reply #inputs=0
+2025/10/24 10:21:57 fuzzer vm-0: 2025/10/24 02:21:57 S2ePollLoop request
+2025/10/24 10:21:57 fuzzer vm-0: 2025/10/24 02:21:57 S2ePollLoop: reply #inputs=0
+2025/10/24 10:21:58 VMs 1, executed 73436, cover 46963, crashes 6, repro 0
+2025/10/24 10:22:00 fuzzer vm-0: 2025/10/24 02:22:00 S2ePollLoop request
+2025/10/24 10:22:00 fuzzer vm-0: 2025/10/24 02:22:00 S2ePollLoop: reply #inputs=0
+2025/10/24 10:22:03 fuzzer vm-0: 2025/10/24 02:22:03 S2ePollLoop request
+2025/10/24 10:22:03 fuzzer vm-0: 2025/10/24 02:22:03 S2ePollLoop: reply #inputs=0
+2025/10/24 10:22:06 fuzzer vm-0: 2025/10/24 02:22:06 S2ePollLoop request
+2025/10/24 10:22:06 fuzzer vm-0: 2025/10/24 02:22:06 S2ePollLoop: reply #inputs=0
+2025/10/24 10:22:08 VMs 1, executed 73436, cover 47035, crashes 6, repro 0
+2025/10/24 10:22:09 fuzzer vm-0: 2025/10/24 02:22:09 S2ePollLoop request
+2025/10/24 10:22:09 fuzzer vm-0: 2025/10/24 02:22:09 S2ePollLoop: reply #inputs=0
+2025/10/24 10:22:12 fuzzer vm-0: 2025/10/24 02:22:12 S2ePollLoop request
+2025/10/24 10:22:12 fuzzer vm-0: 2025/10/24 02:22:12 S2ePollLoop: reply #inputs=0
+2025/10/24 10:22:15 fuzzer vm-0: 2025/10/24 02:22:15 S2ePollLoop request
+2025/10/24 10:22:15 fuzzer vm-0: 2025/10/24 02:22:15 S2ePollLoop: reply #inputs=0
+2025/10/24 10:22:18 fuzzer vm-0: 2025/10/24 02:22:18 S2ePollLoop request
+2025/10/24 10:22:18 fuzzer vm-0: 2025/10/24 02:22:18 S2ePollLoop: reply #inputs=0
+2025/10/24 10:22:18 VMs 1, executed 74139, cover 47036, crashes 6, repro 0
+2025/10/24 10:22:21 fuzzer vm-0: 2025/10/24 02:22:21 S2ePollLoop request
+2025/10/24 10:22:21 fuzzer vm-0: 2025/10/24 02:22:21 S2ePollLoop: reply #inputs=0
+2025/10/24 10:22:24 fuzzer vm-0: 2025/10/24 02:22:24 S2ePollLoop request
+2025/10/24 10:22:24 fuzzer vm-0: 2025/10/24 02:22:24 S2ePollLoop: reply #inputs=0
+2025/10/24 10:22:27 fuzzer vm-0: 2025/10/24 02:22:27 S2ePollLoop request
+2025/10/24 10:22:27 fuzzer vm-0: 2025/10/24 02:22:27 S2ePollLoop: reply #inputs=0
+2025/10/24 10:22:28 VMs 1, executed 74675, cover 47100, crashes 6, repro 0
+2025/10/24 10:22:30 fuzzer vm-0: 2025/10/24 02:22:30 S2ePollLoop request
+2025/10/24 10:22:30 fuzzer vm-0: 2025/10/24 02:22:30 S2ePollLoop: reply #inputs=0
+2025/10/24 10:22:33 fuzzer vm-0: 2025/10/24 02:22:33 S2ePollLoop request
+2025/10/24 10:22:33 fuzzer vm-0: 2025/10/24 02:22:33 S2ePollLoop: reply #inputs=0
+2025/10/24 10:22:36 fuzzer vm-0: 2025/10/24 02:22:36 S2ePollLoop request
+2025/10/24 10:22:36 fuzzer vm-0: 2025/10/24 02:22:36 S2ePollLoop: reply #inputs=0
+2025/10/24 10:22:38 VMs 1, executed 75419, cover 47458, crashes 6, repro 0
+2025/10/24 10:22:39 fuzzer vm-0: 2025/10/24 02:22:39 S2ePollLoop request
+2025/10/24 10:22:39 fuzzer vm-0: 2025/10/24 02:22:39 S2ePollLoop: reply #inputs=0
+2025/10/24 10:22:42 fuzzer vm-0: 2025/10/24 02:22:42 S2ePollLoop request
+2025/10/24 10:22:42 fuzzer vm-0: 2025/10/24 02:22:42 S2ePollLoop: reply #inputs=0
+2025/10/24 10:22:45 fuzzer vm-0: 2025/10/24 02:22:45 S2ePollLoop request
+2025/10/24 10:22:45 fuzzer vm-0: 2025/10/24 02:22:45 S2ePollLoop: reply #inputs=0
+2025/10/24 10:22:48 fuzzer vm-0: 2025/10/24 02:22:48 S2ePollLoop request
+2025/10/24 10:22:48 fuzzer vm-0: 2025/10/24 02:22:48 S2ePollLoop: reply #inputs=0
+2025/10/24 10:22:48 VMs 1, executed 76155, cover 47633, crashes 6, repro 0
+2025/10/24 10:22:51 fuzzer vm-0: 2025/10/24 02:22:51 S2ePollLoop request
+2025/10/24 10:22:51 fuzzer vm-0: 2025/10/24 02:22:51 S2ePollLoop: reply #inputs=0
+2025/10/24 10:22:54 fuzzer vm-0: 2025/10/24 02:22:54 S2ePollLoop request
+2025/10/24 10:22:54 fuzzer vm-0: 2025/10/24 02:22:54 S2ePollLoop: reply #inputs=0
+2025/10/24 10:22:57 fuzzer vm-0: 2025/10/24 02:22:57 S2ePollLoop request
+2025/10/24 10:22:57 fuzzer vm-0: 2025/10/24 02:22:57 S2ePollLoop: reply #inputs=0
+2025/10/24 10:22:58 VMs 1, executed 76978, cover 47727, crashes 6, repro 0
+2025/10/24 10:23:00 fuzzer vm-0: 2025/10/24 02:23:00 S2ePollLoop request
+2025/10/24 10:23:00 fuzzer vm-0: 2025/10/24 02:23:00 S2ePollLoop: reply #inputs=0
+2025/10/24 10:23:03 fuzzer vm-0: 2025/10/24 02:23:03 S2ePollLoop request
+2025/10/24 10:23:03 fuzzer vm-0: 2025/10/24 02:23:03 S2ePollLoop: reply #inputs=0
+2025/10/24 10:23:06 fuzzer vm-0: 2025/10/24 02:23:06 S2ePollLoop request
+2025/10/24 10:23:06 fuzzer vm-0: 2025/10/24 02:23:06 S2ePollLoop: reply #inputs=0
+2025/10/24 10:23:08 VMs 1, executed 76978, cover 47734, crashes 6, repro 0
+2025/10/24 10:23:09 fuzzer vm-0: 2025/10/24 02:23:09 S2ePollLoop request
+2025/10/24 10:23:09 fuzzer vm-0: 2025/10/24 02:23:09 S2ePollLoop: reply #inputs=0
+2025/10/24 10:23:12 fuzzer vm-0: 2025/10/24 02:23:12 S2ePollLoop request
+2025/10/24 10:23:12 fuzzer vm-0: 2025/10/24 02:23:12 S2ePollLoop: reply #inputs=0
+2025/10/24 10:23:15 fuzzer vm-0: 2025/10/24 02:23:15 S2ePollLoop request
+2025/10/24 10:23:15 fuzzer vm-0: 2025/10/24 02:23:15 S2ePollLoop: reply #inputs=0
+2025/10/24 10:23:18 VMs 1, executed 77890, cover 48125, crashes 6, repro 0
+2025/10/24 10:23:18 fuzzer vm-0: 2025/10/24 02:23:18 S2ePollLoop request
+2025/10/24 10:23:18 fuzzer vm-0: 2025/10/24 02:23:18 S2ePollLoop: reply #inputs=0
+2025/10/24 10:23:21 fuzzer vm-0: 2025/10/24 02:23:21 S2ePollLoop request
+2025/10/24 10:23:21 fuzzer vm-0: 2025/10/24 02:23:21 S2ePollLoop: reply #inputs=0
+2025/10/24 10:23:24 fuzzer vm-0: 2025/10/24 02:23:24 S2ePollLoop request
+2025/10/24 10:23:24 fuzzer vm-0: 2025/10/24 02:23:24 S2ePollLoop: reply #inputs=0
+2025/10/24 10:23:27 fuzzer vm-0: 2025/10/24 02:23:27 S2ePollLoop request
+2025/10/24 10:23:27 fuzzer vm-0: 2025/10/24 02:23:27 S2ePollLoop: reply #inputs=0
+2025/10/24 10:23:28 VMs 1, executed 78839, cover 48125, crashes 6, repro 0
+2025/10/24 10:23:30 fuzzer vm-0: 2025/10/24 02:23:30 S2ePollLoop request
+2025/10/24 10:23:30 fuzzer vm-0: 2025/10/24 02:23:30 S2ePollLoop: reply #inputs=0
+2025/10/24 10:23:33 fuzzer vm-0: 2025/10/24 02:23:33 S2ePollLoop request
+2025/10/24 10:23:33 fuzzer vm-0: 2025/10/24 02:23:33 S2ePollLoop: reply #inputs=0
+2025/10/24 10:23:36 fuzzer vm-0: 2025/10/24 02:23:36 S2ePollLoop request
+2025/10/24 10:23:36 fuzzer vm-0: 2025/10/24 02:23:36 S2ePollLoop: reply #inputs=0
+2025/10/24 10:23:38 VMs 1, executed 79965, cover 48975, crashes 6, repro 0
+2025/10/24 10:23:39 fuzzer vm-0: 2025/10/24 02:23:39 S2ePollLoop request
+2025/10/24 10:23:39 fuzzer vm-0: 2025/10/24 02:23:39 S2ePollLoop: reply #inputs=0
+2025/10/24 10:23:42 fuzzer vm-0: 2025/10/24 02:23:42 S2ePollLoop request
+2025/10/24 10:23:42 fuzzer vm-0: 2025/10/24 02:23:42 S2ePollLoop: reply #inputs=0
+2025/10/24 10:23:45 fuzzer vm-0: 2025/10/24 02:23:45 S2ePollLoop request
+2025/10/24 10:23:45 fuzzer vm-0: 2025/10/24 02:23:45 S2ePollLoop: reply #inputs=0
+2025/10/24 10:23:48 VMs 1, executed 81223, cover 49342, crashes 6, repro 0
+2025/10/24 10:23:48 fuzzer vm-0: 2025/10/24 02:23:48 S2ePollLoop request
+2025/10/24 10:23:48 fuzzer vm-0: 2025/10/24 02:23:48 S2ePollLoop: reply #inputs=0
+2025/10/24 10:23:51 fuzzer vm-0: 2025/10/24 02:23:51 S2ePollLoop request
+2025/10/24 10:23:51 fuzzer vm-0: 2025/10/24 02:23:51 S2ePollLoop: reply #inputs=0
+2025/10/24 10:23:54 fuzzer vm-0: 2025/10/24 02:23:54 S2ePollLoop request
+2025/10/24 10:23:54 fuzzer vm-0: 2025/10/24 02:23:54 S2ePollLoop: reply #inputs=0
+2025/10/24 10:23:57 fuzzer vm-0: 2025/10/24 02:23:57 S2ePollLoop request
+2025/10/24 10:23:57 fuzzer vm-0: 2025/10/24 02:23:57 S2ePollLoop: reply #inputs=0
+2025/10/24 10:23:58 VMs 1, executed 82334, cover 49440, crashes 6, repro 0
+2025/10/24 10:24:00 fuzzer vm-0: 2025/10/24 02:24:00 S2ePollLoop request
+2025/10/24 10:24:00 fuzzer vm-0: 2025/10/24 02:24:00 S2ePollLoop: reply #inputs=0
+2025/10/24 10:24:03 fuzzer vm-0: 2025/10/24 02:24:03 S2ePollLoop request
+2025/10/24 10:24:03 fuzzer vm-0: 2025/10/24 02:24:03 S2ePollLoop: reply #inputs=0
+2025/10/24 10:24:06 fuzzer vm-0: 2025/10/24 02:24:06 S2ePollLoop request
+2025/10/24 10:24:06 fuzzer vm-0: 2025/10/24 02:24:06 S2ePollLoop: reply #inputs=0
+2025/10/24 10:24:08 VMs 1, executed 82334, cover 49499, crashes 6, repro 0
+2025/10/24 10:24:09 fuzzer vm-0: 2025/10/24 02:24:09 S2ePollLoop request
+2025/10/24 10:24:09 fuzzer vm-0: 2025/10/24 02:24:09 S2ePollLoop: reply #inputs=0
+2025/10/24 10:24:12 fuzzer vm-0: 2025/10/24 02:24:12 S2ePollLoop request
+2025/10/24 10:24:12 fuzzer vm-0: 2025/10/24 02:24:12 S2ePollLoop: reply #inputs=0
+2025/10/24 10:24:15 fuzzer vm-0: 2025/10/24 02:24:15 S2ePollLoop request
+2025/10/24 10:24:15 fuzzer vm-0: 2025/10/24 02:24:15 S2ePollLoop: reply #inputs=0
+2025/10/24 10:24:18 VMs 1, executed 83343, cover 49544, crashes 6, repro 0
+2025/10/24 10:24:18 fuzzer vm-0: 2025/10/24 02:24:18 S2ePollLoop request
+2025/10/24 10:24:18 fuzzer vm-0: 2025/10/24 02:24:18 S2ePollLoop: reply #inputs=0
+2025/10/24 10:24:21 fuzzer vm-0: 2025/10/24 02:24:21 S2ePollLoop request
+2025/10/24 10:24:21 fuzzer vm-0: 2025/10/24 02:24:21 S2ePollLoop: reply #inputs=0
+2025/10/24 10:24:24 fuzzer vm-0: 2025/10/24 02:24:24 S2ePollLoop request
+2025/10/24 10:24:24 fuzzer vm-0: 2025/10/24 02:24:24 S2ePollLoop: reply #inputs=0
+2025/10/24 10:24:27 fuzzer vm-0: 2025/10/24 02:24:27 S2ePollLoop request
+2025/10/24 10:24:27 fuzzer vm-0: 2025/10/24 02:24:27 S2ePollLoop: reply #inputs=0
+2025/10/24 10:24:28 VMs 1, executed 84101, cover 49611, crashes 6, repro 0
+2025/10/24 10:24:30 fuzzer vm-0: 2025/10/24 02:24:30 S2ePollLoop request
+2025/10/24 10:24:30 fuzzer vm-0: 2025/10/24 02:24:30 S2ePollLoop: reply #inputs=0
+2025/10/24 10:24:33 fuzzer vm-0: 2025/10/24 02:24:33 S2ePollLoop request
+2025/10/24 10:24:33 fuzzer vm-0: 2025/10/24 02:24:33 S2ePollLoop: reply #inputs=0
+2025/10/24 10:24:36 fuzzer vm-0: 2025/10/24 02:24:36 S2ePollLoop request
+2025/10/24 10:24:36 fuzzer vm-0: 2025/10/24 02:24:36 S2ePollLoop: reply #inputs=0
+2025/10/24 10:24:38 VMs 1, executed 84877, cover 49876, crashes 6, repro 0
+2025/10/24 10:24:39 fuzzer vm-0: 2025/10/24 02:24:39 S2ePollLoop request
+2025/10/24 10:24:39 fuzzer vm-0: 2025/10/24 02:24:39 S2ePollLoop: reply #inputs=0
+2025/10/24 10:24:42 fuzzer vm-0: 2025/10/24 02:24:42 S2ePollLoop request
+2025/10/24 10:24:42 fuzzer vm-0: 2025/10/24 02:24:42 S2ePollLoop: reply #inputs=0
+2025/10/24 10:24:45 fuzzer vm-0: 2025/10/24 02:24:45 S2ePollLoop request
+2025/10/24 10:24:45 fuzzer vm-0: 2025/10/24 02:24:45 S2ePollLoop: reply #inputs=0
+2025/10/24 10:24:48 VMs 1, executed 85867, cover 50006, crashes 6, repro 0
+2025/10/24 10:24:48 fuzzer vm-0: 2025/10/24 02:24:48 S2ePollLoop request
+2025/10/24 10:24:48 fuzzer vm-0: 2025/10/24 02:24:48 S2ePollLoop: reply #inputs=0
+2025/10/24 10:24:51 fuzzer vm-0: 2025/10/24 02:24:51 S2ePollLoop request
+2025/10/24 10:24:51 fuzzer vm-0: 2025/10/24 02:24:51 S2ePollLoop: reply #inputs=0
+2025/10/24 10:24:54 fuzzer vm-0: 2025/10/24 02:24:54 S2ePollLoop request
+2025/10/24 10:24:54 fuzzer vm-0: 2025/10/24 02:24:54 S2ePollLoop: reply #inputs=0
+2025/10/24 10:24:57 fuzzer vm-0: 2025/10/24 02:24:57 S2ePollLoop request
+2025/10/24 10:24:57 fuzzer vm-0: 2025/10/24 02:24:57 S2ePollLoop: reply #inputs=0
+2025/10/24 10:24:58 VMs 1, executed 87084, cover 50117, crashes 6, repro 0
+2025/10/24 10:25:00 fuzzer vm-0: 2025/10/24 02:25:00 S2ePollLoop request
+2025/10/24 10:25:00 fuzzer vm-0: 2025/10/24 02:25:00 S2ePollLoop: reply #inputs=0
+2025/10/24 10:25:03 fuzzer vm-0: 2025/10/24 02:25:03 S2ePollLoop request
+2025/10/24 10:25:03 fuzzer vm-0: 2025/10/24 02:25:03 S2ePollLoop: reply #inputs=0
+2025/10/24 10:25:06 fuzzer vm-0: 2025/10/24 02:25:06 S2ePollLoop request
+2025/10/24 10:25:06 fuzzer vm-0: 2025/10/24 02:25:06 S2ePollLoop: reply #inputs=0
+2025/10/24 10:25:08 VMs 1, executed 87084, cover 50117, crashes 6, repro 0
+2025/10/24 10:25:09 fuzzer vm-0: 2025/10/24 02:25:09 S2ePollLoop request
+2025/10/24 10:25:09 fuzzer vm-0: 2025/10/24 02:25:09 S2ePollLoop: reply #inputs=0
+2025/10/24 10:25:12 fuzzer vm-0: 2025/10/24 02:25:12 S2ePollLoop request
+2025/10/24 10:25:12 fuzzer vm-0: 2025/10/24 02:25:12 S2ePollLoop: reply #inputs=0
+2025/10/24 10:25:15 fuzzer vm-0: 2025/10/24 02:25:15 S2ePollLoop request
+2025/10/24 10:25:15 fuzzer vm-0: 2025/10/24 02:25:15 S2ePollLoop: reply #inputs=0
+2025/10/24 10:25:18 VMs 1, executed 88331, cover 50678, crashes 6, repro 0
+2025/10/24 10:25:18 fuzzer vm-0: 2025/10/24 02:25:18 S2ePollLoop request
+2025/10/24 10:25:18 fuzzer vm-0: 2025/10/24 02:25:18 S2ePollLoop: reply #inputs=0
+2025/10/24 10:25:21 fuzzer vm-0: 2025/10/24 02:25:21 S2ePollLoop request
+2025/10/24 10:25:21 fuzzer vm-0: 2025/10/24 02:25:21 S2ePollLoop: reply #inputs=0
+2025/10/24 10:25:24 fuzzer vm-0: 2025/10/24 02:25:24 S2ePollLoop request
+2025/10/24 10:25:24 fuzzer vm-0: 2025/10/24 02:25:24 S2ePollLoop: reply #inputs=0
+2025/10/24 10:25:27 fuzzer vm-0: 2025/10/24 02:25:27 S2ePollLoop request
+2025/10/24 10:25:27 fuzzer vm-0: 2025/10/24 02:25:27 S2ePollLoop: reply #inputs=0
+2025/10/24 10:25:28 VMs 1, executed 89478, cover 50808, crashes 6, repro 0
+2025/10/24 10:25:30 fuzzer vm-0: 2025/10/24 02:25:30 S2ePollLoop request
+2025/10/24 10:25:30 fuzzer vm-0: 2025/10/24 02:25:30 S2ePollLoop: reply #inputs=0
+2025/10/24 10:25:33 fuzzer vm-0: 2025/10/24 02:25:33 S2ePollLoop request
+2025/10/24 10:25:33 fuzzer vm-0: 2025/10/24 02:25:33 S2ePollLoop: reply #inputs=0
+2025/10/24 10:25:36 fuzzer vm-0: 2025/10/24 02:25:36 S2ePollLoop request
+2025/10/24 10:25:36 fuzzer vm-0: 2025/10/24 02:25:36 S2ePollLoop: reply #inputs=0
+2025/10/24 10:25:38 VMs 1, executed 90629, cover 50984, crashes 6, repro 0
+2025/10/24 10:25:39 fuzzer vm-0: 2025/10/24 02:25:39 S2ePollLoop request
+2025/10/24 10:25:39 fuzzer vm-0: 2025/10/24 02:25:39 S2ePollLoop: reply #inputs=0
+2025/10/24 10:25:42 fuzzer vm-0: 2025/10/24 02:25:42 S2ePollLoop request
+2025/10/24 10:25:42 fuzzer vm-0: 2025/10/24 02:25:42 S2ePollLoop: reply #inputs=0
+2025/10/24 10:25:45 fuzzer vm-0: 2025/10/24 02:25:45 S2ePollLoop request
+2025/10/24 10:25:45 fuzzer vm-0: 2025/10/24 02:25:45 S2ePollLoop: reply #inputs=0
+2025/10/24 10:25:48 VMs 1, executed 91887, cover 50984, crashes 6, repro 0
+2025/10/24 10:25:48 fuzzer vm-0: 2025/10/24 02:25:48 S2ePollLoop request
+2025/10/24 10:25:48 fuzzer vm-0: 2025/10/24 02:25:48 S2ePollLoop: reply #inputs=0
+2025/10/24 10:25:51 fuzzer vm-0: 2025/10/24 02:25:51 S2ePollLoop request
+2025/10/24 10:25:51 fuzzer vm-0: 2025/10/24 02:25:51 S2ePollLoop: reply #inputs=0
+2025/10/24 10:25:54 fuzzer vm-0: 2025/10/24 02:25:54 S2ePollLoop request
+2025/10/24 10:25:54 fuzzer vm-0: 2025/10/24 02:25:54 S2ePollLoop: reply #inputs=0
+2025/10/24 10:25:57 fuzzer vm-0: 2025/10/24 02:25:57 S2ePollLoop request
+2025/10/24 10:25:57 fuzzer vm-0: 2025/10/24 02:25:57 S2ePollLoop: reply #inputs=0
+2025/10/24 10:25:58 VMs 1, executed 93063, cover 51186, crashes 6, repro 0
+2025/10/24 10:26:01 fuzzer vm-0: 2025/10/24 02:26:00 S2ePollLoop request
+2025/10/24 10:26:01 fuzzer vm-0: 2025/10/24 02:26:00 S2ePollLoop: reply #inputs=0
+2025/10/24 10:26:04 fuzzer vm-0: 2025/10/24 02:26:03 S2ePollLoop request
+2025/10/24 10:26:04 fuzzer vm-0: 2025/10/24 02:26:03 S2ePollLoop: reply #inputs=0
+2025/10/24 10:26:07 fuzzer vm-0: 2025/10/24 02:26:06 S2ePollLoop request
+2025/10/24 10:26:07 fuzzer vm-0: 2025/10/24 02:26:06 S2ePollLoop: reply #inputs=0
+2025/10/24 10:26:08 VMs 1, executed 93063, cover 51294, crashes 6, repro 0
+2025/10/24 10:26:10 fuzzer vm-0: 2025/10/24 02:26:09 S2ePollLoop request
+2025/10/24 10:26:10 fuzzer vm-0: 2025/10/24 02:26:09 S2ePollLoop: reply #inputs=0
+2025/10/24 10:26:13 fuzzer vm-0: 2025/10/24 02:26:12 S2ePollLoop request
+2025/10/24 10:26:13 fuzzer vm-0: 2025/10/24 02:26:12 S2ePollLoop: reply #inputs=0
+2025/10/24 10:26:16 fuzzer vm-0: 2025/10/24 02:26:15 S2ePollLoop request
+2025/10/24 10:26:16 fuzzer vm-0: 2025/10/24 02:26:15 S2ePollLoop: reply #inputs=0
+2025/10/24 10:26:18 VMs 1, executed 94282, cover 51433, crashes 6, repro 0
+2025/10/24 10:26:19 fuzzer vm-0: 2025/10/24 02:26:18 S2ePollLoop request
+2025/10/24 10:26:19 fuzzer vm-0: 2025/10/24 02:26:18 S2ePollLoop: reply #inputs=0
+2025/10/24 10:26:22 fuzzer vm-0: 2025/10/24 02:26:22 S2ePollLoop request
+2025/10/24 10:26:22 fuzzer vm-0: 2025/10/24 02:26:22 S2ePollLoop: reply #inputs=0
+2025/10/24 10:26:25 fuzzer vm-0: 2025/10/24 02:26:25 S2ePollLoop request
+2025/10/24 10:26:25 fuzzer vm-0: 2025/10/24 02:26:25 S2ePollLoop: reply #inputs=0
+2025/10/24 10:26:28 fuzzer vm-0: 2025/10/24 02:26:28 S2ePollLoop request
+2025/10/24 10:26:28 fuzzer vm-0: 2025/10/24 02:26:28 S2ePollLoop: reply #inputs=0
+2025/10/24 10:26:28 VMs 1, executed 95363, cover 51580, crashes 6, repro 0
+2025/10/24 10:26:31 fuzzer vm-0: 2025/10/24 02:26:31 S2ePollLoop request
+2025/10/24 10:26:31 fuzzer vm-0: 2025/10/24 02:26:31 S2ePollLoop: reply #inputs=0
+2025/10/24 10:26:34 fuzzer vm-0: 2025/10/24 02:26:34 S2ePollLoop request
+2025/10/24 10:26:34 fuzzer vm-0: 2025/10/24 02:26:34 S2ePollLoop: reply #inputs=0
+2025/10/24 10:26:37 fuzzer vm-0: 2025/10/24 02:26:37 S2ePollLoop request
+2025/10/24 10:26:37 fuzzer vm-0: 2025/10/24 02:26:37 S2ePollLoop: reply #inputs=0
+2025/10/24 10:26:38 VMs 1, executed 96459, cover 51668, crashes 6, repro 0
+2025/10/24 10:26:40 fuzzer vm-0: 2025/10/24 02:26:40 S2ePollLoop request
+2025/10/24 10:26:40 fuzzer vm-0: 2025/10/24 02:26:40 S2ePollLoop: reply #inputs=0
+2025/10/24 10:26:43 fuzzer vm-0: 2025/10/24 02:26:43 S2ePollLoop request
+2025/10/24 10:26:43 fuzzer vm-0: 2025/10/24 02:26:43 S2ePollLoop: reply #inputs=0
+2025/10/24 10:26:46 fuzzer vm-0: 2025/10/24 02:26:46 S2ePollLoop request
+2025/10/24 10:26:46 fuzzer vm-0: 2025/10/24 02:26:46 S2ePollLoop: reply #inputs=0
+2025/10/24 10:26:48 VMs 1, executed 97587, cover 51719, crashes 6, repro 0
+2025/10/24 10:26:49 fuzzer vm-0: 2025/10/24 02:26:49 S2ePollLoop request
+2025/10/24 10:26:49 fuzzer vm-0: 2025/10/24 02:26:49 S2ePollLoop: reply #inputs=0
+2025/10/24 10:26:52 fuzzer vm-0: 2025/10/24 02:26:52 S2ePollLoop request
+2025/10/24 10:26:52 fuzzer vm-0: 2025/10/24 02:26:52 S2ePollLoop: reply #inputs=0
+2025/10/24 10:26:55 fuzzer vm-0: 2025/10/24 02:26:55 S2ePollLoop request
+2025/10/24 10:26:55 fuzzer vm-0: 2025/10/24 02:26:55 S2ePollLoop: reply #inputs=0
+2025/10/24 10:26:58 fuzzer vm-0: 2025/10/24 02:26:58 S2ePollLoop request
+2025/10/24 10:26:58 fuzzer vm-0: 2025/10/24 02:26:58 S2ePollLoop: reply #inputs=0
+2025/10/24 10:26:58 VMs 1, executed 98730, cover 51900, crashes 6, repro 0
+2025/10/24 10:27:01 fuzzer vm-0: 2025/10/24 02:27:01 S2ePollLoop request
+2025/10/24 10:27:01 fuzzer vm-0: 2025/10/24 02:27:01 S2ePollLoop: reply #inputs=0
+2025/10/24 10:27:04 fuzzer vm-0: 2025/10/24 02:27:04 S2ePollLoop request
+2025/10/24 10:27:04 fuzzer vm-0: 2025/10/24 02:27:04 S2ePollLoop: reply #inputs=0
+2025/10/24 10:27:07 fuzzer vm-0: 2025/10/24 02:27:07 S2ePollLoop request
+2025/10/24 10:27:07 fuzzer vm-0: 2025/10/24 02:27:07 S2ePollLoop: reply #inputs=0
+2025/10/24 10:27:08 VMs 1, executed 98730, cover 52041, crashes 6, repro 0
+2025/10/24 10:27:10 fuzzer vm-0: 2025/10/24 02:27:10 S2ePollLoop request
+2025/10/24 10:27:10 fuzzer vm-0: 2025/10/24 02:27:10 S2ePollLoop: reply #inputs=0
+2025/10/24 10:27:13 fuzzer vm-0: 2025/10/24 02:27:13 S2ePollLoop request
+2025/10/24 10:27:13 fuzzer vm-0: 2025/10/24 02:27:13 S2ePollLoop: reply #inputs=0
+2025/10/24 10:27:16 fuzzer vm-0: 2025/10/24 02:27:16 S2ePollLoop request
+2025/10/24 10:27:16 fuzzer vm-0: 2025/10/24 02:27:16 S2ePollLoop: reply #inputs=0
+2025/10/24 10:27:18 VMs 1, executed 99819, cover 52418, crashes 6, repro 0
+2025/10/24 10:27:19 fuzzer vm-0: 2025/10/24 02:27:19 S2ePollLoop request
+2025/10/24 10:27:19 fuzzer vm-0: 2025/10/24 02:27:19 S2ePollLoop: reply #inputs=0
+2025/10/24 10:27:22 fuzzer vm-0: 2025/10/24 02:27:22 S2ePollLoop request
+2025/10/24 10:27:22 fuzzer vm-0: 2025/10/24 02:27:22 S2ePollLoop: reply #inputs=0
+2025/10/24 10:27:25 fuzzer vm-0: 2025/10/24 02:27:25 S2ePollLoop request
+2025/10/24 10:27:25 fuzzer vm-0: 2025/10/24 02:27:25 S2ePollLoop: reply #inputs=0
+2025/10/24 10:27:28 fuzzer vm-0: 2025/10/24 02:27:28 S2ePollLoop request
+2025/10/24 10:27:28 fuzzer vm-0: 2025/10/24 02:27:28 S2ePollLoop: reply #inputs=0
+2025/10/24 10:27:28 VMs 1, executed 100719, cover 52665, crashes 6, repro 0
+2025/10/24 10:27:31 fuzzer vm-0: 2025/10/24 02:27:31 S2ePollLoop request
+2025/10/24 10:27:31 fuzzer vm-0: 2025/10/24 02:27:31 S2ePollLoop: reply #inputs=0
+2025/10/24 10:27:34 fuzzer vm-0: 2025/10/24 02:27:34 S2ePollLoop request
+2025/10/24 10:27:34 fuzzer vm-0: 2025/10/24 02:27:34 S2ePollLoop: reply #inputs=0
+2025/10/24 10:27:37 fuzzer vm-0: 2025/10/24 02:27:37 S2ePollLoop request
+2025/10/24 10:27:37 fuzzer vm-0: 2025/10/24 02:27:37 S2ePollLoop: reply #inputs=0
+2025/10/24 10:27:38 VMs 1, executed 101820, cover 52737, crashes 6, repro 0
+2025/10/24 10:27:40 fuzzer vm-0: 2025/10/24 02:27:40 S2ePollLoop request
+2025/10/24 10:27:40 fuzzer vm-0: 2025/10/24 02:27:40 S2ePollLoop: reply #inputs=0
+2025/10/24 10:27:43 fuzzer vm-0: 2025/10/24 02:27:43 S2ePollLoop request
+2025/10/24 10:27:43 fuzzer vm-0: 2025/10/24 02:27:43 S2ePollLoop: reply #inputs=0
+2025/10/24 10:27:46 fuzzer vm-0: 2025/10/24 02:27:46 S2ePollLoop request
+2025/10/24 10:27:46 fuzzer vm-0: 2025/10/24 02:27:46 S2ePollLoop: reply #inputs=0
+2025/10/24 10:27:48 VMs 1, executed 102723, cover 52808, crashes 6, repro 0
+2025/10/24 10:27:49 fuzzer vm-0: 2025/10/24 02:27:49 S2ePollLoop request
+2025/10/24 10:27:49 fuzzer vm-0: 2025/10/24 02:27:49 S2ePollLoop: reply #inputs=0
+2025/10/24 10:27:52 fuzzer vm-0: 2025/10/24 02:27:52 S2ePollLoop request
+2025/10/24 10:27:52 fuzzer vm-0: 2025/10/24 02:27:52 S2ePollLoop: reply #inputs=0
+2025/10/24 10:27:55 fuzzer vm-0: 2025/10/24 02:27:55 S2ePollLoop request
+2025/10/24 10:27:55 fuzzer vm-0: 2025/10/24 02:27:55 S2ePollLoop: reply #inputs=0
+2025/10/24 10:27:58 fuzzer vm-0: 2025/10/24 02:27:58 S2ePollLoop request
+2025/10/24 10:27:58 fuzzer vm-0: 2025/10/24 02:27:58 S2ePollLoop: reply #inputs=0
+2025/10/24 10:27:58 VMs 1, executed 103732, cover 52845, crashes 6, repro 0
+2025/10/24 10:28:01 fuzzer vm-0: 2025/10/24 02:28:01 S2ePollLoop request
+2025/10/24 10:28:01 fuzzer vm-0: 2025/10/24 02:28:01 S2ePollLoop: reply #inputs=0
+2025/10/24 10:28:04 fuzzer vm-0: 2025/10/24 02:28:04 S2ePollLoop request
+2025/10/24 10:28:04 fuzzer vm-0: 2025/10/24 02:28:04 S2ePollLoop: reply #inputs=0
+2025/10/24 10:28:07 fuzzer vm-0: 2025/10/24 02:28:07 S2ePollLoop request
+2025/10/24 10:28:07 fuzzer vm-0: 2025/10/24 02:28:07 S2ePollLoop: reply #inputs=0
+2025/10/24 10:28:08 VMs 1, executed 103732, cover 52883, crashes 6, repro 0
+2025/10/24 10:28:09 Uptime2:1h0m1s corpus#:3049 corpusCover#:39586
+2025/10/24 10:28:18 vm-0: crash: lost connection to test machine
+2025/10/24 10:28:18 VMs 0, executed 103732, cover 52883, crashes 6, repro 0
+2025/10/24 10:28:28 VMs 0, executed 103732, cover 52883, crashes 7, repro 0
+2025/10/24 10:28:38 VMs 0, executed 103732, cover 52883, crashes 7, repro 0
+2025/10/24 10:28:48 VMs 0, executed 103732, cover 52883, crashes 7, repro 0
+2025/10/24 10:28:58 VMs 0, executed 103732, cover 52883, crashes 7, repro 0
+2025/10/24 10:29:08 VMs 0, executed 103732, cover 52883, crashes 7, repro 0
+2025/10/24 10:29:18 VMs 0, executed 103732, cover 52883, crashes 7, repro 0
+2025/10/24 10:29:28 VMs 0, executed 103732, cover 52883, crashes 7, repro 0
+2025/10/24 10:29:38 VMs 0, executed 103732, cover 52883, crashes 7, repro 0
+2025/10/24 10:29:48 VMs 0, executed 103732, cover 52883, crashes 7, repro 0
+2025/10/24 10:29:58 VMs 0, executed 103732, cover 52883, crashes 7, repro 0
+2025/10/24 10:30:08 VMs 0, executed 103732, cover 52883, crashes 7, repro 0
+2025/10/24 10:30:18 VMs 0, executed 103732, cover 52883, crashes 7, repro 0
+2025/10/24 10:30:20 /syz-fuzzer -executor=/syz-executor -id=0 -name=vm-0 -arch=amd64 -manager=10.0.2.10:34919 -procs=4 -leak=false -cover=true -sandbox=setuid -debug=false -v=0
+2025/10/24 10:30:28 VMs 1, executed 103732, cover 52883, crashes 7, repro 0
+2025/10/24 10:30:38 VMs 1, executed 103732, cover 52883, crashes 7, repro 0
+2025/10/24 10:30:48 VMs 1, executed 103732, cover 52883, crashes 7, repro 0
+2025/10/24 10:30:58 VMs 1, executed 103732, cover 52883, crashes 7, repro 0
+2025/10/24 10:31:08 VMs 1, executed 103732, cover 52883, crashes 7, repro 0
+2025/10/24 10:31:18 VMs 1, executed 103732, cover 52883, crashes 7, repro 0
+2025/10/24 10:31:28 VMs 1, executed 103732, cover 52883, crashes 7, repro 0
+2025/10/24 10:31:38 VMs 1, executed 103732, cover 52883, crashes 7, repro 0
+2025/10/24 10:31:48 VMs 1, executed 103732, cover 52883, crashes 7, repro 0
+2025/10/24 10:31:58 VMs 1, executed 103732, cover 52883, crashes 7, repro 0
+2025/10/24 10:32:08 VMs 1, executed 103732, cover 52883, crashes 7, repro 0
+2025/10/24 10:32:18 VMs 1, executed 103732, cover 52883, crashes 7, repro 0
+2025/10/24 10:32:28 VMs 1, executed 103732, cover 52883, crashes 7, repro 0
+2025/10/24 10:32:38 VMs 1, executed 103732, cover 52883, crashes 7, repro 0
+2025/10/24 10:32:48 VMs 1, executed 103732, cover 52883, crashes 7, repro 0
+2025/10/24 10:32:52 fuzzer vm-0: 2025/10/24 02:32:52 S2ePollLoop request
+2025/10/24 10:32:52 fuzzer vm-0: 2025/10/24 02:32:52 S2ePollLoop: reply #inputs=0
+2025/10/24 10:32:55 fuzzer vm-0: 2025/10/24 02:32:55 S2ePollLoop request
+2025/10/24 10:32:55 fuzzer vm-0: 2025/10/24 02:32:55 S2ePollLoop: reply #inputs=0
+2025/10/24 10:32:58 VMs 1, executed 103735, cover 52903, crashes 7, repro 0
+2025/10/24 10:32:58 fuzzer vm-0: 2025/10/24 02:32:58 S2ePollLoop request
+2025/10/24 10:32:58 fuzzer vm-0: 2025/10/24 02:32:58 S2ePollLoop: reply #inputs=0
+2025/10/24 10:33:01 fuzzer vm-0: 2025/10/24 02:33:01 S2ePollLoop request
+2025/10/24 10:33:01 fuzzer vm-0: 2025/10/24 02:33:01 S2ePollLoop: reply #inputs=0
+2025/10/24 10:33:04 fuzzer vm-0: 2025/10/24 02:33:04 S2ePollLoop request
+2025/10/24 10:33:04 fuzzer vm-0: 2025/10/24 02:33:04 S2ePollLoop: reply #inputs=0
+2025/10/24 10:33:08 VMs 1, executed 104512, cover 52973, crashes 7, repro 0
+2025/10/24 10:33:15 vm-0: crash: lost connection to test machine
+2025/10/24 10:33:18 VMs 0, executed 104512, cover 52973, crashes 8, repro 0
+2025/10/24 10:33:28 VMs 0, executed 104512, cover 52973, crashes 8, repro 0
+2025/10/24 10:33:38 VMs 0, executed 104512, cover 52973, crashes 8, repro 0
+2025/10/24 10:33:48 VMs 0, executed 104512, cover 52973, crashes 8, repro 0
+2025/10/24 10:33:58 VMs 0, executed 104512, cover 52973, crashes 8, repro 0
+2025/10/24 10:34:08 VMs 0, executed 104512, cover 52973, crashes 8, repro 0
+2025/10/24 10:34:18 VMs 0, executed 104512, cover 52973, crashes 8, repro 0
+2025/10/24 10:34:28 VMs 0, executed 104512, cover 52973, crashes 8, repro 0
+2025/10/24 10:34:38 VMs 0, executed 104512, cover 52973, crashes 8, repro 0
+2025/10/24 10:34:48 VMs 0, executed 104512, cover 52973, crashes 8, repro 0
+2025/10/24 10:34:58 VMs 0, executed 104512, cover 52973, crashes 8, repro 0
+2025/10/24 10:35:08 VMs 0, executed 104512, cover 52973, crashes 8, repro 0
+2025/10/24 10:35:18 VMs 0, executed 104512, cover 52973, crashes 8, repro 0
+2025/10/24 10:35:18 /syz-fuzzer -executor=/syz-executor -id=0 -name=vm-0 -arch=amd64 -manager=10.0.2.10:34919 -procs=4 -leak=false -cover=true -sandbox=setuid -debug=false -v=0
+2025/10/24 10:35:28 VMs 1, executed 104512, cover 52973, crashes 8, repro 0
+2025/10/24 10:35:38 VMs 1, executed 104512, cover 52973, crashes 8, repro 0
+2025/10/24 10:35:48 VMs 1, executed 104512, cover 52973, crashes 8, repro 0
+2025/10/24 10:35:58 VMs 1, executed 104512, cover 52973, crashes 8, repro 0
+2025/10/24 10:36:08 VMs 1, executed 104512, cover 52973, crashes 8, repro 0
+2025/10/24 10:36:18 VMs 1, executed 104512, cover 52973, crashes 8, repro 0
+2025/10/24 10:36:28 VMs 1, executed 104512, cover 52973, crashes 8, repro 0
+2025/10/24 10:36:38 VMs 1, executed 104512, cover 52973, crashes 8, repro 0
+2025/10/24 10:36:48 VMs 1, executed 104512, cover 52973, crashes 8, repro 0
+2025/10/24 10:36:58 VMs 1, executed 104512, cover 52973, crashes 8, repro 0
+2025/10/24 10:37:08 VMs 1, executed 104512, cover 52973, crashes 8, repro 0
+2025/10/24 10:37:18 VMs 1, executed 104512, cover 52973, crashes 8, repro 0
+2025/10/24 10:37:28 VMs 1, executed 104512, cover 52973, crashes 8, repro 0
+2025/10/24 10:37:38 VMs 1, executed 104512, cover 52973, crashes 8, repro 0
+2025/10/24 10:37:48 VMs 1, executed 104515, cover 52973, crashes 8, repro 0
+2025/10/24 10:37:50 fuzzer vm-0: 2025/10/24 02:37:50 S2ePollLoop request
+2025/10/24 10:37:50 fuzzer vm-0: 2025/10/24 02:37:50 S2ePollLoop: reply #inputs=0
+2025/10/24 10:37:53 fuzzer vm-0: 2025/10/24 02:37:53 S2ePollLoop request
+2025/10/24 10:37:53 fuzzer vm-0: 2025/10/24 02:37:53 S2ePollLoop: reply #inputs=0
+2025/10/24 10:37:56 fuzzer vm-0: 2025/10/24 02:37:56 S2ePollLoop request
+2025/10/24 10:37:56 fuzzer vm-0: 2025/10/24 02:37:56 S2ePollLoop: reply #inputs=0
+2025/10/24 10:37:58 VMs 1, executed 104515, cover 53112, crashes 8, repro 0
+2025/10/24 10:37:59 fuzzer vm-0: 2025/10/24 02:37:59 S2ePollLoop request
+2025/10/24 10:37:59 fuzzer vm-0: 2025/10/24 02:37:59 S2ePollLoop: reply #inputs=0
+2025/10/24 10:38:02 fuzzer vm-0: 2025/10/24 02:38:02 S2ePollLoop request
+2025/10/24 10:38:02 fuzzer vm-0: 2025/10/24 02:38:02 S2ePollLoop: reply #inputs=0
+2025/10/24 10:38:05 fuzzer vm-0: 2025/10/24 02:38:05 S2ePollLoop request
+2025/10/24 10:38:05 fuzzer vm-0: 2025/10/24 02:38:05 S2ePollLoop: reply #inputs=0
+2025/10/24 10:38:08 VMs 1, executed 105512, cover 53202, crashes 8, repro 0
+2025/10/24 10:38:08 fuzzer vm-0: 2025/10/24 02:38:08 S2ePollLoop request
+2025/10/24 10:38:08 fuzzer vm-0: 2025/10/24 02:38:08 S2ePollLoop: reply #inputs=0
+2025/10/24 10:38:09 Uptime2:1h10m1s corpus#:2980 corpusCover#:39710
+2025/10/24 10:38:11 fuzzer vm-0: 2025/10/24 02:38:11 S2ePollLoop request
+2025/10/24 10:38:11 fuzzer vm-0: 2025/10/24 02:38:11 S2ePollLoop: reply #inputs=0
+2025/10/24 10:38:14 fuzzer vm-0: 2025/10/24 02:38:14 S2ePollLoop request
+2025/10/24 10:38:14 fuzzer vm-0: 2025/10/24 02:38:14 S2ePollLoop: reply #inputs=0
+2025/10/24 10:38:17 fuzzer vm-0: 2025/10/24 02:38:17 S2ePollLoop request
+2025/10/24 10:38:17 fuzzer vm-0: 2025/10/24 02:38:17 S2ePollLoop: reply #inputs=0
+2025/10/24 10:38:18 VMs 1, executed 106864, cover 53223, crashes 8, repro 0
+2025/10/24 10:38:20 fuzzer vm-0: 2025/10/24 02:38:20 S2ePollLoop request
+2025/10/24 10:38:20 fuzzer vm-0: 2025/10/24 02:38:20 S2ePollLoop: reply #inputs=0
+2025/10/24 10:38:23 fuzzer vm-0: 2025/10/24 02:38:23 S2ePollLoop request
+2025/10/24 10:38:23 fuzzer vm-0: 2025/10/24 02:38:23 S2ePollLoop: reply #inputs=0
+2025/10/24 10:38:26 fuzzer vm-0: 2025/10/24 02:38:26 S2ePollLoop request
+2025/10/24 10:38:26 fuzzer vm-0: 2025/10/24 02:38:26 S2ePollLoop: reply #inputs=0
+2025/10/24 10:38:28 VMs 1, executed 108034, cover 53286, crashes 8, repro 0
+2025/10/24 10:38:29 fuzzer vm-0: 2025/10/24 02:38:29 S2ePollLoop request
+2025/10/24 10:38:29 fuzzer vm-0: 2025/10/24 02:38:29 S2ePollLoop: reply #inputs=0
+2025/10/24 10:38:32 fuzzer vm-0: 2025/10/24 02:38:32 S2ePollLoop request
+2025/10/24 10:38:32 fuzzer vm-0: 2025/10/24 02:38:32 S2ePollLoop: reply #inputs=0
+2025/10/24 10:38:35 fuzzer vm-0: 2025/10/24 02:38:35 S2ePollLoop request
+2025/10/24 10:38:35 fuzzer vm-0: 2025/10/24 02:38:35 S2ePollLoop: reply #inputs=0
+2025/10/24 10:38:38 VMs 1, executed 108857, cover 53385, crashes 8, repro 0
+2025/10/24 10:38:38 fuzzer vm-0: 2025/10/24 02:38:38 S2ePollLoop request
+2025/10/24 10:38:38 fuzzer vm-0: 2025/10/24 02:38:38 S2ePollLoop: reply #inputs=0
+2025/10/24 10:38:41 fuzzer vm-0: 2025/10/24 02:38:41 S2ePollLoop request
+2025/10/24 10:38:41 fuzzer vm-0: 2025/10/24 02:38:41 S2ePollLoop: reply #inputs=0
+2025/10/24 10:38:44 fuzzer vm-0: 2025/10/24 02:38:44 S2ePollLoop request
+2025/10/24 10:38:44 fuzzer vm-0: 2025/10/24 02:38:44 S2ePollLoop: reply #inputs=0
+2025/10/24 10:38:47 fuzzer vm-0: 2025/10/24 02:38:47 S2ePollLoop request
+2025/10/24 10:38:47 fuzzer vm-0: 2025/10/24 02:38:47 S2ePollLoop: reply #inputs=0
+2025/10/24 10:38:48 VMs 1, executed 110161, cover 53407, crashes 8, repro 0
+2025/10/24 10:38:50 fuzzer vm-0: 2025/10/24 02:38:50 S2ePollLoop request
+2025/10/24 10:38:50 fuzzer vm-0: 2025/10/24 02:38:50 S2ePollLoop: reply #inputs=0
+2025/10/24 10:38:53 fuzzer vm-0: 2025/10/24 02:38:53 S2ePollLoop request
+2025/10/24 10:38:53 fuzzer vm-0: 2025/10/24 02:38:53 S2ePollLoop: reply #inputs=0
+2025/10/24 10:38:56 fuzzer vm-0: 2025/10/24 02:38:56 S2ePollLoop request
+2025/10/24 10:38:56 fuzzer vm-0: 2025/10/24 02:38:56 S2ePollLoop: reply #inputs=0
+2025/10/24 10:38:58 VMs 1, executed 110161, cover 53588, crashes 8, repro 0
+2025/10/24 10:38:59 fuzzer vm-0: 2025/10/24 02:38:59 S2ePollLoop request
+2025/10/24 10:38:59 fuzzer vm-0: 2025/10/24 02:38:59 S2ePollLoop: reply #inputs=0
+2025/10/24 10:39:02 fuzzer vm-0: 2025/10/24 02:39:02 S2ePollLoop request
+2025/10/24 10:39:02 fuzzer vm-0: 2025/10/24 02:39:02 S2ePollLoop: reply #inputs=0
+2025/10/24 10:39:05 fuzzer vm-0: 2025/10/24 02:39:05 S2ePollLoop request
+2025/10/24 10:39:05 fuzzer vm-0: 2025/10/24 02:39:05 S2ePollLoop: reply #inputs=0
+2025/10/24 10:39:08 VMs 1, executed 111220, cover 53769, crashes 8, repro 0
+2025/10/24 10:39:16 vm-0: crash: lost connection to test machine
+2025/10/24 10:39:18 VMs 0, executed 111220, cover 53769, crashes 8, repro 0
+2025/10/24 10:39:28 VMs 0, executed 111220, cover 53769, crashes 9, repro 0
+2025/10/24 10:39:38 VMs 0, executed 111220, cover 53769, crashes 9, repro 0
+2025/10/24 10:39:48 VMs 0, executed 111220, cover 53769, crashes 9, repro 0
+2025/10/24 10:39:58 VMs 0, executed 111220, cover 53769, crashes 9, repro 0
+2025/10/24 10:40:08 VMs 0, executed 111220, cover 53769, crashes 9, repro 0
+2025/10/24 10:40:18 VMs 0, executed 111220, cover 53769, crashes 9, repro 0
+2025/10/24 10:40:28 VMs 0, executed 111220, cover 53769, crashes 9, repro 0
+2025/10/24 10:40:38 VMs 0, executed 111220, cover 53769, crashes 9, repro 0
+2025/10/24 10:40:48 VMs 0, executed 111220, cover 53769, crashes 9, repro 0
+2025/10/24 10:40:58 VMs 0, executed 111220, cover 53769, crashes 9, repro 0
+2025/10/24 10:41:08 VMs 0, executed 111220, cover 53769, crashes 9, repro 0
+2025/10/24 10:41:18 VMs 0, executed 111220, cover 53769, crashes 9, repro 0
+2025/10/24 10:41:19 /syz-fuzzer -executor=/syz-executor -id=0 -name=vm-0 -arch=amd64 -manager=10.0.2.10:34919 -procs=4 -leak=false -cover=true -sandbox=setuid -debug=false -v=0
+2025/10/24 10:41:28 VMs 1, executed 111220, cover 53769, crashes 9, repro 0
+2025/10/24 10:41:38 VMs 1, executed 111220, cover 53769, crashes 9, repro 0
+2025/10/24 10:41:48 VMs 1, executed 111220, cover 53769, crashes 9, repro 0
+2025/10/24 10:41:58 VMs 1, executed 111220, cover 53769, crashes 9, repro 0
+2025/10/24 10:42:08 VMs 1, executed 111220, cover 53769, crashes 9, repro 0
+2025/10/24 10:42:18 VMs 1, executed 111220, cover 53769, crashes 9, repro 0
+2025/10/24 10:42:28 VMs 1, executed 111220, cover 53769, crashes 9, repro 0
+2025/10/24 10:42:38 VMs 1, executed 111220, cover 53769, crashes 9, repro 0
+2025/10/24 10:42:48 VMs 1, executed 111220, cover 53769, crashes 9, repro 0
+2025/10/24 10:42:58 VMs 1, executed 111220, cover 53769, crashes 9, repro 0
+2025/10/24 10:43:08 VMs 1, executed 111220, cover 53769, crashes 9, repro 0
+2025/10/24 10:43:18 VMs 1, executed 111220, cover 53769, crashes 9, repro 0
+2025/10/24 10:43:28 VMs 1, executed 111220, cover 53769, crashes 9, repro 0
+2025/10/24 10:43:38 VMs 1, executed 111220, cover 53769, crashes 9, repro 0
+2025/10/24 10:43:48 VMs 1, executed 111223, cover 53769, crashes 9, repro 0
+2025/10/24 10:43:50 fuzzer vm-0: 2025/10/24 02:43:50 S2ePollLoop request
+2025/10/24 10:43:50 fuzzer vm-0: 2025/10/24 02:43:50 S2ePollLoop: reply #inputs=0
+2025/10/24 10:43:53 fuzzer vm-0: 2025/10/24 02:43:53 S2ePollLoop request
+2025/10/24 10:43:53 fuzzer vm-0: 2025/10/24 02:43:53 S2ePollLoop: reply #inputs=0
+2025/10/24 10:43:56 fuzzer vm-0: 2025/10/24 02:43:56 S2ePollLoop request
+2025/10/24 10:43:56 fuzzer vm-0: 2025/10/24 02:43:56 S2ePollLoop: reply #inputs=0
+2025/10/24 10:43:58 VMs 1, executed 111223, cover 53857, crashes 9, repro 0
+2025/10/24 10:43:59 fuzzer vm-0: 2025/10/24 02:43:59 S2ePollLoop request
+2025/10/24 10:43:59 fuzzer vm-0: 2025/10/24 02:43:59 S2ePollLoop: reply #inputs=0
+2025/10/24 10:44:02 fuzzer vm-0: 2025/10/24 02:44:02 S2ePollLoop request
+2025/10/24 10:44:02 fuzzer vm-0: 2025/10/24 02:44:02 S2ePollLoop: reply #inputs=0
+2025/10/24 10:44:05 fuzzer vm-0: 2025/10/24 02:44:05 S2ePollLoop request
+2025/10/24 10:44:05 fuzzer vm-0: 2025/10/24 02:44:05 S2ePollLoop: reply #inputs=0
+2025/10/24 10:44:08 VMs 1, executed 112070, cover 54269, crashes 9, repro 0
+2025/10/24 10:44:08 fuzzer vm-0: 2025/10/24 02:44:08 S2ePollLoop request
+2025/10/24 10:44:08 fuzzer vm-0: 2025/10/24 02:44:08 S2ePollLoop: reply #inputs=0
+2025/10/24 10:44:11 fuzzer vm-0: 2025/10/24 02:44:11 S2ePollLoop request
+2025/10/24 10:44:11 fuzzer vm-0: 2025/10/24 02:44:11 S2ePollLoop: reply #inputs=0
+2025/10/24 10:44:14 fuzzer vm-0: 2025/10/24 02:44:14 S2ePollLoop request
+2025/10/24 10:44:14 fuzzer vm-0: 2025/10/24 02:44:14 S2ePollLoop: reply #inputs=0
+2025/10/24 10:44:17 fuzzer vm-0: 2025/10/24 02:44:17 S2ePollLoop request
+2025/10/24 10:44:17 fuzzer vm-0: 2025/10/24 02:44:17 S2ePollLoop: reply #inputs=0
+2025/10/24 10:44:18 VMs 1, executed 112836, cover 54322, crashes 9, repro 0
+2025/10/24 10:44:20 fuzzer vm-0: 2025/10/24 02:44:20 S2ePollLoop request
+2025/10/24 10:44:20 fuzzer vm-0: 2025/10/24 02:44:20 S2ePollLoop: reply #inputs=0
+2025/10/24 10:44:23 fuzzer vm-0: 2025/10/24 02:44:23 S2ePollLoop request
+2025/10/24 10:44:23 fuzzer vm-0: 2025/10/24 02:44:23 S2ePollLoop: reply #inputs=0
+2025/10/24 10:44:26 fuzzer vm-0: 2025/10/24 02:44:26 S2ePollLoop request
+2025/10/24 10:44:26 fuzzer vm-0: 2025/10/24 02:44:26 S2ePollLoop: reply #inputs=0
+2025/10/24 10:44:28 VMs 1, executed 113399, cover 54753, crashes 9, repro 0
+2025/10/24 10:44:29 fuzzer vm-0: 2025/10/24 02:44:29 S2ePollLoop request
+2025/10/24 10:44:29 fuzzer vm-0: 2025/10/24 02:44:29 S2ePollLoop: reply #inputs=0
+2025/10/24 10:44:32 fuzzer vm-0: 2025/10/24 02:44:32 S2ePollLoop request
+2025/10/24 10:44:32 fuzzer vm-0: 2025/10/24 02:44:32 S2ePollLoop: reply #inputs=0
+2025/10/24 10:44:35 fuzzer vm-0: 2025/10/24 02:44:35 S2ePollLoop request
+2025/10/24 10:44:35 fuzzer vm-0: 2025/10/24 02:44:35 S2ePollLoop: reply #inputs=0
+2025/10/24 10:44:38 VMs 1, executed 113828, cover 54765, crashes 9, repro 0
+2025/10/24 10:44:38 fuzzer vm-0: 2025/10/24 02:44:38 S2ePollLoop request
+2025/10/24 10:44:38 fuzzer vm-0: 2025/10/24 02:44:38 S2ePollLoop: reply #inputs=0
+2025/10/24 10:44:41 fuzzer vm-0: 2025/10/24 02:44:41 S2ePollLoop request
+2025/10/24 10:44:41 fuzzer vm-0: 2025/10/24 02:44:41 S2ePollLoop: reply #inputs=0
+2025/10/24 10:44:44 fuzzer vm-0: 2025/10/24 02:44:44 S2ePollLoop request
+2025/10/24 10:44:44 fuzzer vm-0: 2025/10/24 02:44:44 S2ePollLoop: reply #inputs=0
+2025/10/24 10:44:47 fuzzer vm-0: 2025/10/24 02:44:47 S2ePollLoop request
+2025/10/24 10:44:47 fuzzer vm-0: 2025/10/24 02:44:47 S2ePollLoop: reply #inputs=0
+2025/10/24 10:44:48 VMs 1, executed 114649, cover 54814, crashes 9, repro 0
+2025/10/24 10:44:50 fuzzer vm-0: 2025/10/24 02:44:50 S2ePollLoop request
+2025/10/24 10:44:50 fuzzer vm-0: 2025/10/24 02:44:50 S2ePollLoop: reply #inputs=0
+2025/10/24 10:44:53 fuzzer vm-0: 2025/10/24 02:44:53 S2ePollLoop request
+2025/10/24 10:44:53 fuzzer vm-0: 2025/10/24 02:44:53 S2ePollLoop: reply #inputs=0
+2025/10/24 10:44:56 fuzzer vm-0: 2025/10/24 02:44:56 S2ePollLoop request
+2025/10/24 10:44:56 fuzzer vm-0: 2025/10/24 02:44:56 S2ePollLoop: reply #inputs=0
+2025/10/24 10:44:58 VMs 1, executed 114649, cover 54953, crashes 9, repro 0
+2025/10/24 10:44:59 fuzzer vm-0: 2025/10/24 02:44:59 S2ePollLoop request
+2025/10/24 10:44:59 fuzzer vm-0: 2025/10/24 02:44:59 S2ePollLoop: reply #inputs=0
+2025/10/24 10:45:02 fuzzer vm-0: 2025/10/24 02:45:02 S2ePollLoop request
+2025/10/24 10:45:02 fuzzer vm-0: 2025/10/24 02:45:02 S2ePollLoop: reply #inputs=0
+2025/10/24 10:45:05 fuzzer vm-0: 2025/10/24 02:45:05 S2ePollLoop request
+2025/10/24 10:45:05 fuzzer vm-0: 2025/10/24 02:45:05 S2ePollLoop: reply #inputs=0
+2025/10/24 10:45:08 VMs 1, executed 115702, cover 55025, crashes 9, repro 0
+2025/10/24 10:45:08 fuzzer vm-0: 2025/10/24 02:45:08 S2ePollLoop request
+2025/10/24 10:45:08 fuzzer vm-0: 2025/10/24 02:45:08 S2ePollLoop: reply #inputs=0
+2025/10/24 10:45:18 VMs 1, executed 115702, cover 55026, crashes 9, repro 0
+2025/10/24 10:45:19 vm-0: crash: lost connection to test machine
+2025/10/24 10:45:28 VMs 0, executed 115702, cover 55026, crashes 10, repro 0
+2025/10/24 10:45:38 VMs 0, executed 115702, cover 55026, crashes 10, repro 0
+2025/10/24 10:45:48 VMs 0, executed 115702, cover 55026, crashes 10, repro 0
+2025/10/24 10:45:58 VMs 0, executed 115702, cover 55026, crashes 10, repro 0
+2025/10/24 10:46:08 VMs 0, executed 115702, cover 55026, crashes 10, repro 0
+2025/10/24 10:46:18 VMs 0, executed 115702, cover 55026, crashes 10, repro 0
+2025/10/24 10:46:28 VMs 0, executed 115702, cover 55026, crashes 10, repro 0
+2025/10/24 10:46:38 VMs 0, executed 115702, cover 55026, crashes 10, repro 0
+2025/10/24 10:46:48 VMs 0, executed 115702, cover 55026, crashes 10, repro 0
+2025/10/24 10:46:58 VMs 0, executed 115702, cover 55026, crashes 10, repro 0
+2025/10/24 10:47:08 VMs 0, executed 115702, cover 55026, crashes 10, repro 0
+2025/10/24 10:47:18 VMs 0, executed 115702, cover 55026, crashes 10, repro 0
+2025/10/24 10:47:22 /syz-fuzzer -executor=/syz-executor -id=0 -name=vm-0 -arch=amd64 -manager=10.0.2.10:34919 -procs=4 -leak=false -cover=true -sandbox=setuid -debug=false -v=0
+2025/10/24 10:47:28 VMs 1, executed 115702, cover 55026, crashes 10, repro 0
+2025/10/24 10:47:38 VMs 1, executed 115702, cover 55026, crashes 10, repro 0
+2025/10/24 10:47:48 VMs 1, executed 115702, cover 55026, crashes 10, repro 0
+2025/10/24 10:47:58 VMs 1, executed 115702, cover 55026, crashes 10, repro 0
+2025/10/24 10:48:08 VMs 1, executed 115702, cover 55026, crashes 10, repro 0
+2025/10/24 10:48:09 Uptime2:1h20m1s corpus#:3130 corpusCover#:40892
+2025/10/24 10:48:18 VMs 1, executed 115702, cover 55026, crashes 10, repro 0
+2025/10/24 10:48:28 VMs 1, executed 115702, cover 55026, crashes 10, repro 0
+2025/10/24 10:48:38 VMs 1, executed 115702, cover 55026, crashes 10, repro 0
+2025/10/24 10:48:48 VMs 1, executed 115702, cover 55026, crashes 10, repro 0
+2025/10/24 10:48:58 VMs 1, executed 115702, cover 55026, crashes 10, repro 0
+2025/10/24 10:49:08 VMs 1, executed 115702, cover 55026, crashes 10, repro 0
+2025/10/24 10:49:18 VMs 1, executed 115702, cover 55026, crashes 10, repro 0
+2025/10/24 10:49:28 VMs 1, executed 115702, cover 55026, crashes 10, repro 0
+2025/10/24 10:49:38 VMs 1, executed 115702, cover 55026, crashes 10, repro 0
+2025/10/24 10:49:48 VMs 1, executed 115702, cover 55026, crashes 10, repro 0
+2025/10/24 10:49:54 fuzzer vm-0: 2025/10/24 02:49:54 S2ePollLoop request
+2025/10/24 10:49:54 fuzzer vm-0: 2025/10/24 02:49:54 S2ePollLoop: reply #inputs=0
+2025/10/24 10:49:57 fuzzer vm-0: 2025/10/24 02:49:57 S2ePollLoop request
+2025/10/24 10:49:57 fuzzer vm-0: 2025/10/24 02:49:57 S2ePollLoop: reply #inputs=0
+2025/10/24 10:49:58 VMs 1, executed 115704, cover 55050, crashes 10, repro 0
+2025/10/24 10:50:00 fuzzer vm-0: 2025/10/24 02:50:00 S2ePollLoop request
+2025/10/24 10:50:00 fuzzer vm-0: 2025/10/24 02:50:00 S2ePollLoop: reply #inputs=0
+2025/10/24 10:50:03 fuzzer vm-0: 2025/10/24 02:50:03 S2ePollLoop request
+2025/10/24 10:50:03 fuzzer vm-0: 2025/10/24 02:50:03 S2ePollLoop: reply #inputs=0
+2025/10/24 10:50:06 fuzzer vm-0: 2025/10/24 02:50:06 S2ePollLoop request
+2025/10/24 10:50:06 fuzzer vm-0: 2025/10/24 02:50:06 S2ePollLoop: reply #inputs=0
+2025/10/24 10:50:08 VMs 1, executed 116328, cover 55050, crashes 10, repro 0
+2025/10/24 10:50:09 fuzzer vm-0: 2025/10/24 02:50:09 S2ePollLoop request
+2025/10/24 10:50:09 fuzzer vm-0: 2025/10/24 02:50:09 S2ePollLoop: reply #inputs=0
+2025/10/24 10:50:12 fuzzer vm-0: 2025/10/24 02:50:12 S2ePollLoop request
+2025/10/24 10:50:12 fuzzer vm-0: 2025/10/24 02:50:12 S2ePollLoop: reply #inputs=0
+2025/10/24 10:50:15 fuzzer vm-0: 2025/10/24 02:50:15 S2ePollLoop request
+2025/10/24 10:50:15 fuzzer vm-0: 2025/10/24 02:50:15 S2ePollLoop: reply #inputs=0
+2025/10/24 10:50:18 VMs 1, executed 117114, cover 55206, crashes 10, repro 0
+2025/10/24 10:50:18 fuzzer vm-0: 2025/10/24 02:50:18 S2ePollLoop request
+2025/10/24 10:50:18 fuzzer vm-0: 2025/10/24 02:50:18 S2ePollLoop: reply #inputs=0
+2025/10/24 10:50:21 fuzzer vm-0: 2025/10/24 02:50:21 S2ePollLoop request
+2025/10/24 10:50:21 fuzzer vm-0: 2025/10/24 02:50:21 S2ePollLoop: reply #inputs=0
+2025/10/24 10:50:24 fuzzer vm-0: 2025/10/24 02:50:24 S2ePollLoop request
+2025/10/24 10:50:24 fuzzer vm-0: 2025/10/24 02:50:24 S2ePollLoop: reply #inputs=0
+2025/10/24 10:50:27 fuzzer vm-0: 2025/10/24 02:50:27 S2ePollLoop request
+2025/10/24 10:50:27 fuzzer vm-0: 2025/10/24 02:50:27 S2ePollLoop: reply #inputs=0
+2025/10/24 10:50:28 VMs 1, executed 118038, cover 55225, crashes 10, repro 0
+2025/10/24 10:50:30 fuzzer vm-0: 2025/10/24 02:50:30 S2ePollLoop request
+2025/10/24 10:50:30 fuzzer vm-0: 2025/10/24 02:50:30 S2ePollLoop: reply #inputs=0
+2025/10/24 10:50:33 fuzzer vm-0: 2025/10/24 02:50:33 S2ePollLoop request
+2025/10/24 10:50:33 fuzzer vm-0: 2025/10/24 02:50:33 S2ePollLoop: reply #inputs=0
+2025/10/24 10:50:36 fuzzer vm-0: 2025/10/24 02:50:36 S2ePollLoop request
+2025/10/24 10:50:36 fuzzer vm-0: 2025/10/24 02:50:36 S2ePollLoop: reply #inputs=0
+2025/10/24 10:50:38 VMs 1, executed 118038, cover 55259, crashes 10, repro 0
+2025/10/24 10:50:39 fuzzer vm-0: 2025/10/24 02:50:39 S2ePollLoop request
+2025/10/24 10:50:39 fuzzer vm-0: 2025/10/24 02:50:39 S2ePollLoop: reply #inputs=0
+2025/10/24 10:50:42 fuzzer vm-0: 2025/10/24 02:50:42 S2ePollLoop request
+2025/10/24 10:50:42 fuzzer vm-0: 2025/10/24 02:50:42 S2ePollLoop: reply #inputs=0
+2025/10/24 10:50:45 fuzzer vm-0: 2025/10/24 02:50:45 S2ePollLoop request
+2025/10/24 10:50:45 fuzzer vm-0: 2025/10/24 02:50:45 S2ePollLoop: reply #inputs=0
+2025/10/24 10:50:48 VMs 1, executed 118930, cover 55311, crashes 10, repro 0
+2025/10/24 10:50:48 fuzzer vm-0: 2025/10/24 02:50:48 S2ePollLoop request
+2025/10/24 10:50:48 fuzzer vm-0: 2025/10/24 02:50:48 S2ePollLoop: reply #inputs=0
+2025/10/24 10:50:51 fuzzer vm-0: 2025/10/24 02:50:51 S2ePollLoop request
+2025/10/24 10:50:51 fuzzer vm-0: 2025/10/24 02:50:51 S2ePollLoop: reply #inputs=0
+2025/10/24 10:50:54 fuzzer vm-0: 2025/10/24 02:50:54 S2ePollLoop request
+2025/10/24 10:50:54 fuzzer vm-0: 2025/10/24 02:50:54 S2ePollLoop: reply #inputs=0
+2025/10/24 10:50:57 fuzzer vm-0: 2025/10/24 02:50:57 S2ePollLoop request
+2025/10/24 10:50:57 fuzzer vm-0: 2025/10/24 02:50:57 S2ePollLoop: reply #inputs=0
+2025/10/24 10:50:58 VMs 1, executed 119671, cover 55472, crashes 10, repro 0
+2025/10/24 10:51:00 fuzzer vm-0: 2025/10/24 02:51:00 S2ePollLoop request
+2025/10/24 10:51:00 fuzzer vm-0: 2025/10/24 02:51:00 S2ePollLoop: reply #inputs=0
+2025/10/24 10:51:03 fuzzer vm-0: 2025/10/24 02:51:03 S2ePollLoop request
+2025/10/24 10:51:03 fuzzer vm-0: 2025/10/24 02:51:03 S2ePollLoop: reply #inputs=0
+2025/10/24 10:51:06 fuzzer vm-0: 2025/10/24 02:51:06 S2ePollLoop request
+2025/10/24 10:51:06 fuzzer vm-0: 2025/10/24 02:51:06 S2ePollLoop: reply #inputs=0
+2025/10/24 10:51:08 VMs 1, executed 120611, cover 55476, crashes 10, repro 0
+2025/10/24 10:51:09 fuzzer vm-0: 2025/10/24 02:51:09 S2ePollLoop request
+2025/10/24 10:51:09 fuzzer vm-0: 2025/10/24 02:51:09 S2ePollLoop: reply #inputs=0
+2025/10/24 10:51:12 fuzzer vm-0: 2025/10/24 02:51:12 S2ePollLoop request
+2025/10/24 10:51:12 fuzzer vm-0: 2025/10/24 02:51:12 S2ePollLoop: reply #inputs=0
+2025/10/24 10:51:15 fuzzer vm-0: 2025/10/24 02:51:15 S2ePollLoop request
+2025/10/24 10:51:15 fuzzer vm-0: 2025/10/24 02:51:15 S2ePollLoop: reply #inputs=0
+2025/10/24 10:51:18 VMs 1, executed 121672, cover 55491, crashes 10, repro 0
+2025/10/24 10:51:18 fuzzer vm-0: 2025/10/24 02:51:18 S2ePollLoop request
+2025/10/24 10:51:18 fuzzer vm-0: 2025/10/24 02:51:18 S2ePollLoop: reply #inputs=0
+2025/10/24 10:51:21 fuzzer vm-0: 2025/10/24 02:51:21 S2ePollLoop request
+2025/10/24 10:51:21 fuzzer vm-0: 2025/10/24 02:51:21 S2ePollLoop: reply #inputs=0
+2025/10/24 10:51:24 fuzzer vm-0: 2025/10/24 02:51:24 S2ePollLoop request
+2025/10/24 10:51:24 fuzzer vm-0: 2025/10/24 02:51:24 S2ePollLoop: reply #inputs=0
+2025/10/24 10:51:27 fuzzer vm-0: 2025/10/24 02:51:27 S2ePollLoop request
+2025/10/24 10:51:27 fuzzer vm-0: 2025/10/24 02:51:27 S2ePollLoop: reply #inputs=0
+2025/10/24 10:51:28 VMs 1, executed 122758, cover 55500, crashes 10, repro 0
+2025/10/24 10:51:30 fuzzer vm-0: 2025/10/24 02:51:30 S2ePollLoop request
+2025/10/24 10:51:30 fuzzer vm-0: 2025/10/24 02:51:30 S2ePollLoop: reply #inputs=0
+2025/10/24 10:51:33 fuzzer vm-0: 2025/10/24 02:51:33 S2ePollLoop request
+2025/10/24 10:51:33 fuzzer vm-0: 2025/10/24 02:51:33 S2ePollLoop: reply #inputs=0
+2025/10/24 10:51:36 fuzzer vm-0: 2025/10/24 02:51:36 S2ePollLoop request
+2025/10/24 10:51:36 fuzzer vm-0: 2025/10/24 02:51:36 S2ePollLoop: reply #inputs=0
+2025/10/24 10:51:38 VMs 1, executed 122758, cover 55515, crashes 10, repro 0
+2025/10/24 10:51:39 fuzzer vm-0: 2025/10/24 02:51:39 S2ePollLoop request
+2025/10/24 10:51:39 fuzzer vm-0: 2025/10/24 02:51:39 S2ePollLoop: reply #inputs=0
+2025/10/24 10:51:48 VMs 1, executed 123684, cover 55554, crashes 10, repro 0
+2025/10/24 10:51:51 vm-0: crash: lost connection to test machine
