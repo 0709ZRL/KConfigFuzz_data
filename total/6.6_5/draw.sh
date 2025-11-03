@@ -14,11 +14,21 @@
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/0919/kconfigfuzz-nd/66-6p1q2c4g-1026.log kc-v-2
 
 # 6p1q2c4g下24小时测试后第二次用第一次的种子测试kc
-sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/0919/kconfigfuzz-corpus/66-6p1q2c4g-1028-corpus.log kc-3
+# sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/0919/kconfigfuzz-corpus/66-6p1q2c4g-1028-corpus.log kc-3
+
+# 6p1q2c4g下将动态验证放到Minimize前无验证队列的KC
+# sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/kconfigfuzz/vini-66-6p1q2c4g-1029.log kc-newD-noqueue
+sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/kconfigfuzz/vini-66-6p1q2c4g-1103.log kc-newD-noqueue-3
+# 6p1q2c4g下将动态验证放到Minimize前有验证队列的KC
+# sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/kc-queue/vini-66-6p1q2c4g-1030.log kc-newD-withqueue
+sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/kc-queue/vini-66-6p1q2c4g-1103.log kc-newD-withqueue-3
+
+# 不设j，即默认是6
+sshpass -p zhaoruilin0709 scp zzzrrll@10.30.6.1:/home/zzzrrll/workdir/log_6.6gcc_original healer-3
 
 # 定义字符串数组（下标从 0 开始）
-files=("kc-3" "syzkaller" "kc-d" "kc-v-2" "kc-i" "kc-id" "healer-2" "hfl")
-labels=("KConfigFuzz" "Syzkaller" "KConfigFuzz-D" "KConfigFuzz-V" "KConfigFuzz-I" "KConfigFuzz-ID" "HEALER" "HFL")
+files=("kc-2" "syzkaller" "kc-d" "kc-v-2" "kc-i" "kc-id" "healer-3" "hfl" "vini-66-6p1q2c4g-1030.log" "kc-newD-noqueue-2" "kc-newD-withqueue-2")
+labels=("KConfigFuzz" "Syzkaller" "KConfigFuzz-D" "KConfigFuzz-V" "KConfigFuzz-I" "KConfigFuzz-ID" "HEALER" "HFL" "KConfigFuzz-NewDynamic" "KConfigFuzz-NewD-NoQ" "KConfigFuzz-NewD-Q")
 
 # 输出提示信息
 echo "可用选项（下标 → 内容）："

@@ -1,0 +1,1334 @@
+2025/11/03 09:46:16 serving rpc on tcp://41375
+2025/11/03 09:46:16 serving http on http://127.0.0.1:57222
+2025/11/03 09:46:17 skipped 40 seeds
+2025/11/03 09:48:11 machine check:
+disabled the following syscalls:
+fsetxattr$security_selinux                  : selinux is not enabled
+fsetxattr$security_smack_transmute          : smack is not enabled
+fsetxattr$smack_xattr_label                 : smack is not enabled
+get_thread_area                             : syscall get_thread_area is not present
+lookup_dcookie                              : syscall lookup_dcookie is not present
+lsetxattr$security_selinux                  : selinux is not enabled
+lsetxattr$security_smack_transmute          : smack is not enabled
+lsetxattr$smack_xattr_label                 : smack is not enabled
+lsm_get_self_attr                           : syscall lsm_get_self_attr is not present
+lsm_list_modules                            : syscall lsm_list_modules is not present
+lsm_set_self_attr                           : syscall lsm_set_self_attr is not present
+map_shadow_stack                            : syscall map_shadow_stack is not present
+mount$esdfs                                 : /proc/filesystems does not contain esdfs
+mount$incfs                                 : /proc/filesystems does not contain incremental-fs
+openat$acpi_thermal_rel                     : failed to open /dev/acpi_thermal_rel: no such file or directory
+openat$ashmem                               : failed to open /dev/ashmem: no such file or directory
+openat$bifrost                              : failed to open /dev/bifrost: no such file or directory
+openat$binder                               : failed to open /dev/binder: no such file or directory
+openat$camx                                 : failed to open /dev/v4l/by-path/platform-soc@0:qcom_cam-req-mgr-video-index0: no such file or directory
+openat$capi20                               : failed to open /dev/capi20: no such file or directory
+openat$cdrom1                               : failed to open /dev/cdrom1: no such file or directory
+openat$damon_attrs                          : failed to open /sys/kernel/debug/damon/attrs: no such file or directory
+openat$damon_init_regions                   : failed to open /sys/kernel/debug/damon/init_regions: no such file or directory
+openat$damon_kdamond_pid                    : failed to open /sys/kernel/debug/damon/kdamond_pid: no such file or directory
+openat$damon_mk_contexts                    : failed to open /sys/kernel/debug/damon/mk_contexts: no such file or directory
+openat$damon_monitor_on                     : failed to open /sys/kernel/debug/damon/monitor_on: no such file or directory
+openat$damon_rm_contexts                    : failed to open /sys/kernel/debug/damon/rm_contexts: no such file or directory
+openat$damon_schemes                        : failed to open /sys/kernel/debug/damon/schemes: no such file or directory
+openat$damon_target_ids                     : failed to open /sys/kernel/debug/damon/target_ids: no such file or directory
+openat$hwbinder                             : failed to open /dev/hwbinder: no such file or directory
+openat$i915                                 : failed to open /dev/i915: no such file or directory
+openat$img_rogue                            : failed to open /dev/img-rogue: no such file or directory
+openat$irnet                                : failed to open /dev/irnet: no such file or directory
+openat$keychord                             : failed to open /dev/keychord: no such file or directory
+openat$lightnvm                             : failed to open /dev/lightnvm/control: no such file or directory
+openat$mali                                 : failed to open /dev/mali0: no such file or directory
+openat$md                                   : failed to open /dev/md0: no such file or directory
+openat$msm                                  : failed to open /dev/msm: no such file or directory
+openat$ndctl0                               : failed to open /dev/ndctl0: no such file or directory
+openat$nmem0                                : failed to open /dev/nmem0: no such file or directory
+openat$pktcdvd                              : failed to open /dev/pktcdvd/control: no such file or directory
+openat$pmem0                                : failed to open /dev/pmem0: no such file or directory
+openat$proc_capi20                          : failed to open /proc/capi/capi20: no such file or directory
+openat$proc_capi20ncci                      : failed to open /proc/capi/capi20ncci: no such file or directory
+openat$proc_reclaim                         : failed to open /proc/self/reclaim: no such file or directory
+openat$ptp1                                 : failed to open /dev/ptp1: no such file or directory
+openat$rnullb                               : failed to open /dev/rnullb0: no such file or directory
+openat$selinux_access                       : failed to open /selinux/access: no such file or directory
+openat$selinux_attr                         : selinux is not enabled
+openat$selinux_avc_cache_stats              : failed to open /selinux/avc/cache_stats: no such file or directory
+openat$selinux_avc_cache_threshold          : failed to open /selinux/avc/cache_threshold: no such file or directory
+openat$selinux_avc_hash_stats               : failed to open /selinux/avc/hash_stats: no such file or directory
+openat$selinux_checkreqprot                 : failed to open /selinux/checkreqprot: no such file or directory
+openat$selinux_commit_pending_bools         : failed to open /selinux/commit_pending_bools: no such file or directory
+openat$selinux_context                      : failed to open /selinux/context: no such file or directory
+openat$selinux_create                       : failed to open /selinux/create: no such file or directory
+openat$selinux_enforce                      : failed to open /selinux/enforce: no such file or directory
+openat$selinux_load                         : failed to open /selinux/load: no such file or directory
+openat$selinux_member                       : failed to open /selinux/member: no such file or directory
+openat$selinux_mls                          : failed to open /selinux/mls: no such file or directory
+openat$selinux_policy                       : failed to open /selinux/policy: no such file or directory
+openat$selinux_relabel                      : failed to open /selinux/relabel: no such file or directory
+openat$selinux_status                       : failed to open /selinux/status: no such file or directory
+openat$selinux_user                         : failed to open /selinux/user: no such file or directory
+openat$selinux_validatetrans                : failed to open /selinux/validatetrans: no such file or directory
+openat$sev                                  : failed to open /dev/sev: no such file or directory
+openat$sgx_provision                        : failed to open /dev/sgx_provision: no such file or directory
+openat$smack_task_current                   : smack is not enabled
+openat$smack_thread_current                 : smack is not enabled
+openat$smackfs_access                       : failed to open /sys/fs/smackfs/access: no such file or directory
+openat$smackfs_ambient                      : failed to open /sys/fs/smackfs/ambient: no such file or directory
+openat$smackfs_change_rule                  : failed to open /sys/fs/smackfs/change-rule: no such file or directory
+openat$smackfs_cipso                        : failed to open /sys/fs/smackfs/cipso: no such file or directory
+openat$smackfs_cipsonum                     : failed to open /sys/fs/smackfs/direct: no such file or directory
+openat$smackfs_ipv6host                     : failed to open /sys/fs/smackfs/ipv6host: no such file or directory
+openat$smackfs_load                         : failed to open /sys/fs/smackfs/load: no such file or directory
+openat$smackfs_logging                      : failed to open /sys/fs/smackfs/logging: no such file or directory
+openat$smackfs_netlabel                     : failed to open /sys/fs/smackfs/netlabel: no such file or directory
+openat$smackfs_onlycap                      : failed to open /sys/fs/smackfs/onlycap: no such file or directory
+openat$smackfs_ptrace                       : failed to open /sys/fs/smackfs/ptrace: no such file or directory
+openat$smackfs_relabel_self                 : failed to open /sys/fs/smackfs/relabel-self: no such file or directory
+openat$smackfs_revoke_subject               : failed to open /sys/fs/smackfs/revoke-subject: no such file or directory
+openat$smackfs_syslog                       : failed to open /sys/fs/smackfs/syslog: no such file or directory
+openat$smackfs_unconfined                   : failed to open /sys/fs/smackfs/unconfined: no such file or directory
+openat$tlk_device                           : failed to open /dev/tlk_device: no such file or directory
+openat$trusty                               : failed to open /dev/trusty-ipc-dev0: no such file or directory
+openat$trusty_avb                           : failed to open /dev/trusty-ipc-dev0: no such file or directory
+openat$trusty_gatekeeper                    : failed to open /dev/trusty-ipc-dev0: no such file or directory
+openat$trusty_hwkey                         : failed to open /dev/trusty-ipc-dev0: no such file or directory
+openat$trusty_hwrng                         : failed to open /dev/trusty-ipc-dev0: no such file or directory
+openat$trusty_km                            : failed to open /dev/trusty-ipc-dev0: no such file or directory
+openat$trusty_km_secure                     : failed to open /dev/trusty-ipc-dev0: no such file or directory
+openat$trusty_storage                       : failed to open /dev/trusty-ipc-dev0: no such file or directory
+openat$tty                                  : failed to open /dev/tty: no such device or address
+openat$uverbs0                              : failed to open /dev/infiniband/uverbs0: no such file or directory
+openat$vndbinder                            : failed to open /dev/vndbinder: no such file or directory
+openat$vtpm                                 : failed to open /dev/vtpmx: no such file or directory
+openat$xenevtchn                            : failed to open /dev/xen/evtchn: no such file or directory
+openat$zygote                               : failed to open /dev/socket/zygote: no such file or directory
+read$smackfs_access                         : smack is not enabled
+read$smackfs_cipsonum                       : smack is not enabled
+read$smackfs_logging                        : smack is not enabled
+read$smackfs_ptrace                         : smack is not enabled
+set_thread_area                             : syscall set_thread_area is not present
+setxattr$security_selinux                   : selinux is not enabled
+setxattr$security_smack_transmute           : smack is not enabled
+setxattr$smack_xattr_label                  : smack is not enabled
+socket$hf                                   : socket$hf(0x13, 0x2, 0x0) failed: address family not supported by protocol
+socket$inet6_dccp                           : socket$inet6_dccp(0xa, 0x6, 0x0) failed: socket type not supported
+socket$inet_dccp                            : socket$inet_dccp(0x2, 0x6, 0x0) failed: socket type not supported
+socket$vsock_dgram                          : socket$vsock_dgram(0x28, 0x2, 0x0) failed: no such device
+syz_btf_id_by_name$bpf_lsm                  : failed to open /sys/kernel/btf/vmlinux: no such file or directory
+syz_init_net_socket$bt_cmtp                 : syz_init_net_socket$bt_cmtp(0x1f, 0x3, 0x5) failed: protocol not supported
+syz_kvm_setup_cpu$ppc64                     : unsupported arch
+syz_mount_image$bcachefs                    : /proc/filesystems does not contain bcachefs
+syz_mount_image$ntfs                        : /proc/filesystems does not contain ntfs
+syz_mount_image$reiserfs                    : /proc/filesystems does not contain reiserfs
+syz_mount_image$sysv                        : /proc/filesystems does not contain sysv
+syz_mount_image$v7                          : /proc/filesystems does not contain v7
+syz_open_dev$dricontrol                     : failed to open /dev/dri/controlD#: no such file or directory
+syz_open_dev$drirender                      : failed to open /dev/dri/renderD#: no such file or directory
+syz_open_dev$floppy                         : failed to open /dev/fd#: no such file or directory
+syz_open_dev$ircomm                         : failed to open /dev/ircomm#: no such file or directory
+syz_open_dev$sndhw                          : failed to open /dev/snd/hwC#D#: function not implemented
+syz_open_dev$sndmidi                        : failed to open /dev/snd/midiC#D#: function not implemented
+syz_open_dev$sndpcmc                        : failed to open /dev/snd/pcmC#D#c: function not implemented
+syz_open_dev$sndpcmp                        : failed to open /dev/snd/pcmC#D#p: function not implemented
+syz_open_dev$usbfs                          : failed to open /dev/bus/usb/00#/00#: function not implemented
+uselib                                      : syscall uselib is not present
+write$selinux_access                        : selinux is not enabled
+write$selinux_attr                          : selinux is not enabled
+write$selinux_context                       : selinux is not enabled
+write$selinux_create                        : selinux is not enabled
+write$selinux_load                          : selinux is not enabled
+write$selinux_user                          : selinux is not enabled
+write$selinux_validatetrans                 : selinux is not enabled
+write$smack_current                         : smack is not enabled
+write$smackfs_access                        : smack is not enabled
+write$smackfs_change_rule                   : smack is not enabled
+write$smackfs_cipso                         : smack is not enabled
+write$smackfs_cipsonum                      : smack is not enabled
+write$smackfs_ipv6host                      : smack is not enabled
+write$smackfs_label                         : smack is not enabled
+write$smackfs_labels_list                   : smack is not enabled
+write$smackfs_load                          : smack is not enabled
+write$smackfs_logging                       : smack is not enabled
+write$smackfs_netlabel                      : smack is not enabled
+write$smackfs_ptrace                        : smack is not enabled
+
+transitively disabled the following syscalls (missing resource [creating syscalls]):
+bind$vsock_dgram                            : sock_vsock_dgram [socket$vsock_dgram]
+close$ibv_device                            : fd_rdma [openat$uverbs0]
+connect$hf                                  : sock_hf [socket$hf]
+connect$vsock_dgram                         : sock_vsock_dgram [socket$vsock_dgram]
+getsockopt$inet6_dccp_buf                   : sock_dccp6 [socket$inet6_dccp]
+getsockopt$inet6_dccp_int                   : sock_dccp6 [socket$inet6_dccp]
+getsockopt$inet_dccp_buf                    : sock_dccp [socket$inet_dccp]
+getsockopt$inet_dccp_int                    : sock_dccp [socket$inet_dccp]
+ioctl$ACPI_THERMAL_GET_ART                  : fd_acpi_thermal_rel [openat$acpi_thermal_rel]
+ioctl$ACPI_THERMAL_GET_ART_COUNT            : fd_acpi_thermal_rel [openat$acpi_thermal_rel]
+ioctl$ACPI_THERMAL_GET_ART_LEN              : fd_acpi_thermal_rel [openat$acpi_thermal_rel]
+ioctl$ACPI_THERMAL_GET_TRT                  : fd_acpi_thermal_rel [openat$acpi_thermal_rel]
+ioctl$ACPI_THERMAL_GET_TRT_COUNT            : fd_acpi_thermal_rel [openat$acpi_thermal_rel]
+ioctl$ACPI_THERMAL_GET_TRT_LEN              : fd_acpi_thermal_rel [openat$acpi_thermal_rel]
+ioctl$ASHMEM_GET_NAME                       : fd_ashmem [openat$ashmem]
+ioctl$ASHMEM_GET_PIN_STATUS                 : fd_ashmem [openat$ashmem]
+ioctl$ASHMEM_GET_PROT_MASK                  : fd_ashmem [openat$ashmem]
+ioctl$ASHMEM_GET_SIZE                       : fd_ashmem [openat$ashmem]
+ioctl$ASHMEM_PURGE_ALL_CACHES               : fd_ashmem [openat$ashmem]
+ioctl$ASHMEM_SET_NAME                       : fd_ashmem [openat$ashmem]
+ioctl$ASHMEM_SET_PROT_MASK                  : fd_ashmem [openat$ashmem]
+ioctl$ASHMEM_SET_SIZE                       : fd_ashmem [openat$ashmem]
+ioctl$CAPI_CLR_FLAGS                        : fd_capi20 [openat$capi20]
+ioctl$CAPI_GET_ERRCODE                      : fd_capi20 [openat$capi20]
+ioctl$CAPI_GET_FLAGS                        : fd_capi20 [openat$capi20]
+ioctl$CAPI_GET_MANUFACTURER                 : fd_capi20 [openat$capi20]
+ioctl$CAPI_GET_PROFILE                      : fd_capi20 [openat$capi20]
+ioctl$CAPI_GET_SERIAL                       : fd_capi20 [openat$capi20]
+ioctl$CAPI_INSTALLED                        : fd_capi20 [openat$capi20]
+ioctl$CAPI_MANUFACTURER_CMD                 : fd_capi20 [openat$capi20]
+ioctl$CAPI_NCCI_GETUNIT                     : fd_capi20 [openat$capi20]
+ioctl$CAPI_NCCI_OPENCOUNT                   : fd_capi20 [openat$capi20]
+ioctl$CAPI_REGISTER                         : fd_capi20 [openat$capi20]
+ioctl$CAPI_SET_FLAGS                        : fd_capi20 [openat$capi20]
+ioctl$CREATE_COUNTERS                       : fd_rdma [openat$uverbs0]
+ioctl$DESTROY_COUNTERS                      : fd_rdma [openat$uverbs0]
+ioctl$DRM_IOCTL_I915_GEM_BUSY               : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_GEM_CONTEXT_CREATE     : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_GEM_CONTEXT_DESTROY    : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_GEM_CONTEXT_GETPARAM   : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_GEM_CONTEXT_SETPARAM   : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_GEM_CREATE             : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_GEM_EXECBUFFER         : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_GEM_EXECBUFFER2        : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_GEM_EXECBUFFER2_WR     : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_GEM_GET_APERTURE       : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_GEM_GET_CACHING        : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_GEM_GET_TILING         : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_GEM_MADVISE            : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_GEM_MMAP               : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_GEM_MMAP_GTT           : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_GEM_MMAP_OFFSET        : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_GEM_PIN                : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_GEM_PREAD              : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_GEM_PWRITE             : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_GEM_SET_CACHING        : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_GEM_SET_DOMAIN         : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_GEM_SET_TILING         : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_GEM_SW_FINISH          : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_GEM_THROTTLE           : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_GEM_UNPIN              : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_GEM_USERPTR            : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_GEM_VM_CREATE          : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_GEM_VM_DESTROY         : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_GEM_WAIT               : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_GETPARAM               : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_GET_PIPE_FROM_CRTC_ID  : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_GET_RESET_STATS        : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_OVERLAY_ATTRS          : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_OVERLAY_PUT_IMAGE      : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_PERF_ADD_CONFIG        : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_PERF_OPEN              : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_PERF_REMOVE_CONFIG     : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_QUERY                  : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_REG_READ               : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_I915_SET_SPRITE_COLORKEY    : fd_i915 [openat$i915]
+ioctl$DRM_IOCTL_MSM_GEM_CPU_FINI            : fd_msm [openat$msm]
+ioctl$DRM_IOCTL_MSM_GEM_CPU_PREP            : fd_msm [openat$msm]
+ioctl$DRM_IOCTL_MSM_GEM_INFO                : fd_msm [openat$msm]
+ioctl$DRM_IOCTL_MSM_GEM_MADVISE             : fd_msm [openat$msm]
+ioctl$DRM_IOCTL_MSM_GEM_NEW                 : fd_msm [openat$msm]
+ioctl$DRM_IOCTL_MSM_GEM_SUBMIT              : fd_msm [openat$msm]
+ioctl$DRM_IOCTL_MSM_GET_PARAM               : fd_msm [openat$msm]
+ioctl$DRM_IOCTL_MSM_SET_PARAM               : fd_msm [openat$msm]
+ioctl$DRM_IOCTL_MSM_SUBMITQUEUE_CLOSE       : fd_msm [openat$msm]
+ioctl$DRM_IOCTL_MSM_SUBMITQUEUE_NEW         : fd_msm [openat$msm]
+ioctl$DRM_IOCTL_MSM_SUBMITQUEUE_QUERY       : fd_msm [openat$msm]
+ioctl$DRM_IOCTL_MSM_WAIT_FENCE              : fd_msm [openat$msm]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_CACHE_CACHEOPEXEC: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_CACHE_CACHEOPLOG: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_CACHE_CACHEOPQUEUE: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_CMM_DEVMEMINTACQUIREREMOTECTX: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_CMM_DEVMEMINTEXPORTCTX: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_CMM_DEVMEMINTUNEXPORTCTX: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_DEVICEMEMHISTORY_DEVICEMEMHISTORYMAP: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_DEVICEMEMHISTORY_DEVICEMEMHISTORYMAPVRANGE: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_DEVICEMEMHISTORY_DEVICEMEMHISTORYSPARSECHANGE: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_DEVICEMEMHISTORY_DEVICEMEMHISTORYUNMAP: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_DEVICEMEMHISTORY_DEVICEMEMHISTORYUNMAPVRANGE: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_DMABUF_PHYSMEMEXPORTDMABUF: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_DMABUF_PHYSMEMIMPORTDMABUF: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_DMABUF_PHYSMEMIMPORTSPARSEDMABUF: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_HTBUFFER_HTBCONTROL: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_HTBUFFER_HTBLOG: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_CHANGESPARSEMEM: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_DEVMEMFLUSHDEVSLCRANGE: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_DEVMEMGETFAULTADDRESS: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_DEVMEMINTCTXCREATE: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_DEVMEMINTCTXDESTROY: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_DEVMEMINTHEAPCREATE: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_DEVMEMINTHEAPDESTROY: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_DEVMEMINTMAPPAGES: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_DEVMEMINTMAPPMR: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_DEVMEMINTPIN: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_DEVMEMINTPINVALIDATE: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_DEVMEMINTREGISTERPFNOTIFYKM: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_DEVMEMINTRESERVERANGE: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_DEVMEMINTUNMAPPAGES: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_DEVMEMINTUNMAPPMR: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_DEVMEMINTUNPIN: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_DEVMEMINTUNPININVALIDATE: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_DEVMEMINTUNRESERVERANGE: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_DEVMEMINVALIDATEFBSCTABLE: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_DEVMEMISVDEVADDRVALID: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_GETMAXDEVMEMSIZE: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_HEAPCFGHEAPCONFIGCOUNT: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_HEAPCFGHEAPCONFIGNAME: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_HEAPCFGHEAPCOUNT: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_HEAPCFGHEAPDETAILS: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_PHYSMEMNEWRAMBACKEDLOCKEDPMR: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_PHYSMEMNEWRAMBACKEDPMR: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_PMREXPORTPMR: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_PMRGETUID: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_PMRIMPORTPMR: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_PMRLOCALIMPORTPMR: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_PMRMAKELOCALIMPORTHANDLE: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_PMRUNEXPORTPMR: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_PMRUNMAKELOCALIMPORTHANDLE: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_PMRUNREFPMR: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_PMRUNREFUNLOCKPMR: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_MM_PVRSRVUPDATEOOMSTATS: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_PVRTL_TLACQUIREDATA: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_PVRTL_TLCLOSESTREAM: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_PVRTL_TLCOMMITSTREAM: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_PVRTL_TLDISCOVERSTREAMS: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_PVRTL_TLOPENSTREAM: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_PVRTL_TLRELEASEDATA: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_PVRTL_TLRESERVESTREAM: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_PVRTL_TLWRITEDATA: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXBREAKPOINT_RGXCLEARBREAKPOINT: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXBREAKPOINT_RGXDISABLEBREAKPOINT: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXBREAKPOINT_RGXENABLEBREAKPOINT: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXBREAKPOINT_RGXOVERALLOCATEBPREGISTERS: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXBREAKPOINT_RGXSETBREAKPOINT: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXCMP_RGXCREATECOMPUTECONTEXT: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXCMP_RGXDESTROYCOMPUTECONTEXT: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXCMP_RGXFLUSHCOMPUTEDATA: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXCMP_RGXGETLASTCOMPUTECONTEXTRESETREASON: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXCMP_RGXKICKCDM2: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXCMP_RGXNOTIFYCOMPUTEWRITEOFFSETUPDATE: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXCMP_RGXSETCOMPUTECONTEXTPRIORITY: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXCMP_RGXSETCOMPUTECONTEXTPROPERTY: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXFWDBG_RGXCURRENTTIME: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXFWDBG_RGXFWDEBUGDUMPFREELISTPAGELIST: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXFWDBG_RGXFWDEBUGPHRCONFIGURE: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXFWDBG_RGXFWDEBUGSETFWLOG: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXFWDBG_RGXFWDEBUGSETHCSDEADLINE: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXFWDBG_RGXFWDEBUGSETOSIDPRIORITY: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXFWDBG_RGXFWDEBUGSETOSNEWONLINESTATE: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXHWPERF_RGXCONFIGCUSTOMCOUNTERS: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXHWPERF_RGXCONFIGENABLEHWPERFCOUNTERS: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXHWPERF_RGXCTRLHWPERF: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXHWPERF_RGXCTRLHWPERFCOUNTERS: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXHWPERF_RGXGETHWPERFBVNCFEATUREFLAGS: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXKICKSYNC_RGXCREATEKICKSYNCCONTEXT: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXKICKSYNC_RGXDESTROYKICKSYNCCONTEXT: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXKICKSYNC_RGXKICKSYNC2: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXKICKSYNC_RGXSETKICKSYNCCONTEXTPROPERTY: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXREGCONFIG_RGXADDREGCONFIG: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXREGCONFIG_RGXCLEARREGCONFIG: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXREGCONFIG_RGXDISABLEREGCONFIG: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXREGCONFIG_RGXENABLEREGCONFIG: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXREGCONFIG_RGXSETREGCONFIGTYPE: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXSIGNALS_RGXNOTIFYSIGNALUPDATE: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXTA3D_RGXCREATEFREELIST: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXTA3D_RGXCREATEHWRTDATASET: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXTA3D_RGXCREATERENDERCONTEXT: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXTA3D_RGXCREATEZSBUFFER: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXTA3D_RGXDESTROYFREELIST: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXTA3D_RGXDESTROYHWRTDATASET: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXTA3D_RGXDESTROYRENDERCONTEXT: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXTA3D_RGXDESTROYZSBUFFER: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXTA3D_RGXGETLASTRENDERCONTEXTRESETREASON: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXTA3D_RGXKICKTA3D2: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXTA3D_RGXPOPULATEZSBUFFER: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXTA3D_RGXRENDERCONTEXTSTALLED: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXTA3D_RGXSETRENDERCONTEXTPRIORITY: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXTA3D_RGXSETRENDERCONTEXTPROPERTY: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXTA3D_RGXUNPOPULATEZSBUFFER: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXTQ2_RGXTDMCREATETRANSFERCONTEXT: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXTQ2_RGXTDMDESTROYTRANSFERCONTEXT: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXTQ2_RGXTDMGETSHAREDMEMORY: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXTQ2_RGXTDMNOTIFYWRITEOFFSETUPDATE: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXTQ2_RGXTDMRELEASESHAREDMEMORY: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXTQ2_RGXTDMSETTRANSFERCONTEXTPRIORITY: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXTQ2_RGXTDMSETTRANSFERCONTEXTPROPERTY: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXTQ2_RGXTDMSUBMITTRANSFER2: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXTQ_RGXCREATETRANSFERCONTEXT: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXTQ_RGXDESTROYTRANSFERCONTEXT: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXTQ_RGXSETTRANSFERCONTEXTPRIORITY: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXTQ_RGXSETTRANSFERCONTEXTPROPERTY: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_RGXTQ_RGXSUBMITTRANSFER2: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_SRVCORE_ACQUIREGLOBALEVENTOBJECT: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_SRVCORE_ACQUIREINFOPAGE: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_SRVCORE_ALIGNMENTCHECK: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_SRVCORE_CONNECT: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_SRVCORE_DISCONNECT: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_SRVCORE_DUMPDEBUGINFO: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_SRVCORE_EVENTOBJECTCLOSE: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_SRVCORE_EVENTOBJECTOPEN: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_SRVCORE_EVENTOBJECTWAIT: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_SRVCORE_EVENTOBJECTWAITTIMEOUT: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_SRVCORE_FINDPROCESSMEMSTATS: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_SRVCORE_GETDEVCLOCKSPEED: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_SRVCORE_GETDEVICESTATUS: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_SRVCORE_GETMULTICOREINFO: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_SRVCORE_HWOPTIMEOUT: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_SRVCORE_RELEASEGLOBALEVENTOBJECT: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_SRVCORE_RELEASEINFOPAGE: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_SYNCTRACKING_SYNCRECORDADD: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_SYNCTRACKING_SYNCRECORDREMOVEBYHANDLE: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_SYNC_ALLOCSYNCPRIMITIVEBLOCK: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_SYNC_FREESYNCPRIMITIVEBLOCK: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_SYNC_SYNCALLOCEVENT: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_SYNC_SYNCCHECKPOINTSIGNALLEDPDUMPPOL: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_SYNC_SYNCFREEEVENT: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_SYNC_SYNCPRIMPDUMP: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_SYNC_SYNCPRIMPDUMPCBP: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_SYNC_SYNCPRIMPDUMPPOL: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_SYNC_SYNCPRIMPDUMPVALUE: fd_rogue [openat$img_rogue]
+ioctl$DRM_IOCTL_PVR_SRVKM_CMD_PVRSRV_BRIDGE_SYNC_SYNCPRIMSET: fd_rogue [openat$img_rogue]
+ioctl$FLOPPY_FDCLRPRM                       : fd_floppy [syz_open_dev$floppy]
+ioctl$FLOPPY_FDDEFPRM                       : fd_floppy [syz_open_dev$floppy]
+ioctl$FLOPPY_FDEJECT                        : fd_floppy [syz_open_dev$floppy]
+ioctl$FLOPPY_FDFLUSH                        : fd_floppy [syz_open_dev$floppy]
+ioctl$FLOPPY_FDFMTBEG                       : fd_floppy [syz_open_dev$floppy]
+ioctl$FLOPPY_FDFMTEND                       : fd_floppy [syz_open_dev$floppy]
+ioctl$FLOPPY_FDFMTTRK                       : fd_floppy [syz_open_dev$floppy]
+ioctl$FLOPPY_FDGETDRVPRM                    : fd_floppy [syz_open_dev$floppy]
+ioctl$FLOPPY_FDGETDRVSTAT                   : fd_floppy [syz_open_dev$floppy]
+ioctl$FLOPPY_FDGETDRVTYP                    : fd_floppy [syz_open_dev$floppy]
+ioctl$FLOPPY_FDGETFDCSTAT                   : fd_floppy [syz_open_dev$floppy]
+ioctl$FLOPPY_FDGETMAXERRS                   : fd_floppy [syz_open_dev$floppy]
+ioctl$FLOPPY_FDGETPRM                       : fd_floppy [syz_open_dev$floppy]
+ioctl$FLOPPY_FDMSGOFF                       : fd_floppy [syz_open_dev$floppy]
+ioctl$FLOPPY_FDMSGON                        : fd_floppy [syz_open_dev$floppy]
+ioctl$FLOPPY_FDPOLLDRVSTAT                  : fd_floppy [syz_open_dev$floppy]
+ioctl$FLOPPY_FDRAWCMD                       : fd_floppy [syz_open_dev$floppy]
+ioctl$FLOPPY_FDRESET                        : fd_floppy [syz_open_dev$floppy]
+ioctl$FLOPPY_FDSETDRVPRM                    : fd_floppy [syz_open_dev$floppy]
+ioctl$FLOPPY_FDSETEMSGTRESH                 : fd_floppy [syz_open_dev$floppy]
+ioctl$FLOPPY_FDSETMAXERRS                   : fd_floppy [syz_open_dev$floppy]
+ioctl$FLOPPY_FDSETPRM                       : fd_floppy [syz_open_dev$floppy]
+ioctl$FLOPPY_FDTWADDLE                      : fd_floppy [syz_open_dev$floppy]
+ioctl$FLOPPY_FDWERRORCLR                    : fd_floppy [syz_open_dev$floppy]
+ioctl$FLOPPY_FDWERRORGET                    : fd_floppy [syz_open_dev$floppy]
+ioctl$KBASE_HWCNT_READER_CLEAR              : fd_hwcnt [ioctl$KBASE_IOCTL_HWCNT_READER_SETUP]
+ioctl$KBASE_HWCNT_READER_DISABLE_EVENT      : fd_hwcnt [ioctl$KBASE_IOCTL_HWCNT_READER_SETUP]
+ioctl$KBASE_HWCNT_READER_DUMP               : fd_hwcnt [ioctl$KBASE_IOCTL_HWCNT_READER_SETUP]
+ioctl$KBASE_HWCNT_READER_ENABLE_EVENT       : fd_hwcnt [ioctl$KBASE_IOCTL_HWCNT_READER_SETUP]
+ioctl$KBASE_HWCNT_READER_GET_API_VERSION    : fd_hwcnt [ioctl$KBASE_IOCTL_HWCNT_READER_SETUP]
+ioctl$KBASE_HWCNT_READER_GET_API_VERSION_WITH_FEATURES: fd_hwcnt [ioctl$KBASE_IOCTL_HWCNT_READER_SETUP]
+ioctl$KBASE_HWCNT_READER_GET_BUFFER         : fd_hwcnt [ioctl$KBASE_IOCTL_HWCNT_READER_SETUP]
+ioctl$KBASE_HWCNT_READER_GET_BUFFER_SIZE    : fd_hwcnt [ioctl$KBASE_IOCTL_HWCNT_READER_SETUP]
+ioctl$KBASE_HWCNT_READER_GET_BUFFER_WITH_CYCLES: fd_hwcnt [ioctl$KBASE_IOCTL_HWCNT_READER_SETUP]
+ioctl$KBASE_HWCNT_READER_GET_HWVER          : fd_hwcnt [ioctl$KBASE_IOCTL_HWCNT_READER_SETUP]
+ioctl$KBASE_HWCNT_READER_PUT_BUFFER         : fd_hwcnt [ioctl$KBASE_IOCTL_HWCNT_READER_SETUP]
+ioctl$KBASE_HWCNT_READER_PUT_BUFFER_WITH_CYCLES: fd_hwcnt [ioctl$KBASE_IOCTL_HWCNT_READER_SETUP]
+ioctl$KBASE_HWCNT_READER_SET_INTERVAL       : fd_hwcnt [ioctl$KBASE_IOCTL_HWCNT_READER_SETUP]
+ioctl$KBASE_IOCTL_BUFFER_LIVENESS_UPDATE    : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_CONTEXT_PRIORITY_CHECK    : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_CS_CPU_QUEUE_DUMP         : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_CS_EVENT_SIGNAL           : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_CS_GET_GLB_IFACE          : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_CS_QUEUE_BIND             : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_CS_QUEUE_GROUP_CREATE     : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_CS_QUEUE_GROUP_CREATE_1_6 : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_CS_QUEUE_GROUP_TERMINATE  : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_CS_QUEUE_KICK             : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_CS_QUEUE_REGISTER         : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_CS_QUEUE_REGISTER_EX      : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_CS_QUEUE_TERMINATE        : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_CS_TILER_HEAP_INIT        : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_CS_TILER_HEAP_INIT_1_13   : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_CS_TILER_HEAP_TERM        : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_DISJOINT_QUERY            : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_FENCE_VALIDATE            : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_GET_CONTEXT_ID            : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_GET_CPU_GPU_TIMEINFO      : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_GET_DDK_VERSION           : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_GET_GPUPROPS              : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_HWCNT_CLEAR               : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_HWCNT_DUMP                : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_HWCNT_ENABLE              : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_HWCNT_READER_SETUP        : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_HWCNT_SET                 : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_JOB_SUBMIT                : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_KCPU_QUEUE_CREATE         : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_KCPU_QUEUE_DELETE         : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_KCPU_QUEUE_ENQUEUE        : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_KINSTR_PRFCNT_CMD         : fd_kinstr [ioctl$KBASE_IOCTL_KINSTR_PRFCNT_SETUP]
+ioctl$KBASE_IOCTL_KINSTR_PRFCNT_ENUM_INFO   : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_KINSTR_PRFCNT_GET_SAMPLE  : fd_kinstr [ioctl$KBASE_IOCTL_KINSTR_PRFCNT_SETUP]
+ioctl$KBASE_IOCTL_KINSTR_PRFCNT_PUT_SAMPLE  : fd_kinstr [ioctl$KBASE_IOCTL_KINSTR_PRFCNT_SETUP]
+ioctl$KBASE_IOCTL_KINSTR_PRFCNT_SETUP       : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_MEM_ALIAS                 : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_MEM_ALLOC                 : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_MEM_ALLOC_EX              : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_MEM_COMMIT                : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_MEM_EXEC_INIT             : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_MEM_FIND_CPU_OFFSET       : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_MEM_FIND_GPU_START_AND_OFFSET: fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_MEM_FLAGS_CHANGE          : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_MEM_FREE                  : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_MEM_IMPORT                : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_MEM_JIT_INIT              : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_MEM_JIT_INIT_10_2         : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_MEM_JIT_INIT_11_5         : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_MEM_PROFILE_ADD           : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_MEM_QUERY                 : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_MEM_SYNC                  : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_POST_TERM                 : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_READ_USER_PAGE            : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_SET_FLAGS                 : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_SET_LIMITED_CORE_COUNT    : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_SOFT_EVENT_UPDATE         : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_STICKY_RESOURCE_MAP       : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_STICKY_RESOURCE_UNMAP     : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_STREAM_CREATE             : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_TLSTREAM_ACQUIRE          : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_TLSTREAM_FLUSH            : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_VERSION_CHECK             : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KBASE_IOCTL_VERSION_CHECK_RESERVED    : fd_bifrost [openat$bifrost openat$mali]
+ioctl$KVM_CAP_SGX_ATTRIBUTE                 : fd_sgx_provision [openat$sgx_provision]
+ioctl$KVM_SEV_CERT_EXPORT                   : fd_sev [openat$sev]
+ioctl$KVM_SEV_DBG_DECRYPT                   : fd_sev [openat$sev]
+ioctl$KVM_SEV_DBG_ENCRYPT                   : fd_sev [openat$sev]
+ioctl$KVM_SEV_ES_INIT                       : fd_sev [openat$sev]
+ioctl$KVM_SEV_GET_ATTESTATION_REPORT        : fd_sev [openat$sev]
+ioctl$KVM_SEV_GUEST_STATUS                  : fd_sev [openat$sev]
+ioctl$KVM_SEV_INIT                          : fd_sev [openat$sev]
+ioctl$KVM_SEV_INIT2                         : fd_sev [openat$sev]
+ioctl$KVM_SEV_LAUNCH_FINISH                 : fd_sev [openat$sev]
+ioctl$KVM_SEV_LAUNCH_MEASURE                : fd_sev [openat$sev]
+ioctl$KVM_SEV_LAUNCH_SECRET                 : fd_sev [openat$sev]
+ioctl$KVM_SEV_LAUNCH_START                  : sev_handle [ioctl$KVM_SEV_GUEST_STATUS ioctl$KVM_SEV_LAUNCH_START ioctl$KVM_SEV_RECEIVE_START]
+ioctl$KVM_SEV_LAUNCH_UPDATE_DATA            : fd_sev [openat$sev]
+ioctl$KVM_SEV_LAUNCH_UPDATE_VMSA            : fd_sev [openat$sev]
+ioctl$KVM_SEV_RECEIVE_FINISH                : fd_sev [openat$sev]
+ioctl$KVM_SEV_RECEIVE_START                 : sev_handle [ioctl$KVM_SEV_GUEST_STATUS ioctl$KVM_SEV_LAUNCH_START ioctl$KVM_SEV_RECEIVE_START]
+ioctl$KVM_SEV_RECEIVE_UPDATE_DATA           : fd_sev [openat$sev]
+ioctl$KVM_SEV_RECEIVE_UPDATE_VMSA           : fd_sev [openat$sev]
+ioctl$KVM_SEV_SEND_CANCEL                   : fd_sev [openat$sev]
+ioctl$KVM_SEV_SEND_FINISH                   : fd_sev [openat$sev]
+ioctl$KVM_SEV_SEND_START                    : fd_sev [openat$sev]
+ioctl$KVM_SEV_SEND_UPDATE_DATA              : fd_sev [openat$sev]
+ioctl$KVM_SEV_SEND_UPDATE_VMSA              : fd_sev [openat$sev]
+ioctl$KVM_SEV_SNP_LAUNCH_FINISH             : fd_sev [openat$sev]
+ioctl$KVM_SEV_SNP_LAUNCH_START              : fd_sev [openat$sev]
+ioctl$KVM_SEV_SNP_LAUNCH_UPDATE             : fd_sev [openat$sev]
+ioctl$READ_COUNTERS                         : fd_rdma [openat$uverbs0]
+ioctl$SNDRV_FIREWIRE_IOCTL_GET_INFO         : fd_snd_hw [syz_open_dev$sndhw]
+ioctl$SNDRV_FIREWIRE_IOCTL_LOCK             : fd_snd_hw [syz_open_dev$sndhw]
+ioctl$SNDRV_FIREWIRE_IOCTL_TASCAM_STATE     : fd_snd_hw [syz_open_dev$sndhw]
+ioctl$SNDRV_FIREWIRE_IOCTL_UNLOCK           : fd_snd_hw [syz_open_dev$sndhw]
+ioctl$SNDRV_HWDEP_IOCTL_DSP_LOAD            : fd_snd_hw [syz_open_dev$sndhw]
+ioctl$SNDRV_HWDEP_IOCTL_DSP_STATUS          : fd_snd_hw [syz_open_dev$sndhw]
+ioctl$SNDRV_HWDEP_IOCTL_INFO                : fd_snd_hw [syz_open_dev$sndhw]
+ioctl$SNDRV_HWDEP_IOCTL_PVERSION            : fd_snd_hw [syz_open_dev$sndhw]
+ioctl$SNDRV_PCM_IOCTL_CHANNEL_INFO          : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$SNDRV_PCM_IOCTL_DELAY                 : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$SNDRV_PCM_IOCTL_DRAIN                 : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$SNDRV_PCM_IOCTL_DROP                  : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$SNDRV_PCM_IOCTL_FORWARD               : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$SNDRV_PCM_IOCTL_HWSYNC                : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$SNDRV_PCM_IOCTL_HW_FREE               : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$SNDRV_PCM_IOCTL_HW_PARAMS             : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$SNDRV_PCM_IOCTL_HW_PARAMS_OLD         : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$SNDRV_PCM_IOCTL_HW_REFINE             : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$SNDRV_PCM_IOCTL_HW_REFINE_OLD         : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$SNDRV_PCM_IOCTL_INFO                  : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$SNDRV_PCM_IOCTL_LINK                  : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$SNDRV_PCM_IOCTL_PAUSE                 : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$SNDRV_PCM_IOCTL_PREPARE               : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$SNDRV_PCM_IOCTL_READI_FRAMES          : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$SNDRV_PCM_IOCTL_READN_FRAMES          : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$SNDRV_PCM_IOCTL_RESET                 : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$SNDRV_PCM_IOCTL_RESUME                : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$SNDRV_PCM_IOCTL_REWIND                : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$SNDRV_PCM_IOCTL_START                 : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$SNDRV_PCM_IOCTL_STATUS32              : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$SNDRV_PCM_IOCTL_STATUS64              : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$SNDRV_PCM_IOCTL_STATUS_EXT32          : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$SNDRV_PCM_IOCTL_STATUS_EXT64          : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$SNDRV_PCM_IOCTL_SW_PARAMS             : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$SNDRV_PCM_IOCTL_SYNC_PTR              : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$SNDRV_PCM_IOCTL_TTSTAMP               : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$SNDRV_PCM_IOCTL_UNLINK                : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$SNDRV_PCM_IOCTL_USER_PVERSION         : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$SNDRV_PCM_IOCTL_WRITEI_FRAMES         : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$SNDRV_PCM_IOCTL_WRITEN_FRAMES         : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$SNDRV_PCM_IOCTL_XRUN                  : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+ioctl$TE_IOCTL_CLOSE_CLIENT_SESSION         : fd_tlk [openat$tlk_device]
+ioctl$TE_IOCTL_LAUNCH_OPERATION             : fd_tlk [openat$tlk_device]
+ioctl$TE_IOCTL_OPEN_CLIENT_SESSION          : fd_tlk [openat$tlk_device]
+ioctl$TE_IOCTL_SS_CMD                       : fd_tlk [openat$tlk_device]
+ioctl$TIPC_IOC_CONNECT                      : fd_trusty [openat$trusty openat$trusty_avb openat$trusty_gatekeeper ...]
+ioctl$TIPC_IOC_CONNECT_avb                  : fd_trusty_avb [openat$trusty_avb]
+ioctl$TIPC_IOC_CONNECT_gatekeeper           : fd_trusty_gatekeeper [openat$trusty_gatekeeper]
+ioctl$TIPC_IOC_CONNECT_hwkey                : fd_trusty_hwkey [openat$trusty_hwkey]
+ioctl$TIPC_IOC_CONNECT_hwrng                : fd_trusty_hwrng [openat$trusty_hwrng]
+ioctl$TIPC_IOC_CONNECT_keymaster_secure     : fd_trusty_km_secure [openat$trusty_km_secure]
+ioctl$TIPC_IOC_CONNECT_km                   : fd_trusty_km [openat$trusty_km]
+ioctl$TIPC_IOC_CONNECT_storage              : fd_trusty_storage [openat$trusty_storage]
+ioctl$USBDEVFS_ALLOC_STREAMS                : fd_usbfs [syz_open_dev$usbfs]
+ioctl$USBDEVFS_ALLOW_SUSPEND                : fd_usbfs [syz_open_dev$usbfs]
+ioctl$USBDEVFS_BULK                         : fd_usbfs [syz_open_dev$usbfs]
+ioctl$USBDEVFS_CLAIMINTERFACE               : fd_usbfs [syz_open_dev$usbfs]
+ioctl$USBDEVFS_CLAIM_PORT                   : fd_usbfs [syz_open_dev$usbfs]
+ioctl$USBDEVFS_CLEAR_HALT                   : fd_usbfs [syz_open_dev$usbfs]
+ioctl$USBDEVFS_CONNECTINFO                  : fd_usbfs [syz_open_dev$usbfs]
+ioctl$USBDEVFS_CONTROL                      : fd_usbfs [syz_open_dev$usbfs]
+ioctl$USBDEVFS_DISCARDURB                   : fd_usbfs [syz_open_dev$usbfs]
+ioctl$USBDEVFS_DISCONNECT_CLAIM             : fd_usbfs [syz_open_dev$usbfs]
+ioctl$USBDEVFS_DISCSIGNAL                   : fd_usbfs [syz_open_dev$usbfs]
+ioctl$USBDEVFS_DROP_PRIVILEGES              : fd_usbfs [syz_open_dev$usbfs]
+ioctl$USBDEVFS_FORBID_SUSPEND               : fd_usbfs [syz_open_dev$usbfs]
+ioctl$USBDEVFS_FREE_STREAMS                 : fd_usbfs [syz_open_dev$usbfs]
+ioctl$USBDEVFS_GETDRIVER                    : fd_usbfs [syz_open_dev$usbfs]
+ioctl$USBDEVFS_GET_CAPABILITIES             : fd_usbfs [syz_open_dev$usbfs]
+ioctl$USBDEVFS_GET_SPEED                    : fd_usbfs [syz_open_dev$usbfs]
+ioctl$USBDEVFS_IOCTL                        : fd_usbfs [syz_open_dev$usbfs]
+ioctl$USBDEVFS_REAPURB                      : fd_usbfs [syz_open_dev$usbfs]
+ioctl$USBDEVFS_REAPURBNDELAY                : fd_usbfs [syz_open_dev$usbfs]
+ioctl$USBDEVFS_RELEASEINTERFACE             : fd_usbfs [syz_open_dev$usbfs]
+ioctl$USBDEVFS_RELEASE_PORT                 : fd_usbfs [syz_open_dev$usbfs]
+ioctl$USBDEVFS_RESET                        : fd_usbfs [syz_open_dev$usbfs]
+ioctl$USBDEVFS_RESETEP                      : fd_usbfs [syz_open_dev$usbfs]
+ioctl$USBDEVFS_SETCONFIGURATION             : fd_usbfs [syz_open_dev$usbfs]
+ioctl$USBDEVFS_SETINTERFACE                 : fd_usbfs [syz_open_dev$usbfs]
+ioctl$USBDEVFS_SUBMITURB                    : fd_usbfs [syz_open_dev$usbfs]
+ioctl$USBDEVFS_WAIT_FOR_RESUME              : fd_usbfs [syz_open_dev$usbfs]
+ioctl$VTPM_PROXY_IOC_NEW_DEV                : fd_vtpm [openat$vtpm]
+ioctl$sock_bt_cmtp_CMTPCONNADD              : sock_bt_cmtp [syz_init_net_socket$bt_cmtp]
+ioctl$sock_bt_cmtp_CMTPCONNDEL              : sock_bt_cmtp [syz_init_net_socket$bt_cmtp]
+ioctl$sock_bt_cmtp_CMTPGETCONNINFO          : sock_bt_cmtp [syz_init_net_socket$bt_cmtp]
+ioctl$sock_bt_cmtp_CMTPGETCONNLIST          : sock_bt_cmtp [syz_init_net_socket$bt_cmtp]
+mmap$DRM_I915                               : fd_i915 [openat$i915]
+mmap$DRM_MSM                                : fd_msm [openat$msm]
+mmap$bifrost                                : fd_bifrost [openat$bifrost openat$mali]
+mmap$snddsp                                 : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+mmap$snddsp_control                         : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+mmap$snddsp_status                          : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+mmap$usbfs                                  : fd_usbfs [syz_open_dev$usbfs]
+read$snddsp                                 : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+read$sndhw                                  : fd_snd_hw [syz_open_dev$sndhw]
+read$trusty                                 : fd_trusty [openat$trusty openat$trusty_avb openat$trusty_gatekeeper ...]
+read$usbfs                                  : fd_usbfs [syz_open_dev$usbfs]
+recvmsg$hf                                  : sock_hf [socket$hf]
+sendmsg$hf                                  : sock_hf [socket$hf]
+setsockopt$inet6_dccp_buf                   : sock_dccp6 [socket$inet6_dccp]
+setsockopt$inet6_dccp_int                   : sock_dccp6 [socket$inet6_dccp]
+setsockopt$inet_dccp_buf                    : sock_dccp [socket$inet_dccp]
+setsockopt$inet_dccp_int                    : sock_dccp [socket$inet_dccp]
+write$ALLOC_MW                              : fd_rdma [openat$uverbs0]
+write$ALLOC_PD                              : fd_rdma [openat$uverbs0]
+write$ATTACH_MCAST                          : fd_rdma [openat$uverbs0]
+write$CLOSE_XRCD                            : fd_rdma [openat$uverbs0]
+write$CREATE_AH                             : fd_rdma [openat$uverbs0]
+write$CREATE_COMP_CHANNEL                   : fd_rdma [openat$uverbs0]
+write$CREATE_CQ                             : fd_rdma [openat$uverbs0]
+write$CREATE_CQ_EX                          : fd_rdma [openat$uverbs0]
+write$CREATE_FLOW                           : fd_rdma [openat$uverbs0]
+write$CREATE_QP                             : fd_rdma [openat$uverbs0]
+write$CREATE_RWQ_IND_TBL                    : fd_rdma [openat$uverbs0]
+write$CREATE_SRQ                            : fd_rdma [openat$uverbs0]
+write$CREATE_WQ                             : fd_rdma [openat$uverbs0]
+write$DEALLOC_MW                            : fd_rdma [openat$uverbs0]
+write$DEALLOC_PD                            : fd_rdma [openat$uverbs0]
+write$DEREG_MR                              : fd_rdma [openat$uverbs0]
+write$DESTROY_AH                            : fd_rdma [openat$uverbs0]
+write$DESTROY_CQ                            : fd_rdma [openat$uverbs0]
+write$DESTROY_FLOW                          : fd_rdma [openat$uverbs0]
+write$DESTROY_QP                            : fd_rdma [openat$uverbs0]
+write$DESTROY_RWQ_IND_TBL                   : fd_rdma [openat$uverbs0]
+write$DESTROY_SRQ                           : fd_rdma [openat$uverbs0]
+write$DESTROY_WQ                            : fd_rdma [openat$uverbs0]
+write$DETACH_MCAST                          : fd_rdma [openat$uverbs0]
+write$MLX5_ALLOC_PD                         : fd_rdma [openat$uverbs0]
+write$MLX5_CREATE_CQ                        : fd_rdma [openat$uverbs0]
+write$MLX5_CREATE_DV_QP                     : fd_rdma [openat$uverbs0]
+write$MLX5_CREATE_QP                        : fd_rdma [openat$uverbs0]
+write$MLX5_CREATE_SRQ                       : fd_rdma [openat$uverbs0]
+write$MLX5_CREATE_WQ                        : fd_rdma [openat$uverbs0]
+write$MLX5_GET_CONTEXT                      : fd_rdma [openat$uverbs0]
+write$MLX5_MODIFY_WQ                        : fd_rdma [openat$uverbs0]
+write$MODIFY_QP                             : fd_rdma [openat$uverbs0]
+write$MODIFY_SRQ                            : fd_rdma [openat$uverbs0]
+write$OPEN_XRCD                             : fd_rdma [openat$uverbs0]
+write$POLL_CQ                               : fd_rdma [openat$uverbs0]
+write$POST_RECV                             : fd_rdma [openat$uverbs0]
+write$POST_SEND                             : fd_rdma [openat$uverbs0]
+write$POST_SRQ_RECV                         : fd_rdma [openat$uverbs0]
+write$QUERY_DEVICE_EX                       : fd_rdma [openat$uverbs0]
+write$QUERY_PORT                            : fd_rdma [openat$uverbs0]
+write$QUERY_QP                              : fd_rdma [openat$uverbs0]
+write$QUERY_SRQ                             : fd_rdma [openat$uverbs0]
+write$REG_MR                                : fd_rdma [openat$uverbs0]
+write$REQ_NOTIFY_CQ                         : fd_rdma [openat$uverbs0]
+write$REREG_MR                              : fd_rdma [openat$uverbs0]
+write$RESIZE_CQ                             : fd_rdma [openat$uverbs0]
+write$capi20                                : fd_capi20 [openat$capi20]
+write$capi20_data                           : fd_capi20 [openat$capi20]
+write$damon_attrs                           : fd_damon_attrs [openat$damon_attrs]
+write$damon_contexts                        : fd_damon_contexts [openat$damon_mk_contexts openat$damon_rm_contexts]
+write$damon_init_regions                    : fd_damon_init_regions [openat$damon_init_regions]
+write$damon_monitor_on                      : fd_damon_monitor_on [openat$damon_monitor_on]
+write$damon_schemes                         : fd_damon_schemes [openat$damon_schemes]
+write$damon_target_ids                      : fd_damon_target_ids [openat$damon_target_ids]
+write$proc_reclaim                          : fd_proc_reclaim [openat$proc_reclaim]
+write$snddsp                                : fd_snd_dsp [syz_open_dev$sndpcmc syz_open_dev$sndpcmp]
+write$sndhw                                 : fd_snd_hw [syz_open_dev$sndhw]
+write$sndhw_fireworks                       : fd_snd_hw [syz_open_dev$sndhw]
+write$trusty                                : fd_trusty [openat$trusty openat$trusty_avb openat$trusty_gatekeeper ...]
+write$trusty_avb                            : fd_trusty_avb [openat$trusty_avb]
+write$trusty_gatekeeper                     : fd_trusty_gatekeeper [openat$trusty_gatekeeper]
+write$trusty_hwkey                          : fd_trusty_hwkey [openat$trusty_hwkey]
+write$trusty_hwrng                          : fd_trusty_hwrng [openat$trusty_hwrng]
+write$trusty_km                             : fd_trusty_km [openat$trusty_km]
+write$trusty_km_secure                      : fd_trusty_km_secure [openat$trusty_km_secure]
+write$trusty_storage                        : fd_trusty_storage [openat$trusty_storage]
+
+BinFmtMisc              : enabled
+Comparisons             : enabled
+Coverage                : enabled
+DelayKcovMmap           : enabled
+DevlinkPCI              : PCI device 0000:00:10.0 is not available
+ExtraCoverage           : enabled
+Fault                   : enabled
+KCSAN                   : write(/sys/kernel/debug/kcsan, on) failed
+KcovResetIoctl          : kernel does not support ioctl(KCOV_RESET_TRACE)
+LRWPANEmulation         : enabled
+Leak                    : enabled
+NetDevices              : enabled
+NetInjection            : enabled
+NicVF                   : PCI device 0000:00:11.0 is not available
+SandboxAndroid          : setcon: could not write entire context. wrote=-1, expected=30 (errno 22: Invalid argument). . process exited with status 67.
+SandboxNamespace        : enabled
+SandboxNone             : enabled
+SandboxSetuid           : enabled
+Swap                    : enabled
+USBEmulation            : enabled
+VhciInjection           : enabled
+WifiEmulation           : enabled
+syscalls                : 3951/8054
+
+2025/11/03 09:48:11 corpus                  : 719 (719 seeds), 7 to be reminimized, 0 to be resmashed
+2025/11/03 09:48:16 candidates=0 corpus=0 coverage=0 exec total=647 (285/min) pending=0 reproducing=0 
+2025/11/03 09:48:26 candidates=0 corpus=0 coverage=0 exec total=647 (265/min) pending=0 reproducing=0 
+2025/11/03 09:48:36 candidates=0 corpus=0 coverage=0 exec total=647 (248/min) pending=0 reproducing=0 
+2025/11/03 09:48:46 candidates=0 corpus=0 coverage=0 exec total=647 (233/min) pending=0 reproducing=0 
+2025/11/03 09:48:56 candidates=0 corpus=0 coverage=0 exec total=647 (220/min) pending=0 reproducing=0 
+2025/11/03 09:49:06 candidates=0 corpus=0 coverage=0 exec total=647 (208/min) pending=0 reproducing=0 
+2025/11/03 09:49:07 injected 73624 seeds from /home/jiakai/vini/static-result-66/syscallpair-sourceline.json
+2025/11/03 09:49:16 candidates=74342 corpus=0 coverage=0 exec total=648 (198/min) pending=0 reproducing=0 
+2025/11/03 09:49:26 candidates=74324 corpus=33 coverage=5292 exec total=1117 (325/min) pending=0 reproducing=0 
+2025/11/03 09:49:36 candidates=74316 corpus=70 coverage=6283 exec total=1695 (470/min) pending=0 reproducing=0 
+2025/11/03 09:49:46 candidates=74304 corpus=105 coverage=7364 exec total=2276 (10/sec) pending=0 reproducing=0 
+2025/11/03 09:49:56 candidates=74280 corpus=146 coverage=8775 exec total=2812 (11/sec) pending=0 reproducing=0 
+2025/11/03 09:50:06 candidates=74254 corpus=182 coverage=9790 exec total=3401 (13/sec) pending=0 reproducing=0 
+2025/11/03 09:50:16 candidates=74227 corpus=224 coverage=13575 exec total=3922 (15/sec) pending=0 reproducing=0 
+2025/11/03 09:50:26 candidates=74194 corpus=277 coverage=15197 exec total=4446 (16/sec) pending=0 reproducing=0 
+2025/11/03 09:50:36 candidates=74180 corpus=309 coverage=15819 exec total=4859 (17/sec) pending=0 reproducing=0 
+2025/11/03 09:50:46 candidates=74146 corpus=342 coverage=18335 exec total=5324 (18/sec) pending=0 reproducing=0 
+2025/11/03 09:50:56 candidates=74132 corpus=370 coverage=18599 exec total=5625 (19/sec) pending=0 reproducing=0 
+2025/11/03 09:51:06 candidates=74106 corpus=409 coverage=19742 exec total=6033 (19/sec) pending=0 reproducing=0 
+2025/11/03 09:51:16 candidates=74081 corpus=448 coverage=20673 exec total=6478 (20/sec) pending=0 reproducing=0 
+2025/11/03 09:51:26 candidates=74036 corpus=493 coverage=21304 exec total=7009 (21/sec) pending=0 reproducing=0 
+2025/11/03 09:51:36 candidates=73996 corpus=533 coverage=21910 exec total=7522 (22/sec) pending=0 reproducing=0 
+2025/11/03 09:51:46 candidates=73944 corpus=586 coverage=22643 exec total=8085 (23/sec) pending=0 reproducing=0 
+2025/11/03 09:51:56 candidates=73889 corpus=629 coverage=23935 exec total=8646 (24/sec) pending=0 reproducing=0 
+2025/11/03 09:52:06 candidates=73845 corpus=678 coverage=24449 exec total=9226 (25/sec) pending=0 reproducing=0 
+2025/11/03 09:52:16 candidates=73803 corpus=723 coverage=25130 exec total=9714 (25/sec) pending=0 reproducing=0 
+2025/11/03 09:52:26 candidates=73787 corpus=740 coverage=25225 exec total=9936 (25/sec) pending=0 reproducing=0 
+2025/11/03 09:52:36 candidates=73755 corpus=767 coverage=25987 exec total=10315 (26/sec) pending=0 reproducing=0 
+2025/11/03 09:52:46 candidates=73721 corpus=797 coverage=26225 exec total=10667 (26/sec) pending=0 reproducing=0 
+2025/11/03 09:52:56 candidates=73686 corpus=819 coverage=26702 exec total=10959 (26/sec) pending=0 reproducing=0 
+2025/11/03 09:53:06 candidates=73632 corpus=859 coverage=27600 exec total=11449 (26/sec) pending=0 reproducing=0 
+2025/11/03 09:53:16 candidates=73580 corpus=894 coverage=28101 exec total=11895 (27/sec) pending=0 reproducing=0 
+2025/11/03 09:53:26 candidates=73551 corpus=911 coverage=28235 exec total=12158 (27/sec) pending=0 reproducing=0 
+2025/11/03 09:53:36 candidates=73511 corpus=938 coverage=28412 exec total=12564 (27/sec) pending=0 reproducing=0 
+2025/11/03 09:53:46 candidates=73458 corpus=964 coverage=28980 exec total=12899 (27/sec) pending=0 reproducing=0 
+2025/11/03 09:53:56 candidates=73343 corpus=1004 coverage=29347 exec total=13498 (28/sec) pending=0 reproducing=0 
+2025/11/03 09:54:06 candidates=73240 corpus=1044 coverage=29828 exec total=14125 (29/sec) pending=0 reproducing=0 
+2025/11/03 09:54:16 candidates=73180 corpus=1083 coverage=30329 exec total=14685 (29/sec) pending=0 reproducing=0 
+2025/11/03 09:54:26 candidates=73141 corpus=1103 coverage=30750 exec total=14939 (29/sec) pending=0 reproducing=0 
+2025/11/03 09:54:36 candidates=73116 corpus=1125 coverage=31149 exec total=15244 (29/sec) pending=0 reproducing=0 
+2025/11/03 09:54:46 candidates=73072 corpus=1146 coverage=31334 exec total=15667 (29/sec) pending=0 reproducing=0 
+2025/11/03 09:54:56 candidates=73033 corpus=1165 coverage=31513 exec total=15928 (29/sec) pending=0 reproducing=0 
+2025/11/03 09:55:06 candidates=73007 corpus=1177 coverage=31619 exec total=16145 (29/sec) pending=0 reproducing=0 
+2025/11/03 09:55:16 candidates=72963 corpus=1198 coverage=32475 exec total=16557 (29/sec) pending=0 reproducing=0 
+2025/11/03 09:55:26 candidates=72918 corpus=1233 coverage=32697 exec total=17109 (30/sec) pending=0 reproducing=0 
+2025/11/03 09:55:36 candidates=72890 corpus=1253 coverage=33254 exec total=17684 (30/sec) pending=0 reproducing=0 
+2025/11/03 09:55:46 candidates=72862 corpus=1275 coverage=33418 exec total=18221 (31/sec) pending=0 reproducing=0 
+2025/11/03 09:55:56 candidates=72800 corpus=1295 coverage=33569 exec total=18707 (31/sec) pending=0 reproducing=0 
+2025/11/03 09:56:06 candidates=72753 corpus=1320 coverage=33835 exec total=19195 (31/sec) pending=0 reproducing=0 
+2025/11/03 09:56:16 candidates=72670 corpus=1346 coverage=34676 exec total=19682 (31/sec) pending=0 reproducing=0 
+2025/11/03 09:56:26 candidates=72649 corpus=1368 coverage=35912 exec total=19990 (31/sec) pending=0 reproducing=0 
+2025/11/03 09:56:36 candidates=72589 corpus=1395 coverage=36189 exec total=20448 (32/sec) pending=0 reproducing=0 
+2025/11/03 09:56:46 candidates=72501 corpus=1428 coverage=36984 exec total=20979 (32/sec) pending=0 reproducing=0 
+2025/11/03 09:56:56 candidates=72441 corpus=1461 coverage=37113 exec total=21444 (32/sec) pending=0 reproducing=0 
+2025/11/03 09:57:06 candidates=72381 corpus=1497 coverage=37349 exec total=21979 (33/sec) pending=0 reproducing=0 
+2025/11/03 09:57:16 candidates=72334 corpus=1503 coverage=37401 exec total=22177 (32/sec) pending=0 reproducing=0 
+2025/11/03 09:57:26 candidates=72294 corpus=1528 coverage=38210 exec total=22568 (32/sec) pending=0 reproducing=0 
+2025/11/03 09:57:36 candidates=72226 corpus=1554 coverage=38428 exec total=23011 (33/sec) pending=0 reproducing=0 
+2025/11/03 09:57:46 candidates=72186 corpus=1569 coverage=38618 exec total=23264 (32/sec) pending=0 reproducing=0 
+2025/11/03 09:57:56 candidates=72107 corpus=1590 coverage=38719 exec total=23643 (33/sec) pending=0 reproducing=0 
+2025/11/03 09:58:06 candidates=72036 corpus=1621 coverage=39136 exec total=24134 (33/sec) pending=0 reproducing=0 
+2025/11/03 09:58:16 candidates=71996 corpus=1643 coverage=39214 exec total=24588 (33/sec) pending=0 reproducing=0 
+2025/11/03 09:58:26 candidates=71979 corpus=1658 coverage=39776 exec total=24948 (33/sec) pending=0 reproducing=0 
+2025/11/03 09:58:36 candidates=71927 corpus=1672 coverage=39878 exec total=25330 (33/sec) pending=0 reproducing=0 
+2025/11/03 09:58:46 candidates=71846 corpus=1701 coverage=40543 exec total=25805 (33/sec) pending=0 reproducing=0 
+2025/11/03 09:58:56 candidates=71740 corpus=1738 coverage=40780 exec total=26360 (33/sec) pending=0 reproducing=0 
+2025/11/03 09:59:06 candidates=71657 corpus=1766 coverage=41117 exec total=26851 (34/sec) pending=0 reproducing=0 
+2025/11/03 09:59:16 candidates=71552 corpus=1790 coverage=41348 exec total=27347 (34/sec) pending=0 reproducing=0 
+2025/11/03 09:59:18 ------------[ Batch Update SyscallPair Start ]------------
+2025/11/03 09:59:18 Found 520 updates to process
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (mm/util.c:654)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> execve (net/socket.c:311)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (security/integrity/ima/ima_fs.c:412)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (include/linux/file.h:46)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/module/kallsyms.c:291)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> execve (net/socket.c:333)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (fs/file.c:521)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/trace_events.h:742)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (include/linux/atomic/atomic-arch-fallback.h:4519)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> execve (net/socket.c:1444)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/sys.c:2737)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (fs/file.c:573)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> execve (net/core/sock.c:2442)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (fs/ioctl.c:358)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> execve (net/ipv4/af_inet.c:1637)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (net/netfilter/nf_flow_table_inet.c:62)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/include/asm/preempt.h:95)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (fs/dcache.c:163)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/async.c:274)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (include/linux/mmap_lock.h:42)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/list.h:88)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/memory.c:5033)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> execve (include/linux/skbuff.h:2119)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/khugepaged.c:1634)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (net/netfilter/x_tables.c:395)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> execve (net/core/sock.c:4042)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/sys.c:2739)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:491)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> execve (net/ipv4/devinet.c:313)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> execve (net/ipv4/af_inet.c:1016)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:288)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (net/netfilter/x_tables.c:765)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> execve (net/core/sock.c:4186)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/kernel/fpu/core.c:822)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:631)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/list.h:373)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> execve (net/core/sock.c:4171)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (fs/exec.c:1690)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/percpu.c:942)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> execve (net/core/dev_ioctl.c:503)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (fs/namei.c:3501)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/workqueue.c:5103)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> execve (net/socket.c:1441)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/module/signing.c:54)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:4329)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/module/signing.c:99)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> execve (net/socket.c:305)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (include/linux/mmap_lock.h:36)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/umh.c:114)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> execve (net/socket.c:726)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (arch/x86/include/asm/bitops.h:207)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/workqueue_internal.h:69)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (fs/namei.c:2464)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/umh.c:282)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> execve (net/core/sock.c:3975)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (fs/dcache.c:2306)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/umh.c:222)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/interval_tree.c:42)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> execve (net/ipv4/af_inet.c:1012)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/fortify-string.h:180)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/include/asm/current.h:41)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> execve (include/net/sock.h:2624)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:812)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/workqueue.c:2919)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> execve (mm/mmap.c:2928)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (include/linux/page-flags.h:228)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> execve (fs/exec.c:1057)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (security/integrity/iint.c:120)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (fs/dcache.c:2868)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/list.h:150)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (include/trace/events/pagemap.h:28)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:311)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (mm/util.c:726)
+2025/11/03 09:59:18   -> [VERIFIED] getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/module/kallsyms.c:291), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:333)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:462)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/workqueue.c:2901)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:1444)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/module/kmod.c:147)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:1964)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/sock.c:2442)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/workqueue.c:2328)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:311)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> ioctl$sock_proto_private (net/ipv4/af_inet.c:1637)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/module/kallsyms.c:306)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/workqueue.c:1731)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/percpu.c:320)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/workqueue.c:1422)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (include/linux/page-flags.h:229)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> ioctl$sock_proto_private (include/linux/skbuff.h:2119)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/list.h:218)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (include/linux/find.h:63)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/umh.c:361)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/sock.c:4042)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (include/linux/trace_events.h:750)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> ioctl$sock_proto_private (net/ipv4/devinet.c:313)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/kernel/fpu/core.c:299)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/workqueue.c:1668)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:649)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> ioctl$sock_proto_private (net/ipv4/af_inet.c:1016)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/workqueue.c:1793)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/include/asm/bitops.h:55)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/sock.c:4186)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/workqueue.c:1090)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:6081)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/sock.c:4171)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/workqueue.h:596)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/dev_ioctl.c:503)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (net/ipv6/netfilter/ip6_tables.c:1183)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:210)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:1441)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/kernel/fpu/xstate.c:1088)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (include/linux/page-flags.h:247)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/time/hrtimer.c:2325)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (fs/dcache.c:972)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:305)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/refcount.h:278)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (fs/namei.c:3588)
+2025/11/03 09:59:18   -> [VERIFIED] getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/include/asm/preempt.h:95), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:726)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/swap.c:256)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/kernel/fpu/core.c:192)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/rmap.c:2530)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/sock.c:3975)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/module/kallsyms.c:261)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/memory.c:2908)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> ioctl$sock_proto_private (net/ipv4/af_inet.c:1012)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (arch/x86/include/asm/pgtable-invert.h:18)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/kernel/step.c:36)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/util.c:256)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/workqueue.c:2331)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_proto_private -> ioctl$sock_proto_private (include/net/sock.h:2624)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (include/linux/list.h:215)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/workqueue.c:1835)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (include/linux/rcupdate.h:747)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:311), new freq: 2
+2025/11/03 09:59:18   -> [VERIFIED] getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/workqueue.c:1668), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/strnlen_user.c:68)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/workqueue.c:1724)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:333), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/sys.c:2840)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:1444), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:6047)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/umh.c:522)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/mmap_lock.h:29)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/sock.c:2442), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:1889)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (net/netfilter/x_tables.c:301)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/mmap.c:3185)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/ipv4/af_inet.c:1637), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/umh.c:269)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (include/linux/mm_inline.h:259)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/umh.c:311)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (arch/x86/include/asm/pgtable_types.h:452)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (include/linux/swapops.h:150)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/mmap_lock.h:36)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (include/linux/skbuff.h:2119), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (mm/util.c:248)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (include/trace/events/maple_tree.h:80)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/sock.c:4042), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:3525)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/ipv4/devinet.c:313), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:5346)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/ipv4/af_inet.c:1016), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/workqueue.c:2242)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (fs/namei.c:3478)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/workqueue.c:1409)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/sock.c:4186), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/gup.c:261)
+2025/11/03 09:59:18   -> [VERIFIED] getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/mmap_lock.h:36), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/mmap.c:1920)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/sock.c:4171), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/swap.c:1043)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (security/security.c:3334)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/mmap.c:2139)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/dev_ioctl.c:503), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/kernel/fpu/core.c:296)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:1441), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:528)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (lib/vsprintf.c:644)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/dim/rdma_dim.c:33)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:305), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/kernel/tsc.c:1413)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/memory.c:4951)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:726), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/umh.c:285)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/mmap.c:254)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/locking/rtmutex_common.h:159)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/sock.c:3975), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/module/signing.c:124)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (include/linux/fortify-string.h:179)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/umh.c:435)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/ipv4/af_inet.c:1012), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/kthread.c:398)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:4105)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/umh.c:140)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (include/net/sock.h:2624), new freq: 2
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:311), new freq: 3
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/module/tree_lookup.c:101)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (include/linux/trace_events.h:747)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:333), new freq: 3
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:654)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (security/security.c:3316)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:1444), new freq: 3
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (include/linux/mm.h:937)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/module/tree_lookup.c:99)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/lsm_hook_defs.h:328)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/sock.c:2442), new freq: 3
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:4309)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (net/netfilter/x_tables.c:357)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/ipv4/af_inet.c:1637), new freq: 3
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/interval_tree.c:71)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/kernel/tsc.c:82)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/mmap.c:2130)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/kernel/tls.c:56)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/module/kmod.c:153)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:1409)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (include/linux/skbuff.h:2119), new freq: 3
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/include/asm/bitops.h:207)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (arch/x86/include/asm/pgtable.h:820)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/workqueue.c:1428)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/sock.c:4042), new freq: 3
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/mmap.c:2053)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/workqueue.c:5662)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/include/asm/atomic.h:53)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/ipv4/devinet.c:313), new freq: 3
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:4391)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/slab.h:737)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_SIOCBRADDBR -> execve (arch/x86/include/asm/bitops.h:207), new freq: 2
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/ipv4/af_inet.c:1016), new freq: 3
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/umh.c:49)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (fs/exec.c:213)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/refcount.h:283)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/sock.c:4186), new freq: 3
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/find.h:63)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_SIOCBRADDBR -> execve (include/trace/events/maple_tree.h:80), new freq: 2
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/sock.c:4171), new freq: 3
+2025/11/03 09:59:18   -> [VERIFIED] getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/workqueue.c:2901), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/mmap.c:3433)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/workqueue.c:1794)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/dev_ioctl.c:503), new freq: 3
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_SIOCBRADDBR -> execve (mm/memory.c:5033), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/workqueue.c:1408)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/memory.c:5072)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/workqueue.c:1795)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:1441), new freq: 3
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/async.c:300)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (fs/namei.c:3028)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/module/debug_kmemleak.c:20)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:305), new freq: 3
+2025/11/03 09:59:18   -> [VERIFIED] getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/workqueue.c:2328), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:464)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (include/linux/mm_inline.h:44)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:726), new freq: 3
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/kernel/fpu/core.c:443)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/trace_events.h:458)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/sock.c:3975), new freq: 3
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:4160)
+2025/11/03 09:59:18   -> [VERIFIED] getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/workqueue.c:1724), new freq: 2
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/ipv4/af_inet.c:1012), new freq: 3
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/kernel/fpu/xstate.h:20)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:1221)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/module/signing.c:87)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (fs/namei.c:3457)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (include/net/sock.h:2624), new freq: 3
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/umh.c:467)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/dim/rdma_dim.c:11)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/umh.c:244)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:311), new freq: 4
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/memory.c:5224)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/umh.c:367)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/workqueue.c:1680)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:333), new freq: 4
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:3957)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:1444), new freq: 4
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (net/netfilter/x_tables.c:1545)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_SIOCBRADDBR -> execve (mm/mmap.c:2053), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/umh.c:172)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/sock.c:2442), new freq: 4
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:649), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/module/kallsyms.c:263)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/ipv4/af_inet.c:1637), new freq: 4
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/percpu.c:670)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (mm/memory.c:1515)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/highmem.h:427)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (fs/dcache.c:643)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (mm/mempolicy.c:1864)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (include/linux/spinlock.h:391)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (include/linux/skbuff.h:2119), new freq: 4
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (mm/gup.c:725)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (fs/dcache.c:1167)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/pgtable.h:138)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_SIOCBRADDBR -> execve (mm/memory.c:5072), new freq: 2
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/sock.c:4042), new freq: 4
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (mm/memory.c:5589)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/ipv4/devinet.c:313), new freq: 4
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:649), new freq: 3
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/mmap_lock.h:42)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (mm/rmap.c:1423)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/ipv4/af_inet.c:1016), new freq: 4
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:791)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (lib/digsig.c:222)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_SIOCBRADDBR -> execve (include/linux/spinlock.h:391), new freq: 2
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/sock.c:4186), new freq: 4
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/kthread.c:418)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (fs/namei.c:3585)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (mm/percpu.c:1770)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/sock.c:4171), new freq: 4
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (mm/interval_tree.c:23)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/dev_ioctl.c:503), new freq: 4
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_SIOCBRADDBR -> execve (include/trace/events/maple_tree.h:80), new freq: 3
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/include/asm/pgtable_types.h:434)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (fs/file_table.c:383)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:1441), new freq: 4
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/fork.c:3104)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:1682)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:305), new freq: 4
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (mm/memory.c:467)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:726), new freq: 4
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (mm/memory.c:5434)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:4066)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (fs/exec.c:1948)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/sock.c:3975), new freq: 4
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:1405)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/ipv4/af_inet.c:1012), new freq: 4
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (fs/dcache.c:2756)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (mm/percpu.c:1755)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (fs/exec.c:236)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (include/net/sock.h:2624), new freq: 4
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (lib/maple_tree.c:4530)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> execve (net/socket.c:311), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (kernel/cred.c:224)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:4759)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/include/asm/mmu_context.h:256)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> execve (net/socket.c:333), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (include/linux/mm_inline.h:96)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (mm/percpu.c:1853)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> execve (net/socket.c:1444), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/mmap.c:2665)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (mm/damon/reclaim.c:265)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> execve (net/core/sock.c:2442), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (mm/percpu.c:582)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (include/trace/events/maple_tree.h:13)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/rbtree_augmented.h:252)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> execve (net/ipv4/af_inet.c:1637), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (include/linux/hugetlb_inline.h:11)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/page-flags.h:249)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/khugepaged.c:1669)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/mm.h:2581)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (fs/dcache.c:3250)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> execve (include/linux/skbuff.h:2119), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:4002)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/include/asm/jump_label.h:27)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> execve (net/core/sock.c:4042), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/mm_inline.h:345)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> execve (net/ipv4/devinet.c:313), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (arch/x86/include/asm/pgtable.h:343)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/include/asm/pgtable.h:227)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> execve (net/ipv4/af_inet.c:1016), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/mmap.c:2079)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (fs/namei.c:3688)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> execve (net/core/sock.c:4186), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:4072)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/include/asm/pgtable.h:234)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> execve (net/core/sock.c:4171), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (lib/maple_tree.c:5961)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> execve (net/core/dev_ioctl.c:503), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:1399)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/include/asm/bitops.h:162)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> execve (net/socket.c:1441), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (fs/namei.c:1195)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (kernel/cgroup/rstat.c:307)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (mm/internal.h:687)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> execve (net/socket.c:305), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (include/linux/mm_inline.h:345)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/spinlock.h:391)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> execve (net/socket.c:726), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (kernel/events/core.c:7846)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (fs/dcache.c:2728)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/include/asm/page_64.h:26)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> execve (net/core/sock.c:3975), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/percpu-refcount.h:182)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:785)
+2025/11/03 09:59:18   -> [VERIFIED] getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/include/asm/page_64.h:26), new freq: 2
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> execve (net/ipv4/af_inet.c:1012), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/include/asm/ptrace.h:136)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:3534)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> execve (include/net/sock.h:2624), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (mm/percpu.c:788)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> execve (mm/mmap.c:2928), new freq: 2
+2025/11/03 09:59:18   -> [VERIFIED] getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/include/asm/bitops.h:207), new freq: 2
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> execve (fs/exec.c:1057), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:788)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/asm-generic/tlb.h:533)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/find_bit.c:162)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/mm.h:1542)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:311), new freq: 5
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_SIOCBRADDBR -> execve (arch/x86/include/asm/pgtable_types.h:452), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/workqueue.h:615)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:333), new freq: 5
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/mmap.c:1928)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/page-flags.h:228)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (mm/memory.c:1595)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:1444), new freq: 5
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (include/linux/trace_events.h:458)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (fs/namei.c:2436)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/sock.c:2442), new freq: 5
+2025/11/03 09:59:18   -> [VERIFIED] getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/highmem.h:427), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:725)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (mm/percpu.c:2021)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/ipv4/af_inet.c:1637), new freq: 5
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/percpu.c:776)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/include/asm/pgtable-invert.h:18)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (include/linux/spinlock.h:351)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (mm/memory.c:1345)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (include/linux/fs.h:1507)
+2025/11/03 09:59:18   -> [VERIFIED] getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/spinlock.h:391), new freq: 2
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (include/linux/skbuff.h:2119), new freq: 5
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (fs/namei.c:4047)
+2025/11/03 09:59:18   -> [VERIFIED] getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/include/asm/pgtable-invert.h:18), new freq: 2
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/sock.c:4042), new freq: 5
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (mm/percpu.c:862)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:651)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/ipv4/devinet.c:313), new freq: 5
+2025/11/03 09:59:18   -> [VERIFIED] getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/mmap_lock.h:36), new freq: 3
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/mmap_lock.h:94)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:3134)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/ipv4/af_inet.c:1016), new freq: 5
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/trace/events/percpu.h:118)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/percpu-vm.c:165)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (fs/dcache.c:1867)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/sock.c:4186), new freq: 5
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (include/linux/huge_mm.h:129)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/include/asm/irqflags.h:122)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/sock.c:4171), new freq: 5
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/page-flags.h:226)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:4069)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/dev_ioctl.c:503), new freq: 5
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (arch/x86/include/asm/pgtable.h:504)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/xarray.h:1260)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:1441), new freq: 5
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (mm/mmap.c:2656)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:3586)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:305), new freq: 5
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (arch/x86/include/asm/pgtable.h:233)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/mm_inline.h:317)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (fs/dcache.c:3233)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (lib/sort.c:278)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:726), new freq: 5
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/rbtree_augmented.h:339)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/sock.c:3975), new freq: 5
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:335)
+2025/11/03 09:59:18   -> [VERIFIED] getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/page-flags.h:226), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (mm/memory.c:5306)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/ipv4/af_inet.c:1012), new freq: 5
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/find.h:64)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (fs/exec.c:1966)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (include/net/sock.h:2624), new freq: 5
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/mm.h:2039)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (arch/x86/include/asm/pgtable.h:353)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/mm.h:2554)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:311), new freq: 6
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/mmap.c:3138)
+2025/11/03 09:59:18   -> [VERIFIED] getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/include/asm/current.h:41), new freq: 2
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:333), new freq: 6
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:745)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (lib/maple_tree.c:4281)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:1444), new freq: 6
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/find_bit.c:141)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/fsnotify.h:36)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (fs/namei.c:1411)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/sock.c:2442), new freq: 6
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (fs/dcache.c:2890)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/ipv4/af_inet.c:1637), new freq: 6
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:4001)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (lib/maple_tree.c:793)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/page-flags.h:219)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (include/linux/maple_tree.h:507)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/trace/events/percpu.h:11)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (include/linux/skbuff.h:2119), new freq: 6
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/mmzone.h:1839)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/mmap.c:3328)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (mm/rmap.c:373)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/khugepaged.c:2770)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/sock.c:4042), new freq: 6
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (fs/namespace.c:1560)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/digsig.c:155)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (mm/percpu.c:2065)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/ipv4/devinet.c:313), new freq: 6
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/include/asm/paravirt.h:92)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:3141)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/ipv4/af_inet.c:1016), new freq: 6
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/mm.h:2575)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (arch/x86/include/asm/jump_label.h:27)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (fs/exec.c:531)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/sock.c:4186), new freq: 6
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_SIOCBRADDBR -> execve (include/linux/hugetlb_inline.h:11), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/cred.h:286)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (include/linux/page-flags.h:495)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/sock.c:4171), new freq: 6
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (arch/x86/include/asm/pgtable-invert.h:35)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/dev_ioctl.c:503), new freq: 6
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (mm/gup.c:1032)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:555)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:1441), new freq: 6
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (mm/percpu.c:667)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (lib/maple_tree.c:651)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (include/trace/events/percpu.h:54)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:305), new freq: 6
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/asm-generic/tlb.h:454)
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (lib/dim/rdma_dim.c:93)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (include/linux/mm_inline.h:199)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/socket.c:726), new freq: 6
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_SIOCBRADDBR -> execve (lib/maple_tree.c:3134), new freq: 2
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (lib/maple_tree.c:1391)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/core/sock.c:3975), new freq: 6
+2025/11/03 09:59:18   -> [NEW] Added pair: ioctl$sock_SIOCBRADDBR -> execve (include/linux/mm.h:2786)
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (fs/exec.c:1584)
+2025/11/03 09:59:18   -> [VERIFIED] ioctl$sock_proto_private -> ioctl$sock_proto_private (net/ipv4/af_inet.c:1012), new freq: 6
+2025/11/03 09:59:18   -> [NEW] Added pair: getsockopt$IP6T_SO_GET_REVISION_MATCH -> execve (mm/gup.c:1188)
+2025/11/03 09:59:18 Update Summary:
+2025/11/03 09:59:18   - Verified existing pairs: 136
+2025/11/03 09:59:18   - Added new pairs: 384
+2025/11/03 09:59:18 ------------[ Batch Update SyscallPair End ]------------
+2025/11/03 09:59:26 candidates=71470 corpus=1816 coverage=41546 exec total=27878 (34/sec) pending=0 reproducing=0 
+2025/11/03 09:59:36 candidates=71392 corpus=1854 coverage=41826 exec total=28398 (34/sec) pending=0 reproducing=0 
+2025/11/03 09:59:46 candidates=71247 corpus=1885 coverage=41995 exec total=28968 (35/sec) pending=0 reproducing=0 
+2025/11/03 09:59:56 candidates=71125 corpus=1924 coverage=42829 exec total=29522 (35/sec) pending=0 reproducing=0 
+2025/11/03 10:00:06 candidates=71039 corpus=1954 coverage=43113 exec total=30023 (35/sec) pending=0 reproducing=0 
+2025/11/03 10:00:16 candidates=70943 corpus=1982 coverage=43283 exec total=30491 (35/sec) pending=0 reproducing=0 
+2025/11/03 10:00:26 candidates=70816 corpus=2014 coverage=44163 exec total=31056 (35/sec) pending=0 reproducing=0 
+2025/11/03 10:00:36 candidates=70687 corpus=2044 coverage=44669 exec total=31648 (36/sec) pending=0 reproducing=0 
+2025/11/03 10:00:46 candidates=70545 corpus=2080 coverage=44921 exec total=32291 (36/sec) pending=0 reproducing=0 
+2025/11/03 10:00:56 candidates=70464 corpus=2096 coverage=44962 exec total=32614 (36/sec) pending=0 reproducing=0 
+2025/11/03 10:01:06 candidates=70410 corpus=2104 coverage=45203 exec total=32865 (36/sec) pending=0 reproducing=0 
+2025/11/03 10:01:16 candidates=70322 corpus=2134 coverage=45505 exec total=33338 (36/sec) pending=0 reproducing=0 
+2025/11/03 10:01:26 candidates=70236 corpus=2158 coverage=45761 exec total=33809 (36/sec) pending=0 reproducing=0 
+2025/11/03 10:01:36 candidates=70157 corpus=2187 coverage=45965 exec total=34329 (36/sec) pending=0 reproducing=0 
+2025/11/03 10:01:46 candidates=70038 corpus=2214 coverage=46167 exec total=34762 (36/sec) pending=0 reproducing=0 
+2025/11/03 10:01:56 candidates=69971 corpus=2235 coverage=46498 exec total=35143 (36/sec) pending=0 reproducing=0 
+2025/11/03 10:02:06 candidates=69904 corpus=2250 coverage=46969 exec total=35546 (36/sec) pending=0 reproducing=0 
+2025/11/03 10:02:16 candidates=69821 corpus=2276 coverage=47200 exec total=35963 (36/sec) pending=0 reproducing=0 
