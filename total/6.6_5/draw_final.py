@@ -139,10 +139,10 @@ def plot_coverage(log_paths: List[str], labels: List[str], output_type: str, out
     y_max = max(all_y_flat) if all_y_flat else 1
 
     N = 24*60*6
-    N = len(data[0][0])
-    for i in range(len(data)):
-        if len(data[i][0]) < N:
-            N = len(data[i][0])
+    # N = len(data[0][0])
+    # for i in range(len(data)):
+    #     if len(data[i][0]) < N:
+    #         N = len(data[i][0])
 
     # 画图
     plt.figure(figsize=(10, 6))

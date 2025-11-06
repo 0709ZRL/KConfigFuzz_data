@@ -5,10 +5,9 @@
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/0919/syzkaller/fuzz-1020.log syz
 # sshpass -p hfl scp hfl@10.30.6.1:/home/hfl/hfl-release/scripts/syzkaller-1021.log hfl
 # sshpass -p zhaoruilin0709 scp zzzrrll@10.30.6.1:~/workdir_clang/log_6.1gcc_original healer-3 （注意这个就是2CPU4H1QEMU的版本）
-# sshpass -p zhaoruilin0709 scp zzzrrll@10.30.6.1:~/test_clang/healer/log_6.1_gcc kc-healer
 
 # 定义字符串数组（下标从 0 开始）
-files=("healer-3" "syz" "hfl" "kc-2")
+files=("healer-4" "syz" "hfl" "kc-2")
 labels=("HEALER" "Syzkaller" "HFL" "KConfigFuzz")
 
 # 输出提示信息

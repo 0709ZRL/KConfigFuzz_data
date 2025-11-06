@@ -2,15 +2,15 @@
 # 6procs 2cpu 4g
 # 在同一版本上跑kc
 # 默认变异策略：我们的编译策略的概率比
-sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/mutate/kconfigfuzz2-1/66-6p1q2c4g-1029-21.log kc-2-1
-sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/mutate/kconfigfuzz1-1/66-6p1q2c4g-1029-11.log kc-1-1
-sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/kconfigfuzz/vini-66-6p1q2c4g-1029.log kc-1-2 #(当前)
-sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/mutate/kconfigfuzz1-4/66-6p1q2c4g-1029-14.log kc-1-4
-sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/mutate/kconfigfuzz1-8/66-6p1q2c4g-1029-18.log kc-1-8
+#sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/mutate/kconfigfuzz2-1/66-6p1q2c4g-1029-21.log kc-2-1
+#sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/mutate/kconfigfuzz1-1/66-6p1q2c4g-1029-11.log kc-1-1
+#sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/kconfigfuzz/vini-66-6p1q2c4g-1029.log kc-1-2 #(当前)
+#sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/mutate/kconfigfuzz1-4/66-6p1q2c4g-1029-14.log kc-1-4
+#sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/mutate/kconfigfuzz1-8/66-6p1q2c4g-1029-18.log kc-1-8
 
 # 定义字符串数组（下标从 0 开始）
-files=("kc-2-1" "kc-1-1" "kc-1-2" "kc-1-4" "kc-1-8")
-labels=("KC-2-1" "KC-1-1" "KC-1-2(current)" "KC-1-4" "KC-1-8")
+files=("kc-2-1" "kc-1-1" "kc-1-2" "kc-1-4" "kc-1-8" "syzkaller")
+labels=("KC-2-1" "KC-1-1" "KC-1-2(current)" "KC-1-4" "KC-1-8" "Syzkaller")
 
 # 输出提示信息
 echo "可用选项（下标 → 内容）："
