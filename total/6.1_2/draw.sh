@@ -2,15 +2,16 @@
 
 # 6procs 1qemu 2cpu 4G
 # sshpass -p zhaoruilin0709 scp zzzrrll@10.30.6.1:~/test_clang/healer/log_6.1gcc_original healer-2
+sshpass -p zhaoruilin0709 scp zzzrrll@10.30.6.1:~/test_clang/healer/log_6.1gcc_original healer-3
 
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/0919/kconfigfuzz/61-6p1q2c4g-1027.log kc
-sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/kconfigfuzz/kc-61-6p1q2c4g-1106.log kc-newd
+sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/kconfigfuzz/kc-61-6p1q2c4g-1108.log kc-newd-2
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/0919/syzkaller/61-6p1q2c4g-1027.log syz
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/0919/kconfigfuzz-nd/61-6p1q2c4g-1027.log kc-v
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/0919/kconfigfuzz-ns/61-6p1q2c4g-1027.log kc-d
 
 # 定义字符串数组（下标从 0 开始）
-files=("healer-2" "syz" "hfl" "kc-newd" "kc-v" "kc-d")
+files=("healer-3" "syz" "hfl" "kc-newd-2" "kc-v" "kc-d")
 labels=("HEALER" "Syzkaller" "HFL" "KConfigFuzz" "KConfigFuzz-V" "KConfigFuzz-D")
 
 # 输出提示信息
