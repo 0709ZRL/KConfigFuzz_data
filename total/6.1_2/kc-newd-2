@@ -17052,3 +17052,18 @@ syscalls                : 3906/8054
 2025/11/10 10:02:16 candidates=0 corpus=28192 coverage=127940 exec total=2239904 (13/sec) pending=0 reproducing=0 
 2025/11/10 10:02:26 candidates=0 corpus=28192 coverage=127940 exec total=2240001 (13/sec) pending=0 reproducing=0 
 2025/11/10 10:02:36 candidates=0 corpus=28194 coverage=127942 exec total=2240087 (13/sec) pending=0 reproducing=0 
+2025/11/10 10:02:46 candidates=0 corpus=28194 coverage=127942 exec total=2240201 (13/sec) pending=0 reproducing=0 
+2025/11/10 10:02:56 candidates=0 corpus=28194 coverage=127942 exec total=2240316 (13/sec) pending=0 reproducing=0 
+2025/11/10 10:03:06 candidates=0 corpus=28195 coverage=127945 exec total=2240384 (13/sec) pending=0 reproducing=0 
+2025/11/10 10:03:16 candidates=0 corpus=28195 coverage=127945 exec total=2240501 (13/sec) pending=0 reproducing=0 
+2025/11/10 10:03:26 candidates=0 corpus=28195 coverage=127945 exec total=2240642 (13/sec) pending=0 reproducing=0 
+2025/11/10 10:03:36 candidates=0 corpus=28195 coverage=127945 exec total=2240795 (13/sec) pending=0 reproducing=0 
+2025/11/10 10:03:46 candidates=0 corpus=28197 coverage=127947 exec total=2240947 (13/sec) pending=0 reproducing=0 
+2025/11/10 10:03:56 candidates=0 corpus=28198 coverage=127951 exec total=2241063 (13/sec) pending=0 reproducing=0 
+2025/11/10 10:04:06 candidates=0 corpus=28198 coverage=127951 exec total=2241249 (13/sec) pending=0 reproducing=0 
+2025/11/10 10:04:16 candidates=0 corpus=28199 coverage=127951 exec total=2241382 (13/sec) pending=0 reproducing=0 
+2025/11/10 10:04:26 candidates=0 corpus=28200 coverage=127951 exec total=2241526 (13/sec) pending=0 reproducing=0 
+2025/11/10 10:04:36 candidates=0 corpus=28201 coverage=127951 exec total=2241665 (13/sec) pending=0 reproducing=0 
+2025/11/10 10:04:46 candidates=0 corpus=28201 coverage=127951 exec total=2241807 (13/sec) pending=0 reproducing=0 
+SIGINT: shutting down...
+2025/11/10 10:04:49 VM 0: running for 9m18.854549399s, restarting
