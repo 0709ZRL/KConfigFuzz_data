@@ -8,11 +8,11 @@
 
 # 两个一样的配置，6procs 2cpu 4g
 # sshpass -p zhaoruilin0709 scp zzzrrll@10.30.6.1:/home/zzzrrll/workdir_replace_SDM/log_6.2gcc_original healer
-# sshpass -p zhaoruilin0709 scp zzzrrll@10.30.6.1:/home/zzzrrll/workdir_original/log_6.2gcc_original healer-2
+# sshpass -p zhaoruilin0709 scp zzzrrll@10.30.6.1:/home/zzzrrll/workdir/log_6.2gcc_original healer-3
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/kconfigfuzz/kc-62-6p1q2c4g-1107.log kc-newd-2
 
 # 定义字符串数组（下标从 0 开始）
-files=("kc-newd-2" "kc-d" "kc-v" "syzkaller" "healer")
+files=("kc-newd-average" "kc-d" "kc-v" "syzkaller" "healer-3")
 labels=("KConfigFuzz" "KConfigFuzz-D" "KConfigFuzz-V" "Syzkaller" "HEALER")
 
 # 输出提示信息

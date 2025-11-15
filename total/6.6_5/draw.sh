@@ -27,12 +27,14 @@
 # sshpass -p zhaoruilin0709 scp zzzrrll@10.30.6.1:/home/zzzrrll/workdir/log_6.6gcc_original healer-3
 
 # 6p1q2c4g 新版D无队列x/2种子 kc-d kc-v
-sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/kconfigfuzz-d/1106.log kc-d-4
-sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/kconfigfuzz-v/1106.log kc-v-4
+# sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/kconfigfuzz-d/1106.log kc-d-4
+# sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/kconfigfuzz-v/1106.log kc-v-4
 
 # 定义字符串数组（下标从 0 开始）
-files=("kc-2" "syzkaller" "kc-d-4" "kc-v-4" "kc-i" "kc-id" "healer-3" "hfl" "vini-66-6p1q2c4g-1030.log" "kc-newD-noqueue-2" "kc-newD-withqueue-3")
-labels=("KConfigFuzz" "Syzkaller" "KConfigFuzz-D" "KConfigFuzz-V" "KConfigFuzz-I" "KConfigFuzz-ID" "HEALER" "HFL" "KConfigFuzz-NewDynamic" "KConfigFuzz-NewD-NoQ" "KConfigFuzz-NewD-Q")
+# files=("kc-2" "syzkaller" "kc-d-4" "kc-v-4" "kc-i" "kc-id" "healer-3" "hfl" "vini-66-6p1q2c4g-1030.log" "kc-newD-noqueue-2" "kc-newD-withqueue-3")
+files=("kc-newD-noqueue-average" "syzkaller" "kc-d" "kc-v-average" "healer-average" "hfl")
+labels=("KConfigFuzz" "Syzkaller" "KConfigFuzz-D" "KConfigFuzz-V" "HEALER" "HFL")
+# labels=("KConfigFuzz" "Syzkaller" "KConfigFuzz-D" "KConfigFuzz-V" "KConfigFuzz-I" "KConfigFuzz-ID" "HEALER" "HFL" "KConfigFuzz-NewDynamic" "KConfigFuzz-NewD-NoQ" "KConfigFuzz-NewD-Q")
 
 # 输出提示信息
 echo "可用选项（下标 → 内容）："

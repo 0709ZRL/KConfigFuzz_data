@@ -2,6 +2,7 @@
 # 4procs 1qemu 1cpu 4g
 
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/0919/kconfigfuzz/fuzz-1018.log kc
+sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/kconfigfuzz/66-6p1q1c4g-1113.log kc-new
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/0919/syzkaller/fuzz-1017.log syz
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/0919/kconfigfuzz-ns/fuzz-1017.log kc-d
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/0919/kconfigfuzz-nd/fuzz-1017.log kc-v
@@ -10,7 +11,7 @@
 # sshpass -p hfl scp hfl@10.30.6.1:/home/hfl/hfl-release/scripts/syzkaller-4p1q1c4g-1024.log hfl-2
 
 # 定义字符串数组（下标从 0 开始）
-files=("kc" "syz" "kc-d" "kc-v" "healer" "hfl")
+files=("kc-new" "syz" "kc-d" "kc-v" "healer" "hfl")
 labels=("KConfigFuzz" "Syzkaller" "KConfigFuzz-D" "KConfigFuzz-V" "HEALER" "HFL")
 
 # 输出提示信息
