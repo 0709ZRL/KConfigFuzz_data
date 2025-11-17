@@ -2,7 +2,7 @@
 # 4procs 1qemu 1cpu 4g
 
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/0919/kconfigfuzz/fuzz-1018.log kc
-sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/kconfigfuzz/66-6p1q1c4g-1113.log kc-new
+# sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/kconfigfuzz/66-6p1q1c4g-1113.log kc-new 这个是新的，用这个
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/0919/syzkaller/fuzz-1017.log syz
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/0919/kconfigfuzz-ns/fuzz-1017.log kc-d
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/0919/kconfigfuzz-nd/fuzz-1017.log kc-v

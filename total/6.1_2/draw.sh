@@ -3,15 +3,23 @@
 # 6procs 1qemu 2cpu 4G
 # sshpass -p zhaoruilin0709 scp zzzrrll@10.30.6.1:~/test_clang/healer/log_6.1gcc_original healer-2
 # sshpass -p zhaoruilin0709 scp zzzrrll@10.30.6.1:~/test_clang/healer/log_6.1gcc_original healer-4
+# sshpass -p zhaoruilin0709 scp zzzrrll@10.30.6.1:~/workdir_replace_SDM/log_6.1gcc_original healer1
+# sshpass -p zhaoruilin0709 scp zzzrrll@10.30.6.1:~/test_clang/healer/log_6.1gcc_original healer2
+# sshpass -p zhaoruilin0709 scp zzzrrll@10.30.6.1:~/workdir/log_6.1gcc_original healer3
+
+# sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/syzkaller/61-6p1q2c4g-1115.log syz1
+# sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/syzkaller/61-6p1q2c4g-1115-2.log syz2
+# sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/syzkaller/61-6p1q2c4g-1115-3.log syz3
 
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/0919/kconfigfuzz/61-6p1q2c4g-1027.log kc
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/kconfigfuzz/kc-61-6p1q2c4g-1110.log kc-newd-3
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/syzkaller/syzkaller-61-6p1q2c4g-1111.log syz-2
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/0919/kconfigfuzz-nd/61-6p1q2c4g-1027.log kc-v
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/0919/kconfigfuzz-ns/61-6p1q2c4g-1027.log kc-d
+sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/syzkaller/61-6p1q2c4g-1116.log syz4
 
 # 定义字符串数组（下标从 0 开始）
-files=("healer-4" "syz-2" "hfl" "kc-newd-3" "kc-v" "kc-d")
+files=("healer2" "syz4" "hfl" "kc-newd-average" "kc-v" "kc-d")
 labels=("HEALER" "Syzkaller" "HFL" "KConfigFuzz" "KConfigFuzz-V" "KConfigFuzz-D")
 
 # 输出提示信息

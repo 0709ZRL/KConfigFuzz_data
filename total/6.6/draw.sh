@@ -1,8 +1,8 @@
 #!/bin/bash
 # 6procs 1qemu 1cpu 4g
 
-sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/0919/kconfigfuzz/fuzz-1016.log fuzz-6.6-kconfigfuzz.log
-sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/0919/syzkaller/fuzz-1016.log fuzz-6.6-syzkaller.log
+# sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/0919/kconfigfuzz/fuzz-1016.log fuzz-6.6-kconfigfuzz.log
+#sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/0919/syzkaller/fuzz-1016.log fuzz-6.6-syzkaller.log
 # sshpass -p zhaoruilin0709 scp zzzrrll@10.30.6.1:~/workdir/log_6.6gcc_original .
 # sshpass -p zhaoruilin0709 scp zzzrrll@10.30.6.1:~/test_clang/healer_SDM/log_6.6gcc .
 
