@@ -4,13 +4,14 @@
 # sshpass -p zhaoruilin0709 scp zzzrrll@10.30.6.1:~/workdir/log_6.2gcc_original healer-2
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/0919/syzkaller/fuzz-62-4p1q1c4g-1023.log syzkaller
 # sshpass -p hfl scp hfl@10.30.6.1:/home/hfl/hfl-release/scripts/fuzz-62-4p1q1c4g-1023.log hfl
+sshpass -p hfl scp hfl@10.30.6.1:/home/hfl/hfl-release/scripts/62-6p1q1c4g-1117.log hfl1
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/0919/kconfigfuzz/62-4p1q1c4g-1025.log kc
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/kconfigfuzz/62-6p1q1c4g-1113.log kc-new 这是新版的，用这个
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/0919/kconfigfuzz-nd/62-4p1q1c4g-1025.log kc-v
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/0919/kconfigfuzz-ns/62-4p1q1c4g-1025.log kc-d
 
 # 定义字符串数组（下标从 0 开始）
-files=("healer-2" "syzkaller" "hfl" "kc" "kc-v" "kc-d")
+files=("healer-2" "syzkaller" "hfl1" "kc" "kc-v" "kc-d")
 labels=("HEALER" "Syzkaller" "HFL" "KConfigFuzz" "KC-V" "KC-D")
 
 # 输出提示信息

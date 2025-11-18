@@ -16,10 +16,10 @@
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/syzkaller/syzkaller-61-6p1q2c4g-1111.log syz-2
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/0919/kconfigfuzz-nd/61-6p1q2c4g-1027.log kc-v
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/0919/kconfigfuzz-ns/61-6p1q2c4g-1027.log kc-d
-sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/syzkaller/61-6p1q2c4g-1116.log syz4
+# sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/syzkaller/61-6p1q2c4g-1116.log syz4 这虽然是新的，用这个，但是他们的覆盖率都极低不知道为什么
 
 # 定义字符串数组（下标从 0 开始）
-files=("healer2" "syz4" "hfl" "kc-newd-average" "kc-v" "kc-d")
+files=("healer2" "syz" "hfl" "kc-newd-average" "kc-v" "kc-d")
 labels=("HEALER" "Syzkaller" "HFL" "KConfigFuzz" "KConfigFuzz-V" "KConfigFuzz-D")
 
 # 输出提示信息
