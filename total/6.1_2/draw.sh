@@ -17,9 +17,12 @@
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/0919/kconfigfuzz-nd/61-6p1q2c4g-1027.log kc-v
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/0919/kconfigfuzz-ns/61-6p1q2c4g-1027.log kc-d
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/syzkaller/61-6p1q2c4g-1116.log syz4 这虽然是新的，用这个，但是他们的覆盖率都极低不知道为什么
+# sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/syzkaller/61-4p1q2c4g-1118.log syz5 这虽然是更新的，但是他们的覆盖率又贼高不知道为什么
+sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/syzkaller/61-6p1q2c4g-1119.log syz6
+sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/kconfigfuzz/61-6p1q2c4g-1119.log kc-newd-4
 
 # 定义字符串数组（下标从 0 开始）
-files=("healer2" "syz" "hfl" "kc-newd-average" "kc-v" "kc-d")
+files=("healer2" "syz6" "hfl" "kc-newd-4" "kc-v" "kc-d")
 labels=("HEALER" "Syzkaller" "HFL" "KConfigFuzz" "KConfigFuzz-V" "KConfigFuzz-D")
 
 # 输出提示信息
