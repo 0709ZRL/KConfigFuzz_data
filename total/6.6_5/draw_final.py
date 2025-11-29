@@ -4,6 +4,8 @@ import argparse
 import datetime
 from typing import List, Tuple, Optional
 import matplotlib.pyplot as plt
+from scipy.interpolate import make_interp_spline
+import numpy as np
 
 def parse_iso_ts(ts_str: str) -> Optional[datetime.datetime]:
     """
@@ -270,6 +272,15 @@ def plot_coverage(all_files: List[str], labels: List[str], output_type: str, out
     # 读取所有文件数据
     data = []
     display_labels = []
+
+    plt.rcParams.update({
+        'font.size': 14,               # 坐标轴刻度字体
+        'axes.titlesize': 16,          # 标题字体
+        'axes.labelsize': 15,          # 坐标轴标签字体
+        'legend.fontsize': 13,         # 图例字体
+        'xtick.labelsize': 12,         # x轴刻度字体
+        'ytick.labelsize': 12,         # y轴刻度字体
+    })
     
     for i, path in enumerate(all_files):
         # 自动检测并读取文件
@@ -367,7 +378,7 @@ def plot_coverage(all_files: List[str], labels: List[str], output_type: str, out
                     print(f"  相对于 {lab}: KConfigFuzz 比它 {trend} {abs(pct):.2f}% （K={k_val:.2f}, {lab}={oth_val:.2f}）")
 
     # 画图
-    plt.figure(figsize=(8, 5))
+    plt.figure(figsize=(6, 5))
     plt.grid(True, linestyle='-', linewidth=0.6, alpha=0.15)
 
     # 更细的线宽，并区分 HFL 与 KConfigFuzz
@@ -376,17 +387,39 @@ def plot_coverage(all_files: List[str], labels: List[str], output_type: str, out
         'Syzkaller':       dict(color='green',  linestyle='--', linewidth=1.6),
         'HFL':             dict(color='orange', linestyle='-.', linewidth=1.6),
         'HEALER':     dict(color='blue',   linestyle='-.',  linewidth=1.6),
+        'KConfigFuzz-D':    dict(color='purple',   linestyle=':',  linewidth=1.6),
+        'KConfigFuzz-V':    dict(color='deepskyblue',   linestyle=':',  linewidth=1.6),
     }
 
     for (x, y), lab in zip(data, labels):
         style = style_map.get(lab, dict(color=None, linestyle='-', linewidth=1.6))
-        plt.plot(
-            x, y,
-            label=lab,
-            **style,
-            solid_capstyle='round',
-            solid_joinstyle='round'
-        )
+        
+        # 平滑处理：仅在数据点足够多时启用
+        if len(x) > 3:
+            x_np = np.array(x)
+            y_np = np.array(y)
+
+            # 创建插值样条曲线
+            x_new = np.linspace(x_np.min(), x_np.max(), 300)
+            spl = make_interp_spline(x_np, y_np, k=5)  # k=2 二次样条（可调）
+            y_smooth = spl(x_new)
+
+            plt.plot(
+                x_new, y_smooth,
+                label=lab,
+                **style,
+                solid_capstyle='round',
+                solid_joinstyle='round'
+            )
+        else:
+            # 数据点太少时不平滑
+            plt.plot(
+                x, y,
+                label=lab,
+                **style,
+                solid_capstyle='round',
+                solid_joinstyle='round'
+            )
 
     # 坐标轴与标题
     plt.xlabel('time(hour)')

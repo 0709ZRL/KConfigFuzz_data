@@ -22,11 +22,11 @@
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/kconfigfuzz/61-6p1q2c4g-1119.log kc-newd-4 这个看着也正常一些，虽然歪歪扭扭的
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/syzkaller/61-6p1q2c4g-1120.log syz8
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/kconfigfuzz/61-6p1q2c4g-1120.log kc-newd-5
-sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/kconfigfuzz/61-6p1q2c4g-1125.log kc-newd-6
-sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/syzkaller/61-6p1q2c4g-1125.log syz9
+# sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/kconfigfuzz/61-6p1q2c4g-1125.log kc-newd-6
+# sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/syzkaller/61-6p1q2c4g-1125.log syz9
 
 # 定义字符串数组（下标从 0 开始）
-files=("healer2" "syz9" "hfl" "kc-newd-6" "kc-v" "kc-d")
+files=("healer-average" "syz-average" "hfl" "kc-newd-average" "kc-v" "kc-d")
 labels=("HEALER" "Syzkaller" "HFL" "KConfigFuzz" "KConfigFuzz-V" "KConfigFuzz-D")
 
 # 输出提示信息

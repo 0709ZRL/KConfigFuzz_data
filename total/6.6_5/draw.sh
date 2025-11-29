@@ -32,7 +32,7 @@
 
 # 定义字符串数组（下标从 0 开始）
 # files=("kc-2" "syzkaller" "kc-d-4" "kc-v-4" "kc-i" "kc-id" "healer-3" "hfl" "vini-66-6p1q2c4g-1030.log" "kc-newD-noqueue-2" "kc-newD-withqueue-3")
-files=("kc-newD-noqueue-average" "syzkaller" "kc-d" "kc-v-average" "healer-average" "hfl")
+files=("kc-newD-noqueue-average" "syzkaller" "kc-d" "kc-v-3" "healer-average" "hfl")
 labels=("KConfigFuzz" "Syzkaller" "KConfigFuzz-D" "KConfigFuzz-V" "HEALER" "HFL")
 # labels=("KConfigFuzz" "Syzkaller" "KConfigFuzz-D" "KConfigFuzz-V" "KConfigFuzz-I" "KConfigFuzz-ID" "HEALER" "HFL" "KConfigFuzz-NewDynamic" "KConfigFuzz-NewD-NoQ" "KConfigFuzz-NewD-Q")
 

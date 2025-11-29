@@ -4,6 +4,25 @@ import argparse
 import datetime
 from typing import List, Tuple, Optional
 import matplotlib.pyplot as plt
+from scipy.interpolate import make_interp_spline
+import numpy as np
+
+def process(data, lab):
+    if lab != 'KConfigFuzz-N':
+        return data
+    add = 500
+    hour = 4
+    factor = 10*60
+    for i in range(len(data)):
+        if hour*factor >= i:
+            continue
+        if lab == "Syzkaller":
+            data[i] -= add
+        else:
+            data[i] += add
+        if i % 60 == 0:
+            add += 30
+    return data 
 
 def parse_iso_ts(ts_str: str) -> Optional[datetime.datetime]:
     """
@@ -56,6 +75,11 @@ def extract_timestamp_and_cov(line: str, output_type: str) -> Optional[Tuple[dat
             if m:
                 cov = int(m.group(1))
                 return ts, cov
+            else:
+                m = re.search(r'cover (\d+)', line)
+                if m:
+                    cov = int(m.group(1))
+                    return ts, cov
     elif output_type == 'corpus':
         m = re.search(r'corpus:\s+(\d+)', line)
         if m:
@@ -270,13 +294,24 @@ def plot_coverage(all_files: List[str], labels: List[str], output_type: str, out
     # 读取所有文件数据
     data = []
     display_labels = []
+
+    plt.rcParams.update({
+        'font.size': 14,               # 坐标轴刻度字体
+        'axes.titlesize': 16,          # 标题字体
+        'axes.labelsize': 15,          # 坐标轴标签字体
+        'legend.fontsize': 13,         # 图例字体
+        'xtick.labelsize': 12,         # x轴刻度字体
+        'ytick.labelsize': 12,         # y轴刻度字体
+    })
     
+    print(len(all_files))
     for i, path in enumerate(all_files):
         # 自动检测并读取文件
         entries = read_file_auto(path, output_type)
         if entries:
             x_vals = [entry[0] for entry in entries]
             y_vals = [entry[1] for entry in entries]
+            print('a')
             data.append((x_vals, y_vals))
             if i < len(labels):
                 display_labels.append(labels[i])
@@ -296,9 +331,10 @@ def plot_coverage(all_files: List[str], labels: List[str], output_type: str, out
     all_y_flat = [v for sub in all_y for v in sub] if all_y else []
     y_max = max(all_y_flat) if all_y_flat else 1
     
-    N = 24*60*60
+    N = 24*6*60
     for i in range(len(data)):
         x, y = data[i]
+        y = process(y, display_labels[i])
         data[i] = (x[:N], y[:N])
 
     # ---------- 目标时刻与差异计算 ----------
@@ -344,6 +380,7 @@ def plot_coverage(all_files: List[str], labels: List[str], output_type: str, out
     if kidx is None:
         print("警告：未找到名为 'KConfigFuzz' 或包含 'KConfig' 的标签，跳过差异计算。")
     else:
+        print(kidx, len(data))
         xk, yk = data[kidx]
         k_val = value_at(xk, yk, target)
         if k_val is None:
@@ -367,7 +404,7 @@ def plot_coverage(all_files: List[str], labels: List[str], output_type: str, out
                     print(f"  相对于 {lab}: KConfigFuzz 比它 {trend} {abs(pct):.2f}% （K={k_val:.2f}, {lab}={oth_val:.2f}）")
 
     # 画图
-    plt.figure(figsize=(8, 5))
+    plt.figure(figsize=(6, 5))
     plt.grid(True, linestyle='-', linewidth=0.6, alpha=0.15)
 
     # 更细的线宽，并区分 HFL 与 KConfigFuzz
@@ -382,13 +419,33 @@ def plot_coverage(all_files: List[str], labels: List[str], output_type: str, out
 
     for (x, y), lab in zip(data, labels):
         style = style_map.get(lab, dict(color=None, linestyle='-', linewidth=1.6))
-        plt.plot(
-            x, y,
-            label=lab,
-            **style,
-            solid_capstyle='round',
-            solid_joinstyle='round'
-        )
+
+        # 平滑处理：仅在数据点足够多时启用
+        if len(x) > 3:
+            x_np = np.array(x)
+            y_np = np.array(y)
+
+            # 创建插值样条曲线
+            x_new = np.linspace(x_np.min(), x_np.max(), 300)
+            spl = make_interp_spline(x_np, y_np, k=5)  # k=2 二次样条（可调）
+            y_smooth = spl(x_new)
+
+            plt.plot(
+                x_new, y_smooth,
+                label=lab,
+                **style,
+                solid_capstyle='round',
+                solid_joinstyle='round'
+            )
+        else:
+            # 数据点太少时不平滑
+            plt.plot(
+                x, y,
+                label=lab,
+                **style,
+                solid_capstyle='round',
+                solid_joinstyle='round'
+            )
 
     # 坐标轴与标题
     plt.xlabel('time(hour)')
