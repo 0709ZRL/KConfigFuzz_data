@@ -25,12 +25,24 @@
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/kconfigfuzz/61-6p1q2c4g-1125.log kc-newd-6
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/syzkaller/61-6p1q2c4g-1125.log syz9
 
-sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/kconfigfuzz-1129/61-6p1q2c4-5000g.log kc-5000
-sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/kconfigfuzz-1129/61-6p1q2c4g-10000.log kc-10000
+# sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/kconfigfuzz-1129/61-6p1q2c4-5000g.log kc-5000
+# sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/kconfigfuzz-1129/61-6p1q2c4g-10000.log kc-10000
+
+# sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/kconfigfuzz-1129/61-6p1q2c4-5000-2.log kc-5000-2
+# sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/kconfigfuzz-1129/61-6p1q2c4g-10000-2.log kc-10000-2
+
+# sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/kconfigfuzz-1129/61-6p1q2c4g-hfl.log kc-hfl
+# sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/kconfigfuzz-1129/61-6p1q2c4g-3071.log kc-3000
+
+# sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/kconfigfuzz-1129/61-6p1q2c4g-hfl-2.log kc-hfl2
+# sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/kconfigfuzz-1129/61-6p1q2c4g-3071-2.log kc-3000-2
+
+sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/kconfigfuzz-1129/61-6p1q2c4g-hfl-3.log kc-hfl3
+sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/kconfigfuzz-1129/61-6p1q2c4g-3071-3.log kc-3000-3
 
 # 定义字符串数组（下标从 0 开始）
-files=("syz-average" "kc-newd-average" "kc-5000" "kc-10000")
-labels=("Syzkaller" "KConfigFuzz" "KConfigFuzz-5000" "KConfigFuzz-10000")
+files=("syz-average" "kc-newd-4" "kc-5000-2" "kc-10000-2" "kc-hfl3" "kc-3000-3")
+labels=("Syzkaller" "KConfigFuzz" "KConfigFuzz-5000" "KConfigFuzz-10000" "KConfigFuzz-HFL" "KConfigFuzz-KC")
 
 # 输出提示信息
 echo "可用选项（下标 → 内容）："

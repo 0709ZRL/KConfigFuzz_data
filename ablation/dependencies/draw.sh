@@ -1,18 +1,11 @@
 #!/bin/bash
-# 6procs 1qemu 2cpu 4g
-# 这里的文件是从total/6.6_5拿来的
-# sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/kconfigfuzz-n/66-6p1q2c4g-1119-1.log kc-n-1
-# sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/kconfigfuzz-n/66-6p1q2c4g-1119-2.log kc-n-2
-# sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/kconfigfuzz-n/66-6p1q2c4g-1119-3.log kc-n-3
-# sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/kconfigfuzz-n/66-6p1q2c4g-4.log kc-n-4
-
-# sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/kconfigfuzz-i/66-6p1q2c4g-1119-1.log kc-i-1
-# sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/kconfigfuzz-i/66-6p1q2c4g-1119-2.log kc-i-2
-# sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/kconfigfuzz-i/66-6p1q2c4g-1119-3.log kc-i-3
+sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/syzkaller-nocorpusupdate/66-6p1q2c4g-1203.log syz-noupdate
 
 # 定义字符串数组（下标从 0 开始）
-files=("kc-n-average" "kc-i-average" "kc-newD-noqueue-average" "syzkaller")
-labels=("KConfigFuzz-N" "KConfigFuzz-I" "KConfigFuzz" "Syzkaller")
+# files=("kc-2" "syzkaller" "kc-d-4" "kc-v-4" "kc-i" "kc-id" "healer-3" "hfl" "vini-66-6p1q2c4g-1030.log" "kc-newD-noqueue-2" "kc-newD-withqueue-3")
+files=("kc-newd-average" "syzkaller" "syz-noupdate")
+labels=("KConfigFuzz" "Syzkaller" "Syzkaller-NoImp")
+# labels=("KConfigFuzz" "Syzkaller" "KConfigFuzz-D" "KConfigFuzz-V" "KConfigFuzz-I" "KConfigFuzz-ID" "HEALER" "HFL" "KConfigFuzz-NewDynamic" "KConfigFuzz-NewD-NoQ" "KConfigFuzz-NewD-Q")
 
 # 输出提示信息
 echo "可用选项（下标 → 内容）："

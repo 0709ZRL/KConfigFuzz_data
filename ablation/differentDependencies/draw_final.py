@@ -386,6 +386,8 @@ def plot_coverage(all_files: List[str], labels: List[str], output_type: str, out
         'KConfigFuzz':          dict(color='red',    linestyle='-',  linewidth=1.6),
         'KConfigFuzz-5000':          dict(color='gray',    linestyle='-',  linewidth=1.6),
         'KConfigFuzz-10000':          dict(color='crimson',    linestyle='-',  linewidth=1.6),
+        'KConfigFuzz-HFL':          dict(color='gray',    linestyle='-',  linewidth=1.6),
+        'KConfigFuzz-KC':          dict(color='crimson',    linestyle='-',  linewidth=1.6),
         'Syzkaller':       dict(color='green',  linestyle='--', linewidth=1.6),
         'HFL':             dict(color='orange', linestyle='-.', linewidth=1.6),
         'HEALER':     dict(color='blue',   linestyle='-.',  linewidth=1.6),

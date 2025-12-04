@@ -7,23 +7,6 @@ import matplotlib.pyplot as plt
 from scipy.interpolate import make_interp_spline
 import numpy as np
 
-def process(data, lab):
-    # if lab != 'KConfigFuzz-N':
-    #     return data
-    # add = 500
-    # hour = 4
-    # factor = 10*60
-    # for i in range(len(data)):
-    #     if hour*factor >= i:
-    #         continue
-    #     if lab == "Syzkaller":
-    #         data[i] -= add
-    #     else:
-    #         data[i] += add
-    #     if i % 60 == 0:
-    #         add += 30
-    return data 
-
 def parse_iso_ts(ts_str: str) -> Optional[datetime.datetime]:
     """
     将 ISO 时间字符串解析为 datetime 对象，处理 Z 时区表示。
@@ -75,11 +58,6 @@ def extract_timestamp_and_cov(line: str, output_type: str) -> Optional[Tuple[dat
             if m:
                 cov = int(m.group(1))
                 return ts, cov
-            else:
-                m = re.search(r'cover (\d+)', line)
-                if m:
-                    cov = int(m.group(1))
-                    return ts, cov
     elif output_type == 'corpus':
         m = re.search(r'corpus:\s+(\d+)', line)
         if m:
@@ -304,14 +282,12 @@ def plot_coverage(all_files: List[str], labels: List[str], output_type: str, out
         'ytick.labelsize': 12,         # y轴刻度字体
     })
     
-    print(len(all_files))
     for i, path in enumerate(all_files):
         # 自动检测并读取文件
         entries = read_file_auto(path, output_type)
         if entries:
             x_vals = [entry[0] for entry in entries]
             y_vals = [entry[1] for entry in entries]
-            print('a')
             data.append((x_vals, y_vals))
             if i < len(labels):
                 display_labels.append(labels[i])
@@ -331,10 +307,9 @@ def plot_coverage(all_files: List[str], labels: List[str], output_type: str, out
     all_y_flat = [v for sub in all_y for v in sub] if all_y else []
     y_max = max(all_y_flat) if all_y_flat else 1
     
-    N = 24*6*60
+    N = 24*60*60
     for i in range(len(data)):
         x, y = data[i]
-        y = process(y, display_labels[i])
         data[i] = (x[:N], y[:N])
 
     # ---------- 目标时刻与差异计算 ----------
@@ -380,7 +355,6 @@ def plot_coverage(all_files: List[str], labels: List[str], output_type: str, out
     if kidx is None:
         print("警告：未找到名为 'KConfigFuzz' 或包含 'KConfig' 的标签，跳过差异计算。")
     else:
-        print(kidx, len(data))
         xk, yk = data[kidx]
         k_val = value_at(xk, yk, target)
         if k_val is None:
@@ -411,15 +385,16 @@ def plot_coverage(all_files: List[str], labels: List[str], output_type: str, out
     style_map = {
         'KConfigFuzz':          dict(color='red',    linestyle='-',  linewidth=1.6),
         'Syzkaller':       dict(color='green',  linestyle='--', linewidth=1.6),
+        'Syzkaller-NoImp':       dict(color='gray',  linestyle='--', linewidth=1.6),
         'HFL':             dict(color='orange', linestyle='-.', linewidth=1.6),
         'HEALER':     dict(color='blue',   linestyle='-.',  linewidth=1.6),
-        'KConfigFuzz-N':     dict(color='purple',   linestyle='-',  linewidth=1.6),
-        'KConfigFuzz-I':     dict(color='brown',   linestyle='-',  linewidth=1.6),
+        'KConfigFuzz-D':    dict(color='purple',   linestyle=':',  linewidth=1.6),
+        'KConfigFuzz-V':    dict(color='deepskyblue',   linestyle=':',  linewidth=1.6),
     }
 
     for (x, y), lab in zip(data, labels):
         style = style_map.get(lab, dict(color=None, linestyle='-', linewidth=1.6))
-
+        
         # 平滑处理：仅在数据点足够多时启用
         if len(x) > 3:
             x_np = np.array(x)
@@ -450,7 +425,7 @@ def plot_coverage(all_files: List[str], labels: List[str], output_type: str, out
     # 坐标轴与标题
     plt.xlabel('time(hour)')
     plt.ylabel('codeblock coverage' if output_type == 'cov' else (output_type + ' num'))
-    plt.title('Linux v6.6')
+    # plt.title('Linux v6.6')
 
     # 坐标轴范围与刻度：数据到 24，但刻度显示到 25
     plt.xlim(0, H_AXIS_MAX)

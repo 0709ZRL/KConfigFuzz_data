@@ -11,8 +11,10 @@
 # sshpass -p hfl scp hfl@10.30.6.1:/home/hfl/hfl-release/scripts/syzkaller-4p1q1c4g-1024.log hfl-2
 # sshpass -p hfl scp hfl@10.30.6.1:/home/hfl/hfl-release/scripts/66-6p1q1c4g-1117.log hfl2 # 这个是最新的，用这个
 
+sshpass -p zhaoruilin0709 scp zzzrrll@10.30.6.1:~/workdir_replace_SDM//log_6.6gcc_original healer-3
+
 # 定义字符串数组（下标从 0 开始）
-files=("kc-new" "syz" "kc-d" "kc-v" "healer" "hfl2")
+files=("kc-new" "syz" "kc-d" "kc-v" "healer-3" "hfl2")
 labels=("KConfigFuzz" "Syzkaller" "KConfigFuzz-D" "KConfigFuzz-V" "HEALER" "HFL")
 
 # 输出提示信息
