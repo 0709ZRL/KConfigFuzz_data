@@ -9728,3 +9728,14 @@ handshake reply magic not match, require: badf00d, got: 0
 [2025-11-30T03:54:48Z INFO ] exec: 930199, fuzz/repro 4/0, uniq/total crashes 2/43, cal/max cover 152779/204992, corpus: 10813
 [2025-11-30T03:54:58Z INFO ] exec: 930276, fuzz/repro 4/0, uniq/total crashes 2/43, cal/max cover 152779/204992, corpus: 10813
 [2025-11-30T03:55:08Z INFO ] exec: 930358, fuzz/repro 4/0, uniq/total crashes 2/43, cal/max cover 152782/205018, corpus: 10814
+[2025-11-30T03:55:18Z INFO ] exec: 930473, fuzz/repro 4/0, uniq/total crashes 2/43, cal/max cover 152782/205018, corpus: 10814
+[2025-11-30T03:55:28Z INFO ] exec: 930575, fuzz/repro 4/0, uniq/total crashes 2/43, cal/max cover 152782/205018, corpus: 10814
+[2025-11-30T03:55:38Z INFO ] exec: 930603, fuzz/repro 4/0, uniq/total crashes 2/43, cal/max cover 152782/205018, corpus: 10814
+[2025-11-30T03:55:48Z INFO ] exec: 930621, fuzz/repro 4/0, uniq/total crashes 2/43, cal/max cover 152782/205018, corpus: 10814
+[2025-11-30T03:55:58Z INFO ] exec: 930644, fuzz/repro 4/0, uniq/total crashes 2/43, cal/max cover 152782/205018, corpus: 10814
+[2025-11-30T03:56:08Z INFO ] exec: 930833, fuzz/repro 4/0, uniq/total crashes 2/43, cal/max cover 152782/205018, corpus: 10814
+[2025-11-30T03:56:10Z INFO ] SIGINT(2) recved, from: unknown, cause: Kernel
+please waiting fuzzers to exit...
+[2025-11-30T03:56:11Z INFO ] fuzzer-1: offline
+[2025-11-30T03:56:12Z INFO ] fuzzer-3: offline
+[2025-11-30T03:56:12Z INFO ] All done

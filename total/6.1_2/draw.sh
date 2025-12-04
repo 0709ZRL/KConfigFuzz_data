@@ -26,7 +26,7 @@
 # sshpass -p jiakai scp jiakai@10.30.6.1:/home/jiakai/vini/1104/syzkaller/61-6p1q2c4g-1125.log syz9
 
 # 定义字符串数组（下标从 0 开始）
-files=("healer-average" "syz-average" "hfl" "kc-newd-average" "kc-v" "kc-d")
+files=("healer-average" "syz-average" "hfl" "kc-newd-4" "kc-v" "kc-d")
 labels=("HEALER" "Syzkaller" "HFL" "KConfigFuzz" "KConfigFuzz-V" "KConfigFuzz-D")
 
 # 输出提示信息
